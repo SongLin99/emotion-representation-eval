@@ -1,0 +1,24 @@
+model: allenai/Olmo-3-7B-Instruct
+model_revision: 096bb5469fe34348bc88d851a69edb3bf6f40df4
+languages: [en, zh]
+emotions: [happiness, surprise, fear, disgust, anger, sadness]
+primary_layer: 24
+recorded_layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+layer_convention: "L0 embedding; L1-31 block outputs; L32 final-normalized LM-head input"
+dtype: bfloat16
+attention: sdpa
+pooling:
+  first_included_token: 50
+  operation: mean
+  chat_template: false
+vector:
+  matched_topics: 50
+  stories_per_topic_per_emotion: 20
+  neutral_stories_per_topic: 20
+  pca_variance_removed: 0.50
+functionality:
+  layer: 24
+  alpha: [-0.5, 0.0, 0.5]
+  position: assistant_boundary_and_each_decode_token
+generation_and_judging_model: deepseek/deepseek-v4-flash-0731
+

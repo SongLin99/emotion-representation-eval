@@ -1,0 +1,21 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+*.lock
+.DS_Store
+.idea/
+.vscode/
+.env
+OPENROUTER.txt
+outputs/api/
+outputs/requests/
+outputs/batches/
+outputs/archive_*/
+*.zip
+
+# Original snapshots remain local; the release contains standalone evaluation.
+/experiments/
+/reports/
+/INTERNAL_USE.md
+/outputs/

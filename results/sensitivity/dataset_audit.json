@@ -1,0 +1,2220 @@
+{
+  "status": "COMPLETE_WITH_FLAGS",
+  "rows": 600,
+  "ladders": 120,
+  "per_emotion": {
+    "happiness": 20,
+    "surprise": 20,
+    "fear": 20,
+    "disgust": 20,
+    "anger": 20,
+    "sadness": 20
+  },
+  "mechanical": {
+    "unique_ids": true,
+    "shared_setups": true,
+    "no_direct_label_or_cue_hits": true,
+    "numeric_continuation_ids": []
+  },
+  "semantic": {
+    "reviewer_model": "deepseek/deepseek-v4-flash-0731",
+    "scope": "Automated model-assisted audit; not human validation.",
+    "passed": 113,
+    "failed": [
+      {
+        "topic_id": "happiness_T04",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 4 includes a gift confirmation, which is a concrete reward; however, the escalation from level 3 to 4 is primarily in the addition of a material gift, which may shift focus to reward value rather than purely social happiness, but still within happiness. The main issue: level 0 is not neutral; it includes 'plans for the day and a usual routine' which is mildly positive, not affectively neutral."
+      },
+      {
+        "topic_id": "happiness_T13",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": false,
+        "reason": "Progression is encoded primarily by temporal distance (weekend, holiday, season, years) rather than qualitative change in personal meaning or reward value."
+      },
+      {
+        "topic_id": "sadness_T03",
+        "pass": false,
+        "ordered": false,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 2-4 involve physical stamp placement, not escalating loss; progression is not sadness-specific."
+      },
+      {
+        "topic_id": "surprise_T09",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 3 (own license plate painted) is not clearly more surprising than level 2 (reserved sign and barrier); the escalation is ambiguous and not strictly ordered."
+      },
+      {
+        "topic_id": "surprise_T12",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression primarily measures deviation from expectation, which is surprise, but levels 3 and 4 shift to different activities (swimming, cooking) that may evoke other emotions (e.g., confusion, amusement) rather than a clear increase in surprise; also level 4 introduces a cooking workshop which is not a direct escalation of surprise from level 3."
+      },
+      {
+        "topic_id": "surprise_T13",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 3 and 4 involve receiving a different item or a random object, which may evoke anger or disgust rather than purely surprise; the escalation is not solely in surprise but also in negative valence, making it not target-specific."
+      },
+      {
+        "topic_id": "surprise_T14",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 3 and 4 introduce medical findings that could evoke fear or anxiety (e.g., new marker, structure, genetic variant) rather than purely surprise; the progression mixes surprise with potential threat, so it does not primarily measure surprise."
+      }
+    ],
+    "items": [
+      {
+        "topic_id": "anger_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating violation of agreement and cover-up; L0 neutral, L1-4 increase anger via accountability and consequence."
+      },
+      {
+        "topic_id": "anger_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Credit theft escalates from omission to active denial and punishment; L0 neutral, L1-4 increase anger."
+      },
+      {
+        "topic_id": "anger_T03",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Deposit withholding escalates from full return to legal action; L0 neutral, L1-4 increase anger via unfairness and harm."
+      },
+      {
+        "topic_id": "anger_T04",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from cooperative removal to deliberate blocking and verbal aggression, with L0 neutral; progression tracks anger via agent accountability and obstruction, not other emotions; translations match."
+      },
+      {
+        "topic_id": "anger_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 neutral acceptance, L1-4 escalate from refusal to public humiliation and unjust punishment; anger via agent accountability and unfairness; translations faithful."
+      },
+      {
+        "topic_id": "anger_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 minimal disturbance, L1-4 escalate in duration, deliberate targeting, and social humiliation; anger via repeated provocation and accountability; translations match."
+      },
+      {
+        "topic_id": "anger_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "All levels show increasing unfairness and agent accountability, L0 is neutral, progression targets anger, translations match, no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "anger_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation from resolution to removal and no-fly list increases anger via agent accountability, L0 neutral, translations faithful, no numeric shortcuts."
+      },
+      {
+        "topic_id": "anger_T09",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from normal state to deliberate sabotage and theft increases anger, L0 neutral, translations match, no explicit intensity markers."
+      },
+      {
+        "topic_id": "anger_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating clerk disregard and obstruction; L0 neutral, L4 blocks purchase; anger-specific; translations match."
+      },
+      {
+        "topic_id": "anger_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Increasing betrayal and humiliation; L0 reschedule, L4 public replacement; anger-specific; translations match."
+      },
+      {
+        "topic_id": "anger_T12",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating privacy violation and harm; L0 benign use, L4 impersonation; anger-specific; translations match."
+      },
+      {
+        "topic_id": "anger_T13",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from optional swap to unapproved override to denial with double-booking to punitive denial and removal; L0 is neutral; anger-specific via accountability; translations match."
+      },
+      {
+        "topic_id": "anger_T14",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Damage and negligence increase from dry to ruined with deliberate placement; L0 neutral; anger via agent accountability; translations faithful."
+      },
+      {
+        "topic_id": "anger_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalates from no feedback to public shaming and false accusation; L0 neutral; anger via unfair treatment; translations match."
+      },
+      {
+        "topic_id": "anger_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from normal service to extended delays and closure increases anger via escalating obstruction; L0 neutral; no other emotion dominates; translations align; qualitative escalation."
+      },
+      {
+        "topic_id": "anger_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalates from ignored concern to dismissal, added chore, and loss of control, increasing anger; L0 neutral; target-specific; translations faithful; qualitative."
+      },
+      {
+        "topic_id": "anger_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From rescheduling to indefinite wait and dismissal increases anger via escalating disrespect; L0 neutral; no other emotion; translations match; qualitative."
+      },
+      {
+        "topic_id": "anger_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from no obstruction to deliberate blocking and non-help clearly escalates anger via agent accountability and goal blockage; L0 is neutral; no other emotion dominates; EN/ZH match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "anger_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation from faint noise to deliberate resumption after police intervention increases anger via threat credibility and accountability; L0 is neutral; no other emotion dominates; EN/ZH match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "disgust_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from clean container to open spoiled food with slime escalates disgust via contamination contact; L0 is neutral; no other emotion dominates; EN/ZH match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "disgust_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from clean to contaminated with increasing contact and spread; L0 neutral; progression targets disgust via contamination; translations match."
+      },
+      {
+        "topic_id": "disgust_T03",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Sponge condition worsens from clean to putrid slime with increasing contamination; L0 neutral; disgust-specific; translations faithful."
+      },
+      {
+        "topic_id": "disgust_T04",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Fruit goes from clean to maggot-infested rot; L0 neutral; disgust via contamination; translations equivalent."
+      },
+      {
+        "topic_id": "disgust_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from clean to dust/threads to stain to smear to residue with skin and odor; each step increases contamination contact and disgust, L0 neutral, no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "disgust_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From clean to residue to slime/specks to mold to sludge with decaying matter; contamination escalates, L0 neutral, no numeric or explicit markers."
+      },
+      {
+        "topic_id": "disgust_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From clean use to sink fall to food/saliva to blood to fecal matter; contamination and disgust increase, L0 neutral, no numeric or explicit markers."
+      },
+      {
+        "topic_id": "disgust_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Clean keyboard to crumbs to sticky sour patch to moist putrid clump to wet rotting smear: escalating contamination contact and offensiveness, no numeric or explicit emotion labels."
+      },
+      {
+        "topic_id": "disgust_T09",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Fresh towel to sweat spots to yellow stain to brown smear with hairs to mold and skin flake: increasing contamination and disgust cues, no numeric or explicit labels."
+      },
+      {
+        "topic_id": "disgust_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Clean mug to faint ring to crusty residue to sticky rim smear to moldy clump: escalating contamination and disgust, no numeric or explicit emotion words."
+      },
+      {
+        "topic_id": "disgust_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from clean removal to maggots increases disgust via contamination and decay; L0 is neutral; no other emotion dominates; translations match; no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "disgust_T12",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Mold and decay escalate disgust; L0 is neutral; no other emotion; translations faithful; no numeric or explicit labels."
+      },
+      {
+        "topic_id": "disgust_T13",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From clean to sludge with maggots increases disgust; L0 neutral; no other emotion; translations match; no numeric or explicit intensity words."
+      },
+      {
+        "topic_id": "disgust_T14",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from clean to faint smell/stuck pages to stain/wrinkled to sticky residue/flecks to crusty substance/larvae; L0 neutral; progression is contamination-based disgust; translations match."
+      },
+      {
+        "topic_id": "disgust_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation from clean to skin to juice to fat/tissue to mold; L0 neutral; contamination drives disgust; translations faithful."
+      },
+      {
+        "topic_id": "disgust_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 clean/dry; then specks/saliva, cloudy water/hairs, fur/smear, moldy mass; contamination escalates; translations match."
+      },
+      {
+        "topic_id": "disgust_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from clean to sticky to residue to smear to mucus with increasing contamination contact and offensiveness; L0 neutral; disgust-specific; translations match."
+      },
+      {
+        "topic_id": "disgust_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Clean to crumbs to sticky stain to wet hair/slime to rotting mass; escalating contamination and disgust; L0 neutral; translations faithful."
+      },
+      {
+        "topic_id": "disgust_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Clean to dust to sticky residue to food smear to dried bodily fluid; increasing disgust; L0 neutral; translations match."
+      },
+      {
+        "topic_id": "disgust_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from clean to contaminated towel with increasing contact and consequence; L0 neutral, L1-4 escalate disgust via contamination and transfer."
+      },
+      {
+        "topic_id": "fear_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Threat escalates from locked to open window, ajar door, vent disturbance, to intruder; L0 neutral, L1-4 increase fear via threat credibility."
+      },
+      {
+        "topic_id": "fear_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Lesion severity escalates from absent to perforation; L0 normal, L1-4 increase fear via threat to health and irreversibility."
+      },
+      {
+        "topic_id": "fear_T03",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from normal function to battery issue to corrosion to burning smell to actual fire; threat credibility increases. L0 is neutral. Fear is target; no other emotion dominates. Translation preserves order and meaning. Escalation via qualitative consequences, not numbers."
+      },
+      {
+        "topic_id": "fear_T04",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From normal green to near-miss to conflicting signals to collision; threat credibility and danger increase. L0 neutral. Fear target. Translation faithful. Escalation via event severity, not numeric markers."
+      },
+      {
+        "topic_id": "fear_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "From no issue to crack to leak to rapid leak to burst; equipment failure severity increases, threat credible. L0 neutral. Fear target. Translation faithful. Escalation via qualitative damage, not counts."
+      },
+      {
+        "topic_id": "fear_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating temperature deviations and system failure increase threat credibility; L0 is normal; no other emotion dominates; translations match; escalation is qualitative via consequence and threat."
+      },
+      {
+        "topic_id": "fear_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from benign to system-destroying malware increases threat; L0 neutral; fear-specific; translations faithful; qualitative escalation in impact."
+      },
+      {
+        "topic_id": "fear_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Ladder instability and fall severity increase physical threat; L0 safe; fear-specific; translations match; qualitative escalation in danger and consequence."
+      },
+      {
+        "topic_id": "fear_T09",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from intact kit to corrosive leak increases threat credibility and proximity; L0 is neutral; fear is target; translations match."
+      },
+      {
+        "topic_id": "fear_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation from harmless cable to live fire reaching house increases threat; L0 neutral; fear specific; translations align."
+      },
+      {
+        "topic_id": "fear_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Increasing structural failure and water hazard raises threat credibility; L0 neutral; fear specific; translations faithful."
+      },
+      {
+        "topic_id": "fear_T12",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from minor crack to structural failure with threat to safety; L0 is neutral; progression is fear-specific; translations match; escalation uses qualitative structural damage and consequence."
+      },
+      {
+        "topic_id": "fear_T13",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 is routine refill; levels escalate from backorder to discontinuation with no alternative, reducing supply days; fear of health risk increases; translations faithful; escalation uses qualitative availability and consequence."
+      },
+      {
+        "topic_id": "fear_T14",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 is distant non-spreading fire; levels escalate proximity and threat, ending with mandatory evacuation and visible flames; fear-specific; translations match; escalation uses qualitative proximity and threat."
+      },
+      {
+        "topic_id": "fear_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating brake failure and collision threat; L0 neutral, L1-4 increasing fear; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "fear_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Increasing peanut exposure and allergic reaction severity; L0 safe, L4 emergency; fear-specific."
+      },
+      {
+        "topic_id": "fear_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Threat proximity and intrusion severity escalate; L0 false alarm, L4 forced entry; fear-specific."
+      },
+      {
+        "topic_id": "fear_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Threat credibility escalates from normal to life-threatening; L0 neutral; fear-specific; translations match."
+      },
+      {
+        "topic_id": "fear_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Flood severity and threat to safety escalate; L0 minimal seepage; fear-specific; translations match."
+      },
+      {
+        "topic_id": "fear_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Consequences escalate from minor note to fleet grounding; L0 no threat; fear-specific; translations match."
+      },
+      {
+        "topic_id": "happiness_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from rejection to waitlist to same offer to higher title to executive role, with increasing job benefits and status; L0 is neutral rejection; progression is happiness-specific; EN/ZH match; no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "happiness_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels move from no wallet to found intact to returned with note to returned with contact and free coffee, increasing positive outcome and social reward; L0 is neutral loss; happiness-specific; EN/ZH match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "happiness_T03",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from normal results to resolved concern to improved health to best in clinic, increasing positive appraisal; L0 is neutral normal results; happiness-specific; EN/ZH match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "happiness_T04",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 4 includes a gift confirmation, which is a concrete reward; however, the escalation from level 3 to 4 is primarily in the addition of a material gift, which may shift focus to reward value rather than purely social happiness, but still within happiness. The main issue: level 0 is not neutral; it includes 'plans for the day and a usual routine' which is mildly positive, not affectively neutral."
+      },
+      {
+        "topic_id": "happiness_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 0 is neutral (continued searching). Levels 1-4 show increasing goal attainment (lost spot, found spot, convenient spot, reserved private spot) without numeric or explicit intensity markers. Translation faithful."
+      },
+      {
+        "topic_id": "happiness_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 0 is neutral (holding envelope). Levels 1-4 escalate from community notice to acquaintance address change to colleague reconnection to close friend returning to presumed-lost family member arriving, increasing personal significance and happiness. No numeric or explicit markers. Translation faithful."
+      },
+      {
+        "topic_id": "happiness_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from pest damage to flawless premium crop with increasing reward value; L0 is neutral/below standard; progression is happiness via benefit attainment; EN/ZH match; no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "happiness_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Upgrade tiers from none to first class increase benefit and personal value; L0 is neutral; happiness via goal attainment; EN/ZH equivalent; no numeric or explicit labels."
+      },
+      {
+        "topic_id": "happiness_T09",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Familiarity and personal significance of songs escalate, with L0 unrecognized; happiness via reward value; EN/ZH faithful; no numeric or explicit intensity words."
+      },
+      {
+        "topic_id": "happiness_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating neighbor assistance increases goal attainment and reward value; L0 neutral; no other emotion dominates; translations match; qualitative."
+      },
+      {
+        "topic_id": "happiness_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Weather improvement and picnic success escalate benefit; L0 neutral; happiness-specific; translations faithful; qualitative."
+      },
+      {
+        "topic_id": "happiness_T12",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Increasing praise escalates social reward; L0 neutral; happiness-specific; translations faithful; qualitative."
+      },
+      {
+        "topic_id": "happiness_T13",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": false,
+        "reason": "Progression is encoded primarily by temporal distance (weekend, holiday, season, years) rather than qualitative change in personal meaning or reward value."
+      },
+      {
+        "topic_id": "happiness_T14",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation via qualitative gains (restock, free item, voucher, naming honor) without numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "happiness_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from no speech to clear words and combinations, qualitative milestone achievement without numeric or explicit emotion labels."
+      },
+      {
+        "topic_id": "happiness_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from no growth to full bloom reflects increasing benefit/goal attainment; L0 lacks happiness; no other emotion dominates; EN/ZH match; qualitative changes in plant response."
+      },
+      {
+        "topic_id": "happiness_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "On-time arrival escalates from mere arrival to precise punctuality with personal recognition; L0 is neutral; happiness via goal attainment; EN/ZH equivalent; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "happiness_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Cooking outcome improves from bland to best-ever, increasing reward value; L0 lacks happiness; no other emotion; EN/ZH faithful; qualitative culinary quality."
+      },
+      {
+        "topic_id": "happiness_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from absence to wrong edition to correct book to helpful notes to personalized gift, increasing goal attainment and reward value; L0 lacks the book, L1 wrong edition, L2 correct, L3 added value, L4 unique personal significance. No explicit emotion words or numeric shortcuts."
+      },
+      {
+        "topic_id": "happiness_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 incomplete repair, L1 adequate repair, L2 added polish, L3 extra laces, L4 premium gift and free service; progression increases benefit and reward value. L0 lacks full repair, so neutral. No explicit emotion labels or numeric markers."
+      },
+      {
+        "topic_id": "sadness_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "L0 normal return, L1 fine, L2 withdrawn, L3 lost, L4 unique copy disposed; loss escalates from minor to permanent and irreplaceable. L0 lacks loss. No explicit emotion words or numeric shortcuts."
+      },
+      {
+        "topic_id": "sadness_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Loss of access escalates from minor inconvenience to permanent closure, ordered and sadness-specific."
+      },
+      {
+        "topic_id": "sadness_T03",
+        "pass": false,
+        "ordered": false,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 2-4 involve physical stamp placement, not escalating loss; progression is not sadness-specific."
+      },
+      {
+        "topic_id": "sadness_T04",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Loss of housing escalates from minor overlap to demolition, ordered and sadness-specific."
+      },
+      {
+        "topic_id": "sadness_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Loss of contacts escalates from none to partial to many to few to none, with irreversibility increasing; level 0 is neutral; progression is sadness-specific; translations match."
+      },
+      {
+        "topic_id": "sadness_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Apples degrade from normal to smaller to bruised to spoiled to gone, escalating loss; level 0 is neutral; sadness-specific; translations match."
+      },
+      {
+        "topic_id": "sadness_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Plot usability decreases from full to compacted to partial to narrow to paved, with increasing permanence; level 0 is neutral; sadness-specific; translations match."
+      },
+      {
+        "topic_id": "sadness_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from on-time to delay to cancellation to permanent cancellation to route discontinued, increasing loss of travel goal; L0 is neutral; progression is sadness-specific; translations match; no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "sadness_T09",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from neutral book to note to inscription to marginalia showing growing apart to farewell and permanent departure, increasing loss and separation; L0 neutral; sadness-specific; translations faithful; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from healthy plant to minor spill to cracked pot to root rot to plant death, increasing loss of the plant; L0 neutral; sadness-specific; translations match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from temporary closure to permanent closure with increasing loss (retirement, health, death), maintaining sadness order; L0 is neutral; no other emotion dominates; translations match; no numeric or explicit intensity markers."
+      },
+      {
+        "topic_id": "sadness_T12",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from mistake listing to sale to parents moving to foreclosure to demolition, increasing loss of childhood home; L0 neutral; sadness specific; translations equivalent; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T13",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalates from normal attendance to inability to attend, missed interaction, permanent departure, and death of friend, increasing sadness; L0 neutral; no other emotion dominates; translations match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T14",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from routine to job move, friend moving abroad, partner breakup, to parent death, each increasing loss and sadness; L0 is neutral; no other emotion dominates; translations match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels increase from part-time return to no return, email deactivation timing, and finally unreachable personal email, each step increasing finality and loss; L0 is neutral; sadness-specific; translations faithful; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels move from all attending to one moved, one deceased, deceased was organizer, to deceased was closest friend, each step increasing personal loss and sadness; L0 neutral; no other emotion; translations match; no numeric or explicit markers."
+      },
+      {
+        "topic_id": "sadness_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Loss of the recipe card escalates from intact to missing step, torn, faded, and burned, increasing irreversibility and personal loss; level 0 is neutral; progression targets sadness; translations match."
+      },
+      {
+        "topic_id": "sadness_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Lake closure escalates from future to yesterday, two weeks, a month, and permanent, with increasing deterioration of facilities; level 0 is neutral; sadness is target; translations faithful."
+      },
+      {
+        "topic_id": "sadness_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Photo album content escalates from recent to vacation, childhood home, deceased relative, and long-dead ancestor, increasing loss and permanence; level 0 neutral; sadness specific; translations match."
+      },
+      {
+        "topic_id": "sadness_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Loss of landmark escalates from preservation to complete removal; L0 neutral, progression is sadness-specific, translations match, no numeric or explicit markers."
+      },
+      {
+        "topic_id": "surprise_T01",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Expectation mismatch escalates from minor fine to foreign library; L0 neutral, surprise-specific, translations match, no numeric or explicit markers."
+      },
+      {
+        "topic_id": "surprise_T02",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Route deviation escalates from none to leaving city; L0 neutral, surprise-specific, translations match, no numeric or explicit markers."
+      },
+      {
+        "topic_id": "surprise_T03",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "All levels show increasing deviation from expected cup, with L0 neutral and L4 most novel; no other emotion dominates; translations match."
+      },
+      {
+        "topic_id": "surprise_T04",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Mail content escalates from ordinary to impossible, each step more unexpected; L0 neutral; no other emotion; translations faithful."
+      },
+      {
+        "topic_id": "surprise_T05",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Cereal box contents become increasingly anomalous and personally relevant, L0 normal; surprise is primary; translations match."
+      },
+      {
+        "topic_id": "surprise_T06",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from routine to schedule change, new agenda item, project cancellation, and department transfer, each increasing expectation mismatch and consequence scope. L0 is routine. Progression is surprise-specific. Translations match."
+      },
+      {
+        "topic_id": "surprise_T07",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels move from on-time direct train to extra stops, wrong direction, freight train, and cancellation, each increasing deviation from announced plan and expectation mismatch. L0 is routine. Progression is surprise-specific. Translations match."
+      },
+      {
+        "topic_id": "surprise_T08",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from standard table to flower, private room with stage, rooftop with candles and quartet, and kitchen with chefs, each increasing unusualness and expectation mismatch. L0 is standard. Progression is surprise-specific. Translations match."
+      },
+      {
+        "topic_id": "surprise_T09",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Level 3 (own license plate painted) is not clearly more surprising than level 2 (reserved sign and barrier); the escalation is ambiguous and not strictly ordered."
+      },
+      {
+        "topic_id": "surprise_T10",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from routine to policy update to branch closure to account change to foreign acquisition and museum conversion, each increasing expectation mismatch."
+      },
+      {
+        "topic_id": "surprise_T11",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels escalate from exact forecast to minor cloud to drizzle to downpour to hailstorm, each increasing deviation from forecast and consequence."
+      },
+      {
+        "topic_id": "surprise_T12",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression primarily measures deviation from expectation, which is surprise, but levels 3 and 4 shift to different activities (swimming, cooking) that may evoke other emotions (e.g., confusion, amusement) rather than a clear increase in surprise; also level 4 introduces a cooking workshop which is not a direct escalation of surprise from level 3."
+      },
+      {
+        "topic_id": "surprise_T13",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 3 and 4 involve receiving a different item or a random object, which may evoke anger or disgust rather than purely surprise; the escalation is not solely in surprise but also in negative valence, making it not target-specific."
+      },
+      {
+        "topic_id": "surprise_T14",
+        "pass": false,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": false,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Levels 3 and 4 introduce medical findings that could evoke fear or anxiety (e.g., new marker, structure, genetic variant) rather than purely surprise; the progression mixes surprise with potential threat, so it does not primarily measure surprise."
+      },
+      {
+        "topic_id": "surprise_T15",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "All levels show increasing deviation from expected routine, with neutral baseline and consistent Chinese translation."
+      },
+      {
+        "topic_id": "surprise_T16",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalation from exact trailer match to cancellation, with neutral baseline and faithful translation."
+      },
+      {
+        "topic_id": "surprise_T17",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Room upgrades escalate in scope and value, baseline is standard, and translation preserves order."
+      },
+      {
+        "topic_id": "surprise_T18",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating cancellation scope from later call to company dissolution, neutral baseline, surprise via expectation mismatch, no numeric or intensity markers."
+      },
+      {
+        "topic_id": "surprise_T19",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Progression from open road to pond, neutral baseline, surprise via physical anomaly, no numeric or intensity markers."
+      },
+      {
+        "topic_id": "surprise_T20",
+        "pass": true,
+        "ordered": true,
+        "neutral_l0": true,
+        "target_specific": true,
+        "translation_faithful": true,
+        "non_numeric": true,
+        "reason": "Escalating subscription change from price to medium, neutral baseline, surprise via expectation mismatch, no numeric or intensity markers."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "prompt_tokens": 2065,
+      "completion_tokens": 206,
+      "total_tokens": 2271,
+      "cost": 9.0825e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2042,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.0825e-05,
+        "upstream_inference_prompt_cost": 2.9025e-05,
+        "upstream_inference_completions_cost": 6.18e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2035,
+      "completion_tokens": 223,
+      "total_tokens": 2258,
+      "cost": 9.5505e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2012,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.5505e-05,
+        "upstream_inference_prompt_cost": 2.8605e-05,
+        "upstream_inference_completions_cost": 6.69e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2398,
+      "completion_tokens": 221,
+      "total_tokens": 2619,
+      "cost": 9.9987e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2375,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.9987e-05,
+        "upstream_inference_prompt_cost": 3.3687e-05,
+        "upstream_inference_completions_cost": 6.63e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1859,
+      "completion_tokens": 228,
+      "total_tokens": 2087,
+      "cost": 9.4541e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1836,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.4541e-05,
+        "upstream_inference_prompt_cost": 2.6141e-05,
+        "upstream_inference_completions_cost": 6.84e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2141,
+      "completion_tokens": 238,
+      "total_tokens": 2379,
+      "cost": 0.000101489,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2118,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000101489,
+        "upstream_inference_prompt_cost": 3.0089e-05,
+        "upstream_inference_completions_cost": 7.14e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1968,
+      "completion_tokens": 264,
+      "total_tokens": 2232,
+      "cost": 0.000106867,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1945,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000106867,
+        "upstream_inference_prompt_cost": 2.7667e-05,
+        "upstream_inference_completions_cost": 7.92e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1831,
+      "completion_tokens": 214,
+      "total_tokens": 2045,
+      "cost": 8.9949e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1808,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.9949e-05,
+        "upstream_inference_prompt_cost": 2.5749e-05,
+        "upstream_inference_completions_cost": 6.42e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1910,
+      "completion_tokens": 236,
+      "total_tokens": 2146,
+      "cost": 9.7655e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1887,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.7655e-05,
+        "upstream_inference_prompt_cost": 2.6855e-05,
+        "upstream_inference_completions_cost": 7.08e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2067,
+      "completion_tokens": 244,
+      "total_tokens": 2311,
+      "cost": 0.000102253,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2044,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000102253,
+        "upstream_inference_prompt_cost": 2.9053e-05,
+        "upstream_inference_completions_cost": 7.32e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1882,
+      "completion_tokens": 231,
+      "total_tokens": 2113,
+      "cost": 9.5763e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1859,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.5763e-05,
+        "upstream_inference_prompt_cost": 2.6463e-05,
+        "upstream_inference_completions_cost": 6.93e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1879,
+      "completion_tokens": 216,
+      "total_tokens": 2095,
+      "cost": 9.1221e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1856,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.1221e-05,
+        "upstream_inference_prompt_cost": 2.6421e-05,
+        "upstream_inference_completions_cost": 6.48e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1849,
+      "completion_tokens": 244,
+      "total_tokens": 2093,
+      "cost": 9.9201e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1826,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.9201e-05,
+        "upstream_inference_prompt_cost": 2.6001e-05,
+        "upstream_inference_completions_cost": 7.32e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2008,
+      "completion_tokens": 224,
+      "total_tokens": 2232,
+      "cost": 9.5427e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1985,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.5427e-05,
+        "upstream_inference_prompt_cost": 2.8227e-05,
+        "upstream_inference_completions_cost": 6.72e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1785,
+      "completion_tokens": 229,
+      "total_tokens": 2014,
+      "cost": 9.3805e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1762,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.3805e-05,
+        "upstream_inference_prompt_cost": 2.5105e-05,
+        "upstream_inference_completions_cost": 6.87e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1921,
+      "completion_tokens": 318,
+      "total_tokens": 2239,
+      "cost": 0.000122409,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1898,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000122409,
+        "upstream_inference_prompt_cost": 2.7009e-05,
+        "upstream_inference_completions_cost": 9.54e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2063,
+      "completion_tokens": 234,
+      "total_tokens": 2297,
+      "cost": 9.9197e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2040,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.9197e-05,
+        "upstream_inference_prompt_cost": 2.8997e-05,
+        "upstream_inference_completions_cost": 7.02e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1788,
+      "completion_tokens": 207,
+      "total_tokens": 1995,
+      "cost": 8.7247e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1765,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.7247e-05,
+        "upstream_inference_prompt_cost": 2.5147e-05,
+        "upstream_inference_completions_cost": 6.21e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1788,
+      "completion_tokens": 279,
+      "total_tokens": 2067,
+      "cost": 0.000108847,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1765,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000108847,
+        "upstream_inference_prompt_cost": 2.5147e-05,
+        "upstream_inference_completions_cost": 8.37e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1986,
+      "completion_tokens": 323,
+      "total_tokens": 2309,
+      "cost": 0.000124819,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1963,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000124819,
+        "upstream_inference_prompt_cost": 2.7919e-05,
+        "upstream_inference_completions_cost": 9.69e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1912,
+      "completion_tokens": 204,
+      "total_tokens": 2116,
+      "cost": 8.8083e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1889,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.8083e-05,
+        "upstream_inference_prompt_cost": 2.6883e-05,
+        "upstream_inference_completions_cost": 6.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1919,
+      "completion_tokens": 211,
+      "total_tokens": 2130,
+      "cost": 9.0281e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1896,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.0281e-05,
+        "upstream_inference_prompt_cost": 2.6981e-05,
+        "upstream_inference_completions_cost": 6.33e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1931,
+      "completion_tokens": 206,
+      "total_tokens": 2137,
+      "cost": 8.8949e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1908,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.8949e-05,
+        "upstream_inference_prompt_cost": 2.7149e-05,
+        "upstream_inference_completions_cost": 6.18e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2110,
+      "completion_tokens": 273,
+      "total_tokens": 2383,
+      "cost": 0.000111555,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2087,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000111555,
+        "upstream_inference_prompt_cost": 2.9655e-05,
+        "upstream_inference_completions_cost": 8.19e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2028,
+      "completion_tokens": 369,
+      "total_tokens": 2397,
+      "cost": 0.000139207,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2005,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000139207,
+        "upstream_inference_prompt_cost": 2.8507e-05,
+        "upstream_inference_completions_cost": 0.0001107
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1957,
+      "completion_tokens": 241,
+      "total_tokens": 2198,
+      "cost": 9.9813e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1934,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.9813e-05,
+        "upstream_inference_prompt_cost": 2.7513e-05,
+        "upstream_inference_completions_cost": 7.23e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1970,
+      "completion_tokens": 198,
+      "total_tokens": 2168,
+      "cost": 8.7095e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1947,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.7095e-05,
+        "upstream_inference_prompt_cost": 2.7695e-05,
+        "upstream_inference_completions_cost": 5.94e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1947,
+      "completion_tokens": 251,
+      "total_tokens": 2198,
+      "cost": 0.000102673,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1924,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000102673,
+        "upstream_inference_prompt_cost": 2.7373e-05,
+        "upstream_inference_completions_cost": 7.53e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1880,
+      "completion_tokens": 246,
+      "total_tokens": 2126,
+      "cost": 0.00010568,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 768,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010568,
+        "upstream_inference_prompt_cost": 3.188e-05,
+        "upstream_inference_completions_cost": 7.38e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2009,
+      "completion_tokens": 335,
+      "total_tokens": 2344,
+      "cost": 0.000128741,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1986,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000128741,
+        "upstream_inference_prompt_cost": 2.8241e-05,
+        "upstream_inference_completions_cost": 0.0001005
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1994,
+      "completion_tokens": 275,
+      "total_tokens": 2269,
+      "cost": 0.000110531,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1971,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000110531,
+        "upstream_inference_prompt_cost": 2.8031e-05,
+        "upstream_inference_completions_cost": 8.25e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2043,
+      "completion_tokens": 338,
+      "total_tokens": 2381,
+      "cost": 0.000130117,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2020,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000130117,
+        "upstream_inference_prompt_cost": 2.8717e-05,
+        "upstream_inference_completions_cost": 0.0001014
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2146,
+      "completion_tokens": 285,
+      "total_tokens": 2431,
+      "cost": 0.000115659,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2123,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000115659,
+        "upstream_inference_prompt_cost": 3.0159e-05,
+        "upstream_inference_completions_cost": 8.55e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1861,
+      "completion_tokens": 215,
+      "total_tokens": 2076,
+      "cost": 9.0669e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1838,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.0669e-05,
+        "upstream_inference_prompt_cost": 2.6169e-05,
+        "upstream_inference_completions_cost": 6.45e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1728,
+      "completion_tokens": 213,
+      "total_tokens": 1941,
+      "cost": 0.00028353,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1728,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00028353,
+        "upstream_inference_prompt_cost": 1.728e-05,
+        "upstream_inference_completions_cost": 0.00026625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1841,
+      "completion_tokens": 308,
+      "total_tokens": 2149,
+      "cost": 0.000118289,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1818,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000118289,
+        "upstream_inference_prompt_cost": 2.5889e-05,
+        "upstream_inference_completions_cost": 9.24e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2086,
+      "completion_tokens": 279,
+      "total_tokens": 2365,
+      "cost": 0.000113019,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2063,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000113019,
+        "upstream_inference_prompt_cost": 2.9319e-05,
+        "upstream_inference_completions_cost": 8.37e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2174,
+      "completion_tokens": 192,
+      "total_tokens": 2366,
+      "cost": 8.8151e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2151,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.8151e-05,
+        "upstream_inference_prompt_cost": 3.0551e-05,
+        "upstream_inference_completions_cost": 5.76e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 2117,
+      "completion_tokens": 261,
+      "total_tokens": 2378,
+      "cost": 0.000108053,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2094,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000108053,
+        "upstream_inference_prompt_cost": 2.9753e-05,
+        "upstream_inference_completions_cost": 7.83e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1918,
+      "completion_tokens": 225,
+      "total_tokens": 2143,
+      "cost": 9.4467e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1895,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.4467e-05,
+        "upstream_inference_prompt_cost": 2.6967e-05,
+        "upstream_inference_completions_cost": 6.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1856,
+      "completion_tokens": 228,
+      "total_tokens": 2084,
+      "cost": 9.4499e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1833,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.4499e-05,
+        "upstream_inference_prompt_cost": 2.6099e-05,
+        "upstream_inference_completions_cost": 6.84e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  ]
+}

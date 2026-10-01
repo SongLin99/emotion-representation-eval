@@ -1,0 +1,82 @@
+{
+  "version": "olmo3_emotion_functionality_v1",
+  "model": "allenai/Olmo-3-7B-Instruct",
+  "layer": 24,
+  "block_index": 23,
+  "position": "assistant_only_final_boundary_and_every_decode_token",
+  "emotions": [
+    "happiness",
+    "surprise",
+    "fear",
+    "disgust",
+    "anger",
+    "sadness"
+  ],
+  "alpha": [
+    -0.5,
+    0,
+    0.5
+  ],
+  "neutral_tasks": 12,
+  "conditions_per_task": 25,
+  "total_responses": 300,
+  "formula": "h_new = h + alpha * fixed_neutral_token_norm * unit_direction",
+  "fixed_neutral_token_norm": 35.4885577140482,
+  "delta_norm": 17.7442788570241,
+  "target_directions": 6,
+  "random_controls": 6,
+  "random_control_rule": "Gaussian unit directions projected orthogonal to the span of all six emotion vectors.",
+  "decoding": "greedy",
+  "max_new_tokens": 180,
+  "chat": "native Olmo user/assistant markers; no system",
+  "tasks": [
+    {
+      "task_id": "desk",
+      "prompt": "You have finished your work for the afternoon. Several ordinary papers and pens remain on your desk, and you have no urgent plans. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "groceries",
+      "prompt": "You return home with a bag containing the usual groceries you planned to buy. The kitchen counter is clear and the rest of the evening is unscheduled. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "library",
+      "prompt": "You sit at an available table in a quiet public library with a notebook and a book you selected earlier. Nothing requires immediate attention. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "bus",
+      "prompt": "You board your usual bus and find an open seat. The route is operating normally, and you have enough time to reach your destination. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "laundry",
+      "prompt": "A routine load of laundry has finished. The clothes are in the basket, and you have time to fold them before doing anything else. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "bench",
+      "prompt": "You stop at an empty bench in a familiar public garden. The path is open, the weather is ordinary for the season, and you are not in a hurry. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "break",
+      "prompt": "It is the middle of an ordinary workday, and you have a short scheduled break. The shared break room is available, with water and a chair. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "kitchen",
+      "prompt": "You are preparing a familiar meal at home. The ingredients and utensils you normally use are on the counter, and there is enough time. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "walk",
+      "prompt": "You take your usual route through the neighborhood in the early evening. Shops and houses look as they normally do, and you have no fixed appointment afterward. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "waiting",
+      "prompt": "You arrive at a routine appointment and take a seat in the waiting area. Staff are working normally, and there are magazines and a clock nearby. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "tools",
+      "prompt": "You open a small box containing ordinary household tools that you have used before. Everything appears to be in its usual place, and no repair is urgent. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    },
+    {
+      "task_id": "calendar",
+      "prompt": "At home in the evening, you look over your calendar for the coming days. It contains the routine commitments you already knew about, with open time between them. Imagine yourself as the adult in this situation. Write a first-person account of what goes through your mind and what you say or do next. Keep the answer to about 70–110 words."
+    }
+  ]
+}

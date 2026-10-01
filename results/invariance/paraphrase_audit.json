@@ -1,0 +1,5413 @@
+{
+  "status": "PASS",
+  "rows": 600,
+  "mechanical_issues": [],
+  "semantic": {
+    "reviewer_model": "deepseek/deepseek-v4-flash-0731",
+    "scope": "Automated model-assisted fidelity audit; not human validation.",
+    "passed": 600,
+    "failed": [],
+    "items": [
+      {
+        "id": "anger_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts about agreement, installation, and outcome are preserved; paraphrases rephrase naturally."
+      },
+      {
+        "id": "anger_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Different layout, visible change, and written plan location all preserved; wording changed."
+      },
+      {
+        "id": "anger_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Blocked work area and unsigned plan details are intact; paraphrases reword sufficiently."
+      },
+      {
+        "id": "anger_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Unusable counter and draft claim are consistent; wording appropriately varied."
+      },
+      {
+        "id": "anger_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Blocked sink/stove and denial of plan are preserved; paraphrases reworded adequately."
+      },
+      {
+        "id": "anger_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, causal relations, and neutral tone; only wording and sentence structure changed."
+      },
+      {
+        "id": "anger_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key events and details (Alex presenting as own, Sam not mentioned) are retained; paraphrases are reworded without adding or omitting facts."
+      },
+      {
+        "id": "anger_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve the interruption, assignment, and omission from notes; only synonyms and structural changes."
+      },
+      {
+        "id": "anger_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (dismissal, approval, documentation credit) are intact; paraphrases are reworded naturally."
+      },
+      {
+        "id": "anger_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep accusation, removal, reassignment, and formal credit; only wording changes."
+      },
+      {
+        "id": "anger_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts (forwarding address, good condition, full deposit, receipt) are preserved; paraphrases are reworded."
+      },
+      {
+        "id": "anger_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain the cleaning fee deduction, itemized receipt, and short delay; only wording changed."
+      },
+      {
+        "id": "anger_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Withholding of deposit and unspecified damages are preserved; paraphrases are reworded without adding details."
+      },
+      {
+        "id": "anger_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (withholding, extra fee, no itemization/photos) are intact; paraphrases are reworded."
+      },
+      {
+        "id": "anger_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve withholding, extra payment, credit claim, and summons; only wording changed."
+      },
+      {
+        "id": "anger_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts (no permit, need for spot, driver moves car) are preserved; paraphrases are reworded."
+      },
+      {
+        "id": "anger_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain driver staying, waving, and leaving after a minute; only wording changed."
+      },
+      {
+        "id": "anger_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (driver leaves car, enters store, duration) are intact; paraphrases are reworded."
+      },
+      {
+        "id": "anger_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve deliberate locking and walking away; only wording changed."
+      },
+      {
+        "id": "anger_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (shouting, leaving car) are retained; paraphrases are reworded without adding or omitting facts."
+      },
+      {
+        "id": "anger_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key facts, causal sequence, and neutral outcome preserved; wording varied naturally in both languages."
+      },
+      {
+        "id": "anger_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events, manager confirmation, and replacement offer; paraphrases rephrase without altering details."
+      },
+      {
+        "id": "anger_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves refusal, manager-busy claim, ten-minute wait, and same plate; wording changes are ordinary."
+      },
+      {
+        "id": "anger_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Keeps accusation, interception, and manager siding; no added or removed facts."
+      },
+      {
+        "id": "anger_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves public accusation, scraping into trash, and no-refund eviction; paraphrase is faithful and reworded."
+      },
+      {
+        "id": "anger_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same dog barking, acknowledgment without action, brief bark, and normal greeting; wording varied."
+      },
+      {
+        "id": "anger_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves hour-long nightly barking, unaddressed request, and routine continuation; paraphrase rephrases naturally."
+      },
+      {
+        "id": "anger_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Keeps several-hour barking, longer outside time, two calls, and dismissive response; no factual changes."
+      },
+      {
+        "id": "anger_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves dog door, all-hours barking, formal complaint, and 'mind your own business'; paraphrase is faithful."
+      },
+      {
+        "id": "anger_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same command training, sleeping-hours barking, authorities contact, denial, and mockery; wording varied."
+      },
+      {
+        "id": "anger_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves fee mention, waiver, full amount, and receipt; paraphrase rephrases without altering outcome."
+      },
+      {
+        "id": "anger_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Keeps fee application, policy explanation, deduction, and receipt; wording changes are ordinary."
+      },
+      {
+        "id": "anger_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves mandatory fee, premium account, deduction, and abrupt turn to next customer; paraphrase faithful."
+      },
+      {
+        "id": "anger_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same insistence, terms blame, fine print, and balance reduction; paraphrase rephrases naturally."
+      },
+      {
+        "id": "anger_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves fee, account-closure threat, waiver form, and deduction; no added or removed facts."
+      },
+      {
+        "id": "anger_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details: same people, setting, event, outcome, causal relations, and intensity level, with only wording changes."
+      },
+      {
+        "id": "anger_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain same facts: seat occupied, no alternative, next flight in 3 hours, meal voucher; only wording differs."
+      },
+      {
+        "id": "anger_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same outcome: assigned middle seat in back row, no force, pointing gesture; wording changes only."
+      },
+      {
+        "id": "anger_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep same details: seat given to other, jump seat in galley, no argument; only wording varies."
+      },
+      {
+        "id": "anger_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same events: removal, no-fly list, no refund, security signal; wording changes only."
+      },
+      {
+        "id": "anger_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep same state: crumbs, dishes, half-full bin, usual condition, leaves unchanged; only wording differs."
+      },
+      {
+        "id": "anger_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same details: sticky spill, extra dishes, full bin, moves dishes, places bag; wording changes only."
+      },
+      {
+        "id": "anger_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain same facts: open container, residue, clogged sink, clears, wipes, places on desk; only wording varies."
+      },
+      {
+        "id": "anger_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same details: paper towels on floor, microwave splatters, burnt smell, cleans but leaves towels; wording changes only."
+      },
+      {
+        "id": "anger_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep same events: overflowing sink, tipped bin, sticky trail, missing ingredients, reports; only wording differs."
+      },
+      {
+        "id": "anger_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same sequence: clerk on call, scans item, pays, leaves, no delay; wording changes only."
+      },
+      {
+        "id": "anger_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain same details: one-minute call, scans, pays, leaves, resumes call; only wording varies."
+      },
+      {
+        "id": "anger_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same facts: gestures to wait, several minutes, scans without apology, pays, leaves; wording changes only."
+      },
+      {
+        "id": "anger_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep same events: ignores, goes to back room, returns, scans; only wording differs."
+      },
+      {
+        "id": "anger_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve same outcome: register closed, sign, leaves without item, resumes call; wording changes only."
+      },
+      {
+        "id": "anger_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key facts, causal relations, and neutral outcome preserved in both languages; wording changes are genuine paraphrases."
+      },
+      {
+        "id": "anger_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same people, setting, event, and outcome (no reschedule, wasted reservation) maintained; paraphrases alter wording only."
+      },
+      {
+        "id": "anger_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details including exact message, phone off, arrival, and leaving alone preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same facts about alternative plans, social media post, and cancellation without apology; paraphrases preserve all."
+      },
+      {
+        "id": "anger_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Key betrayal scenario, same reservation, arrival, and silent continuation all preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts about laptop movement, warm screen, bus schedule, and no changes preserved; paraphrases are genuine."
+      },
+      {
+        "id": "anger_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same email checking, open browser, lower battery, and continuation preserved; paraphrases alter wording only."
+      },
+      {
+        "id": "anger_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about large downloads, storage error, class need, and deletion preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same unauthorized post, joke claim, password change, and post removal preserved; paraphrases are genuine."
+      },
+      {
+        "id": "anger_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts about rude email, boss warning, admission, and apology preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same approval, schedule listing, optional note, and swap availability preserved; paraphrases alter wording only."
+      },
+      {
+        "id": "anger_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts about approval, schedule listing, no mention, and no note preserved; paraphrases are genuine."
+      },
+      {
+        "id": "anger_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same crossed-out form, 'needed' note, and no coverage preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about denial note, no notification, and double assignment preserved; paraphrases are genuine."
+      },
+      {
+        "id": "anger_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same comment, removal from next week, and no shifts preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key facts, causal relations, and outcome preserved; wording varied naturally in both languages."
+      },
+      {
+        "id": "anger_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same scenario, details, and intensity; paraphrases use synonymous expressions without altering meaning."
+      },
+      {
+        "id": "anger_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match: location, damage, and usability; wording changes are natural and non-substantive."
+      },
+      {
+        "id": "anger_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves the curb location, damage severity, and driver's action; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All critical details including deliberate placement and note are retained; wording varies appropriately."
+      },
+      {
+        "id": "anger_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same people, event, and outcome; paraphrases use different sentence structures without changing facts."
+      },
+      {
+        "id": "anger_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key elements preserved; paraphrases are natural and do not introduce or omit consequential details."
+      },
+      {
+        "id": "anger_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same sequence of events and dialogue; paraphrases are faithful and reworded in both languages."
+      },
+      {
+        "id": "anger_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves the public example, reading aloud, and lack of specificity; paraphrases are equivalent."
+      },
+      {
+        "id": "anger_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts including grade change and plagiarism accusation are retained; wording varies naturally."
+      },
+      {
+        "id": "anger_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same setting, characters, and outcome; paraphrases are faithful and reworded without adding details."
+      },
+      {
+        "id": "anger_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preserves the line-cutting, lengthy conversation, and waiting; paraphrases are equivalent in meaning."
+      },
+      {
+        "id": "anger_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about forms, slow review, and extended time are retained; paraphrases are natural."
+      },
+      {
+        "id": "anger_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same dispute, supervisor involvement, and halted line; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "anger_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key elements including manager summon and extended closure are preserved; paraphrases vary wording."
+      },
+      {
+        "id": "anger_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all events, setting, and outcome with only synonymic rewording."
+      },
+      {
+        "id": "anger_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All actions and details match; wording changes are natural and non-substantive."
+      },
+      {
+        "id": "anger_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain the partner's statement, evening activity, and unchanged chores."
+      },
+      {
+        "id": "anger_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Extra chore, reason, and leaving are all preserved; only phrasing varies."
+      },
+      {
+        "id": "anger_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Invalidation, future control, locking chart, and loss of access are intact."
+      },
+      {
+        "id": "anger_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Two-hour wait, emergency, and rescheduling are all present in both languages."
+      },
+      {
+        "id": "anger_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Doctor with previous patient and fifteen-minute wait are accurately conveyed."
+      },
+      {
+        "id": "anger_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Lunch break, one-hour return, and no other patients seen are preserved."
+      },
+      {
+        "id": "anger_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Meeting, indefinite wait, and staff passing without updates are all retained."
+      },
+      {
+        "id": "anger_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Double-booking, doctor left, and no apology are accurately paraphrased."
+      },
+      {
+        "id": "anger_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dumbbells returned by other member and no disruption are preserved."
+      },
+      {
+        "id": "anger_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Neat row, stepping over, and moving aside are all included in both."
+      },
+      {
+        "id": "anger_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Scattered blocking, picking up one by one, and placing on rack are intact."
+      },
+      {
+        "id": "anger_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Bench blocking aisle and several-minute delay are accurately conveyed."
+      },
+      {
+        "id": "anger_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Watching without help and no acknowledgment are preserved in both languages."
+      },
+      {
+        "id": "anger_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details (time, setting, noise, low volume, muffled voices, falling asleep, quiet night) with only wording changes."
+      },
+      {
+        "id": "anger_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same events (conversational volume, laughter, closing window, waking once) without altering facts or intensity."
+      },
+      {
+        "id": "anger_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases match the original's actions (knocking, no answer, music continues for an hour) with only synonymous phrasing."
+      },
+      {
+        "id": "anger_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the manager call, neighbor's promise, two-hour continuation, and resident staying awake without changes."
+      },
+      {
+        "id": "anger_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve police intervention, brief argument, music off then on after five minutes, with only wording variation."
+      },
+      {
+        "id": "disgust_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve setting, actions, and neutral details without adding or omitting facts."
+      },
+      {
+        "id": "disgust_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the dried sauce smear, wiping action, and outcome unchanged."
+      },
+      {
+        "id": "disgust_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the leaking bag, brown liquid, and moving container away."
+      },
+      {
+        "id": "disgust_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve mold on rice, white spots on lid, and closing/returning action."
+      },
+      {
+        "id": "disgust_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep open container, dark slimy liquid, vegetable scraps, and leaving it."
+      },
+      {
+        "id": "disgust_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve clean stall details and usage without changes."
+      },
+      {
+        "id": "disgust_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep water drops, crumpled towel, torn edge, and usage."
+      },
+      {
+        "id": "disgust_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain dried smear, sticky residue, used wipe, and usage."
+      },
+      {
+        "id": "disgust_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve puddle, droplets, overflowing bin, and usage."
+      },
+      {
+        "id": "disgust_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep brown waste, splatters, slimy bin, and usage."
+      },
+      {
+        "id": "disgust_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve dry firm sponge, cleaning, rinsing, and return."
+      },
+      {
+        "id": "disgust_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep damp gray sponge, film, and no rinsing."
+      },
+      {
+        "id": "disgust_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain wet sour sponge, sticky residue, dark specks, and return wet."
+      },
+      {
+        "id": "disgust_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve brownish liquid, slimy film, greasy streak, food particles, and leaving on counter."
+      },
+      {
+        "id": "disgust_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep thick dark slime, putrid odor, brown smear, decaying matter, and dripping return."
+      },
+      {
+        "id": "disgust_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details (well-stocked, brightly lit, firm clean fruit, smooth skin, placing in bag, continuing) with only structural changes."
+      },
+      {
+        "id": "disgust_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the bruised spot, softness, and all actions; wording is reorganized but no facts added or removed."
+      },
+      {
+        "id": "disgust_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Broken skin, sticky liquid, and all actions are preserved; only sentence structure and synonyms changed."
+      },
+      {
+        "id": "disgust_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mold, wrinkled damp skin, and actions are intact; paraphrases reorder clauses without altering content."
+      },
+      {
+        "id": "disgust_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Split fruit, brown mushy interior, maggots, and all actions are preserved; only wording and structure vary."
+      },
+      {
+        "id": "disgust_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Tidy room, white bedspread, smooth clean surface, crease, and unpacking are all retained; paraphrases are genuine."
+      },
+      {
+        "id": "disgust_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Loose threads, dust speck, gray patch, and all actions are preserved; only wording and order changed."
+      },
+      {
+        "id": "disgust_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Yellow stain, coin size, stiff fabric, dark fibers, and actions are intact; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "disgust_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark brown smear, wet shiny trail, hairs, discoloration, and actions are preserved; only structure and synonyms vary."
+      },
+      {
+        "id": "disgust_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Flaky residue, crusty texture, skin-like piece, sweat odor, and actions are all retained; paraphrases are genuine."
+      },
+      {
+        "id": "disgust_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dry clean interior, filling to top, and all actions are preserved; only wording and sentence structure changed."
+      },
+      {
+        "id": "disgust_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Faint residue ring, swirling without dissolving, and actions are intact; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "disgust_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Slimy film, dark specks floating, and all actions are preserved; only structure and synonyms vary."
+      },
+      {
+        "id": "disgust_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Green mold clump, breaking apart, cloudy particles, and actions are retained; paraphrases are genuine."
+      },
+      {
+        "id": "disgust_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Brown sludge, decaying matter, murky water, and all actions are preserved; only wording and structure changed."
+      },
+      {
+        "id": "disgust_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details and only rephrase wording."
+      },
+      {
+        "id": "disgust_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All events and sensory details are retained in both languages."
+      },
+      {
+        "id": "disgust_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep the same sequence and details without additions."
+      },
+      {
+        "id": "disgust_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements including blood and lack of cleaning are preserved."
+      },
+      {
+        "id": "disgust_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases match the original in all key facts and details."
+      },
+      {
+        "id": "disgust_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases are faithful and reworded without changes."
+      },
+      {
+        "id": "disgust_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about crumbs and dust are preserved in both languages."
+      },
+      {
+        "id": "disgust_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky patch, residue, smell, and greasy keys are all retained."
+      },
+      {
+        "id": "disgust_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All sensory details and actions are preserved in paraphrases."
+      },
+      {
+        "id": "disgust_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep the same smear, smell, and residue details."
+      },
+      {
+        "id": "disgust_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts and are reworded."
+      },
+      {
+        "id": "disgust_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Damp spots and cool sensation are retained in both languages."
+      },
+      {
+        "id": "disgust_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Stain, odor, and position under fingers are all preserved."
+      },
+      {
+        "id": "disgust_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about smear, residue, and hairs are kept in paraphrases."
+      },
+      {
+        "id": "disgust_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mold, dampness, and skin flake are all preserved in both languages."
+      },
+      {
+        "id": "disgust_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts and details, with only minor synonymous wording changes."
+      },
+      {
+        "id": "disgust_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain the same ring description and events, with acceptable synonym substitutions."
+      },
+      {
+        "id": "disgust_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about residue, water, and coffee are preserved; wording changes are ordinary."
+      },
+      {
+        "id": "disgust_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Smear, odor, wiping, and drinking are all retained; only synonyms and minor phrasing differ."
+      },
+      {
+        "id": "disgust_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mold, scraping, stain, and drinking are all preserved; wording changes are non-substantive."
+      },
+      {
+        "id": "disgust_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Bandage removal, clean skin, disposal, and washing are all retained; only synonyms differ."
+      },
+      {
+        "id": "disgust_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dried fluid, residue, and placement on table are all preserved; wording is paraphrased."
+      },
+      {
+        "id": "disgust_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dead skin, raw area, and disposal are all retained; only minor wording changes."
+      },
+      {
+        "id": "disgust_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Greasy coating, sour odor, smearing, and bag disposal are all preserved."
+      },
+      {
+        "id": "disgust_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Maggots, movement, removal, and jar sealing are all retained; wording is paraphrased."
+      },
+      {
+        "id": "disgust_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts about container, lid, and placement are preserved; only synonyms differ."
+      },
+      {
+        "id": "disgust_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Open lid and dried sauce are both retained; wording changes are ordinary."
+      },
+      {
+        "id": "disgust_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark specks on food are preserved; only minor phrasing changes."
+      },
+      {
+        "id": "disgust_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Green mold patch is retained; wording is paraphrased without adding or removing facts."
+      },
+      {
+        "id": "disgust_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Gray-green film and sticky residue are preserved; only synonyms and phrasing differ."
+      },
+      {
+        "id": "disgust_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details match: same setting, action sequence, dry clean stopper, hair strands, placement. Wording variations are synonymous."
+      },
+      {
+        "id": "disgust_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Grayish film, rinsing under tap, return to drain all preserved with equivalent wording."
+      },
+      {
+        "id": "disgust_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Slimy translucent layer, dark specks, brief rinse, film remains—all intact and paraphrased."
+      },
+      {
+        "id": "disgust_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Wet brownish clump, spongy texture, pulled off with fingers, residue on hand—all preserved."
+      },
+      {
+        "id": "disgust_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark foul sludge, maggots, smearing, piece falling into basin—all present and paraphrased."
+      },
+      {
+        "id": "disgust_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Clean dry book, no marks, placed on hold shelf—all details retained with synonymic wording."
+      },
+      {
+        "id": "disgust_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Faint sweet smell, stuck pages, separation, set aside—all matched."
+      },
+      {
+        "id": "disgust_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark damp stain, wrinkled discolored pages, holding away from body—all preserved."
+      },
+      {
+        "id": "disgust_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky yellowish residue, dark flecks, stuck pages, plastic bag, counter—all intact."
+      },
+      {
+        "id": "disgust_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Brown crusty material, larvae, sealed bin—all present and paraphrased."
+      },
+      {
+        "id": "disgust_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same board, knife marks, hour, wiping, breadcrumbs, return spot—all matched."
+      },
+      {
+        "id": "disgust_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Raw chicken skin, pale moist, left untouched—all preserved."
+      },
+      {
+        "id": "disgust_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Juice smear, pink tint, pooling in groove—all intact."
+      },
+      {
+        "id": "disgust_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Fat chunk, connective tissue, dried puddle, untouched—all matched."
+      },
+      {
+        "id": "disgust_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky dried juice film, mold in crack, overnight—all preserved."
+      },
+      {
+        "id": "disgust_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details and events, with only minor wording changes."
+      },
+      {
+        "id": "disgust_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (specks, saliva film, mixing) retained; wording varies slightly."
+      },
+      {
+        "id": "disgust_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Puddle, hairs, sinking, splashing all preserved; only synonyms and structure changed."
+      },
+      {
+        "id": "disgust_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Fur clump, smear, sticking, and picking up strands all present in both languages."
+      },
+      {
+        "id": "disgust_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mass, sour smell, mold, pressing, and spores all retained; wording adjusted."
+      },
+      {
+        "id": "disgust_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All actions and sensations preserved; only phrasing and sentence order changed."
+      },
+      {
+        "id": "disgust_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky patch, film on skin, and release all present; minor wording differences."
+      },
+      {
+        "id": "disgust_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Damp gray residue, sour odor, and clinging all retained in both languages."
+      },
+      {
+        "id": "disgust_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Brownish smear, dark flecks, and damp mark all preserved; wording varies."
+      },
+      {
+        "id": "disgust_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mucus, hair, tissue, dripping, and slime trail all retained; structure changed."
+      },
+      {
+        "id": "disgust_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (bag, dust, counter, leaving) preserved; only wording and order changed."
+      },
+      {
+        "id": "disgust_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Leaf, musty smell, crumbs all present; phrasing adjusted but meaning unchanged."
+      },
+      {
+        "id": "disgust_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky patch, dark stain, dampness, and clinging all retained in both languages."
+      },
+      {
+        "id": "disgust_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Wet hair, sour smell, slimy film, and residue all preserved; wording varies."
+      },
+      {
+        "id": "disgust_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Semi-liquid mass, brownish fluid, rot smell all retained; only phrasing changed."
+      },
+      {
+        "id": "disgust_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve setting, action, and outcome; only wording and structure changed."
+      },
+      {
+        "id": "disgust_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details like dust, gray line, and clinging are preserved; no additions or omissions."
+      },
+      {
+        "id": "disgust_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sticky residue, adhesion, and transfer are maintained in both languages; wording varied."
+      },
+      {
+        "id": "disgust_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dried smear, pressing, and greasy stain are consistent; no factual changes."
+      },
+      {
+        "id": "disgust_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Crusted bodily fluid and flakes clinging are preserved; wording suitably rephrased."
+      },
+      {
+        "id": "disgust_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Clean towel scenario and outcome unchanged; paraphrases show sufficient rewording."
+      },
+      {
+        "id": "disgust_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Brown stain detail and outcome are identical; only style changed."
+      },
+      {
+        "id": "disgust_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dampness, musty odor, and damp patch are preserved; paraphrases reword appropriately."
+      },
+      {
+        "id": "disgust_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Yellowish smear, transfer to palms, and bin disposal all match; wording varied."
+      },
+      {
+        "id": "disgust_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark liquid, sour smell, hair clumps, and floor disposal are consistent; good rewording."
+      },
+      {
+        "id": "fear_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (time, route, locked door, elevator, lights) are kept; wording is rephrased."
+      },
+      {
+        "id": "fear_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Open window, broken latch, breeze, and check are all preserved; wording varies."
+      },
+      {
+        "id": "fear_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Ajar door, silent alarm, scratches, and dark stairwell are all retained; phrasing differs."
+      },
+      {
+        "id": "fear_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Chair, vent, scraping sound, and shadow are all present; wording is paraphrased."
+      },
+      {
+        "id": "fear_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Power switch, figure, crowbar, and slamming door are all preserved; wording varies."
+      },
+      {
+        "id": "fear_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Normal X-rays, unchanged filling, and cleaning schedule are all kept; wording is rephrased."
+      },
+      {
+        "id": "fear_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Faint shadow, absence in old film, and follow-up note are all retained; wording varies."
+      },
+      {
+        "id": "fear_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Dark border, cyst possibility, measurement, and CT scan are all preserved; phrasing differs."
+      },
+      {
+        "id": "fear_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Radiolucent area, erosion, nerve proximity, and biopsy are all intact; wording is paraphrased."
+      },
+      {
+        "id": "fear_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Perforation, moth-eaten edges, second lesion, and referral are all preserved; wording varies."
+      },
+      {
+        "id": "fear_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, events, and neutral tone with no added or omitted details."
+      },
+      {
+        "id": "fear_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the same malfunction, battery issue, and outcome without altering intensity."
+      },
+      {
+        "id": "fear_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the weak alarm, corrosion, and potential failure without adding details."
+      },
+      {
+        "id": "fear_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the silent unit, warmth, burning smell, and same level of concern."
+      },
+      {
+        "id": "fear_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the continuous alarm, smoke, and real fire indication without changes."
+      },
+      {
+        "id": "fear_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the stuck red light, eventual green, and normal continuation with no added facts."
+      },
+      {
+        "id": "fear_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the red light duration, the car running the light, and safe outcome unchanged."
+      },
+      {
+        "id": "fear_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the five-minute red, cross-street green conflict, and no added consequences."
+      },
+      {
+        "id": "fear_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the ten-minute red, near-miss with cyclist, and conflicting red signals."
+      },
+      {
+        "id": "fear_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the twenty-minute red, collision, blockage, and signal states exactly."
+      },
+      {
+        "id": "fear_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the successful inspection and dive with no added or missing details."
+      },
+      {
+        "id": "fear_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the cracked mouthpiece, replacement, and problem-free continuation."
+      },
+      {
+        "id": "fear_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the worn O-ring, leak, hiss, and shortened dive without altering intensity."
+      },
+      {
+        "id": "fear_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the rapid pressure drop, canceled dive, and inspection plan."
+      },
+      {
+        "id": "fear_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the burst first stage, rapid air loss, cancellation, and quarantine."
+      },
+      {
+        "id": "fear_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, setting, and outcome with no added or removed details; wording is sufficiently varied."
+      },
+      {
+        "id": "fear_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (one-degree deviation, three hours ago, next day schedule) are preserved; wording changes are natural."
+      },
+      {
+        "id": "fear_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep the three rising entries, comparison to previous day, and compressor cycling; no facts altered."
+      },
+      {
+        "id": "fear_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (ten degrees above, thermometer check, flickering light) are preserved; wording is sufficiently different."
+      },
+      {
+        "id": "fear_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain bacterial growth, condensation, and complete shutdown; no details added or removed."
+      },
+      {
+        "id": "fear_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts (unknown sender, PDF, blank page, normal rest of day) are preserved; wording is rephrased adequately."
+      },
+      {
+        "id": "fear_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep single line, auto-close, and brief fan speed-up; no changes in facts or intensity."
+      },
+      {
+        "id": "fear_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (link, redirect to login, increased network activity) are preserved; wording is sufficiently varied."
+      },
+      {
+        "id": "fear_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain download prompt, executable download, and security software disabling; no facts altered."
+      },
+      {
+        "id": "fear_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (full-screen command, script deletes system files, failure to boot) are preserved; wording is rephrased."
+      },
+      {
+        "id": "fear_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep all details (dry level ground, concrete, gutter, intact roof, descent) with no additions or omissions."
+      },
+      {
+        "id": "fear_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts (shift at third rung, slide to crack, continue upward) are preserved; wording is sufficiently different."
+      },
+      {
+        "id": "fear_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain loss of contact, tilt, gutter slide, and grabbing roof edge; no details changed."
+      },
+      {
+        "id": "fear_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (ladder falls sideways, hanging from roof, bent ladder) are preserved; wording is rephrased adequately."
+      },
+      {
+        "id": "fear_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep slip, fall, grip failure, landing on concrete, and motionless outcome; no facts altered."
+      },
+      {
+        "id": "fear_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, events, and outcomes with only synonymic and structural changes."
+      },
+      {
+        "id": "fear_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (loose cap, tightening, logbook, usability) are preserved; only wording and sentence structure vary."
+      },
+      {
+        "id": "fear_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Empty neutralizer, missing cartridge, marking depleted, and small spill capability are all retained."
+      },
+      {
+        "id": "fear_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Torn pads, expired neutralizer, hole in bag, ineffective containment, and replacement request are all preserved."
+      },
+      {
+        "id": "fear_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Broken seal, corrosive liquid, spreading, and stepping back are all retained with only minor wording changes."
+      },
+      {
+        "id": "fear_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Cable TV wire, harmless, power on, and routine unchanged are all preserved in both languages."
+      },
+      {
+        "id": "fear_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Power line not energized, utility notified, cone placed, and no immediate hazard are all retained."
+      },
+      {
+        "id": "fear_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Intermittent small sparks, dry area, and line on ground are all preserved with only synonymic changes."
+      },
+      {
+        "id": "fear_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Continuous arcing, flames, smoldering grass, and charring fence are all retained in both paraphrases."
+      },
+      {
+        "id": "fear_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Violent arcing, fire spreading, reaching wall, smoke entering, and line live are all preserved."
+      },
+      {
+        "id": "fear_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about the permission slip, aquarium, safety protocol, and supervision are retained with rephrasing."
+      },
+      {
+        "id": "fear_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Maintenance, possible exhibit closures, and route adjustment are all preserved in both languages."
+      },
+      {
+        "id": "fear_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Crack in viewing panel, panel closed, and children kept away are all retained with only wording changes."
+      },
+      {
+        "id": "fear_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Widened crack, water seepage, restricted main hall, and side galleries are all preserved."
+      },
+      {
+        "id": "fear_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Bowing panel, water near entrance, main hall closed, and group near exit are all retained."
+      },
+      {
+        "id": "fear_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the same people, setting, event, outcome, and low intensity, with only wording changes."
+      },
+      {
+        "id": "fear_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same details and mild concern, only altering phrasing."
+      },
+      {
+        "id": "fear_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases match the original's facts and moderate concern, with synonymous wording."
+      },
+      {
+        "id": "fear_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the same serious findings and recommendation, only rewording."
+      },
+      {
+        "id": "fear_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the critical details and high intensity, with only lexical changes."
+      },
+      {
+        "id": "fear_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same routine refill scenario and neutral tone, only rewording."
+      },
+      {
+        "id": "fear_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the backorder situation and mild concern, with synonymous phrasing."
+      },
+      {
+        "id": "fear_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases match the stock shortage and three-day supply, only altering wording."
+      },
+      {
+        "id": "fear_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the discontinuation and two-day supply, with equivalent phrasing."
+      },
+      {
+        "id": "fear_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the discontinuation, no alternative, and one-day supply, only rewording."
+      },
+      {
+        "id": "fear_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the distant fire, no threat, and calm outcome, with only lexical changes."
+      },
+      {
+        "id": "fear_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the slow-moving fire, minor incident, and wind note, only rewording."
+      },
+      {
+        "id": "fear_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases match the fire entering district, go-bag advice, and moderate concern, with synonymous phrasing."
+      },
+      {
+        "id": "fear_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the approaching fire, voluntary evacuation, and smoke smell, only altering wording."
+      },
+      {
+        "id": "fear_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the fire at property, mandatory evacuation, and blocked road, with equivalent phrasing."
+      },
+      {
+        "id": "fear_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all events and details; wording changes are syntactic and synonymous."
+      },
+      {
+        "id": "fear_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain the same sequence, actions, and level; only vocabulary and structure vary."
+      },
+      {
+        "id": "fear_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Equivalent details: soft pedal, longer stopping, steering to shoulder; language is reworded naturally."
+      },
+      {
+        "id": "fear_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain all facts (pedal nearly to floor, no deceleration, curve); phrasing is paraphrased."
+      },
+      {
+        "id": "fear_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "No facts changed; only synonymic and syntactic adjustments in both languages."
+      },
+      {
+        "id": "fear_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All narrative elements preserved; paraphrases use synonyms and restructured sentences."
+      },
+      {
+        "id": "fear_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events and outcome; wording changed sufficiently in both languages."
+      },
+      {
+        "id": "fear_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve all details including plate touching table; language is reworded."
+      },
+      {
+        "id": "fear_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key facts intact; only synonymous wording and minor structural changes."
+      },
+      {
+        "id": "fear_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain the identical sequence and outcome; phrasing is genuinely reworded."
+      },
+      {
+        "id": "fear_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details match; paraphrases use synonyms and restructured clauses without adding facts."
+      },
+      {
+        "id": "fear_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Equivalent events and system response; language is paraphrased appropriately."
+      },
+      {
+        "id": "fear_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts preserved; both paraphrases adjust wording and sentence structure without meaning change."
+      },
+      {
+        "id": "fear_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events and signals; paraphrases are natural rewordings with no additions or omissions."
+      },
+      {
+        "id": "fear_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details including forced entry message are preserved; wording is paraphrased in both languages."
+      },
+      {
+        "id": "fear_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts and details, with only minor wording changes."
+      },
+      {
+        "id": "fear_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same events and outcome, with only slight rewording."
+      },
+      {
+        "id": "fear_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the same facts and intensity, with minor phrasing changes."
+      },
+      {
+        "id": "fear_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases are nearly identical in content, with only trivial wording differences."
+      },
+      {
+        "id": "fear_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details and intensity, with minimal rewording."
+      },
+      {
+        "id": "fear_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the same setting, events, and outcome, with natural rewording."
+      },
+      {
+        "id": "fear_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same facts and progression, with appropriate rewording."
+      },
+      {
+        "id": "fear_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the same details and intensity, with clear rewording."
+      },
+      {
+        "id": "fear_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain all key facts and the escalating situation, with rewording."
+      },
+      {
+        "id": "fear_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the same sequence and outcome, with natural rewording."
+      },
+      {
+        "id": "fear_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same events and resolution, with appropriate rewording."
+      },
+      {
+        "id": "fear_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the same facts and outcome, with clear rewording."
+      },
+      {
+        "id": "fear_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the same details and consequences, with rewording."
+      },
+      {
+        "id": "fear_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the same facts and escalation, with natural rewording."
+      },
+      {
+        "id": "fear_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same events and outcome, with appropriate rewording."
+      },
+      {
+        "id": "happiness_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the rejection outcome and details without adding or omitting facts."
+      },
+      {
+        "id": "happiness_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Waitlist outcome and future contact condition are maintained in both languages."
+      },
+      {
+        "id": "happiness_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Job offer, start date, and email delivery are preserved with reworded phrasing."
+      },
+      {
+        "id": "happiness_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Higher title, office, team, and start date are all retained in both paraphrases."
+      },
+      {
+        "id": "happiness_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Executive role, multi-year term, assistant, authority, and former supervisor reporting are preserved."
+      },
+      {
+        "id": "happiness_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Wallet not found and leaving without it are consistent in both languages."
+      },
+      {
+        "id": "happiness_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Finding wallet in lost items bin with cards and cash is preserved."
+      },
+      {
+        "id": "happiness_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Wallet returned intact from behind counter with all contents is maintained."
+      },
+      {
+        "id": "happiness_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Customer turned in wallet with note wishing good day is preserved."
+      },
+      {
+        "id": "happiness_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Regular customer found wallet, left number, and free coffee offered are all retained."
+      },
+      {
+        "id": "happiness_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Normal results, no follow-up, and leaving clinic are consistent."
+      },
+      {
+        "id": "happiness_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Previously flagged marker now normal and concern resolved are preserved."
+      },
+      {
+        "id": "happiness_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All values normal, marker returned to normal, and filing report are retained."
+      },
+      {
+        "id": "happiness_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Better overall health and folding report into coat pocket are preserved."
+      },
+      {
+        "id": "happiness_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Best results among patients and leaving report on counter are maintained."
+      },
+      {
+        "id": "happiness_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details (Tuesday morning, kitchen counter, silent phone, news notification, routine) with only synonymous wording changes."
+      },
+      {
+        "id": "happiness_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the friend's message mentioning the date, the reading, and placing the phone back, with minor lexical substitutions."
+      },
+      {
+        "id": "happiness_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the photo of a shared event, birthday note, viewing, and locking the phone, with equivalent wording."
+      },
+      {
+        "id": "happiness_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the friend's note about meeting later, birthday celebration, and saving the message, with no added details."
+      },
+      {
+        "id": "happiness_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the photo, meeting note, gift confirmation, delivery on birthday, and archiving, with synonymous changes."
+      },
+      {
+        "id": "happiness_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the crowded downtown, full signs, circling, and continued search, with equivalent phrasing."
+      },
+      {
+        "id": "happiness_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the car pulling out, the other car taking the spot, and continuing, with no factual changes."
+      },
+      {
+        "id": "happiness_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep finding the spot, signaling, fitting within lines, and exiting, with minor wording differences."
+      },
+      {
+        "id": "happiness_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the space in front of the building, wide spot, parking, locking, and walking to entrance."
+      },
+      {
+        "id": "happiness_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the reserved spot, private garage, no time limit, and parking, with equivalent wording."
+      },
+      {
+        "id": "happiness_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the envelope, community event notice, registration, and placing on table, with synonymous changes."
+      },
+      {
+        "id": "happiness_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the acquaintance's note, address change, new phone number, and folded paper, with no additions."
+      },
+      {
+        "id": "happiness_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the former colleague's letter, career update, reconnection interest, two pages, and coffee invitation."
+      },
+      {
+        "id": "happiness_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the friend returning permanently, job secured, moving date, and help request, with equivalent wording."
+      },
+      {
+        "id": "happiness_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the presumed-lost family member, safe arrival tomorrow, specific time, and unlocked door request."
+      },
+      {
+        "id": "happiness_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the farmer, field, dawn inspection, pest damage, wilted stems, low quality, and limited yield without adding or omitting facts."
+      },
+      {
+        "id": "happiness_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the intact vegetables, no pests, green firm leaves, basic size, and planned harvest, with only wording changes."
+      },
+      {
+        "id": "happiness_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain uniform size/color, crisp texture, above-market quality, premium price, and crate preparation."
+      },
+      {
+        "id": "happiness_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve exceptional size, vibrant flawless appearance, comparable to best neighboring produce, buyer interest, and immediate delivery."
+      },
+      {
+        "id": "happiness_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the finest-ever produce, perfect shape, deep color, regional showcase, and top-tier supply contract."
+      },
+      {
+        "id": "happiness_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the upgrade offer not applying, original seat, and normal check-in continuation."
+      },
+      {
+        "id": "happiness_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same-cabin extra-legroom seat assignment, reprinted boarding pass, and proceeding to security."
+      },
+      {
+        "id": "happiness_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the premium economy upgrade, new boarding pass indicating cabin, and updated meal selection."
+      },
+      {
+        "id": "happiness_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the business class upgrade, reprinted pass, and added lounge access."
+      },
+      {
+        "id": "happiness_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the complimentary first-class upgrade, priority boarding, full lounge access, and priority baggage tag."
+      },
+      {
+        "id": "happiness_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the routine commute, unrecognized song, commercial break, uneventful drive, and usual arrival time."
+      },
+      {
+        "id": "happiness_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the remembered song from years ago, familiar melody, switch to news, and unchanged drive."
+      },
+      {
+        "id": "happiness_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the past-summer favorite song, uninterrupted chorus, same-era next song, and smooth drive."
+      },
+      {
+        "id": "happiness_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the long-unheard song with known lyrics, no ads, same-era favorite next, and green lights."
+      },
+      {
+        "id": "happiness_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the all-time favorite live version, hour dedication, full tank, and clear road to parking lot."
+      },
+      {
+        "id": "happiness_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all events, characters, and outcome; only wording and sentence structure changed."
+      },
+      {
+        "id": "happiness_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details including dialogue and door action are preserved; paraphrases are genuine rewordings."
+      },
+      {
+        "id": "happiness_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same action of neighbor carrying a small box and placing it near wall; only synonyms and structure changed."
+      },
+      {
+        "id": "happiness_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Heaviest box taken, carried upstairs, placed in living room center; all preserved with minor wording changes."
+      },
+      {
+        "id": "happiness_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Hand truck, loading all boxes, stacking neatly, returning truck all preserved; paraphrases are reworded."
+      },
+      {
+        "id": "happiness_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Rain ruins picnic, basket stays by door, park empty; all key facts and outcome unchanged."
+      },
+      {
+        "id": "happiness_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Rain stops at gate, wet ground, sun peeks, blanket on dry bench; all preserved with rephrasing."
+      },
+      {
+        "id": "happiness_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Rain stops ten minutes before arrival, dry grass, blanket under tree, sun warms; all intact."
+      },
+      {
+        "id": "happiness_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Rain stops at departure, clear sky, sunny park, spot near pond, warm dry grass; all preserved."
+      },
+      {
+        "id": "happiness_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Rain stops at step out, rainbow, dry bright park, view of flowers, uninterrupted picnic; all intact."
+      },
+      {
+        "id": "happiness_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Stranger says nothing, line moves, person pays and leaves; all details preserved with rephrasing."
+      },
+      {
+        "id": "happiness_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Compliment about apples, nod, stranger returns to phone, purchase completed; all preserved."
+      },
+      {
+        "id": "happiness_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Compliment and added remark about always getting those apples; all dialogue and actions preserved."
+      },
+      {
+        "id": "happiness_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Compliment on taste, recognition from before, fresh items comment; all preserved with rephrasing."
+      },
+      {
+        "id": "happiness_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sharp eye for quality, watched before, trust to pick; all dialogue and actions preserved."
+      },
+      {
+        "id": "happiness_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All paraphrases preserve the unchanged deadline, requirements, and evening routine; only wording varies."
+      },
+      {
+        "id": "happiness_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both languages keep the postponed deadline, weekend availability, and review action; wording is rephrased."
+      },
+      {
+        "id": "happiness_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain the much later deadline, holiday timing, and multi-week scheduling; no facts altered."
+      },
+      {
+        "id": "happiness_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The far later deadline, season change, steady pace, and unchanged commitments are all preserved."
+      },
+      {
+        "id": "happiness_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Distant future deadline, annual cycles, setting aside, and revisiting later are kept in both languages."
+      },
+      {
+        "id": "happiness_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same customer, café, shortage, alternative blend, and routine; only wording differs."
+      },
+      {
+        "id": "happiness_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Preferred blend just delivered, grinding, and original blend preparation are all preserved."
+      },
+      {
+        "id": "happiness_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Note about restock, preferred blend drink, and free biscuit are retained in both paraphrases."
+      },
+      {
+        "id": "happiness_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "New shipment, free first cup, and voucher for next visit are all kept; wording rephrased."
+      },
+      {
+        "id": "happiness_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Restock, naming blend after customer, first cup, and card are preserved in both languages."
+      },
+      {
+        "id": "happiness_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Gurgle, no speech, toy handover, and calm room are all retained; only wording varies."
+      },
+      {
+        "id": "happiness_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Clear vowel 'ah', parent echo, child repeat, and no further sound are all preserved."
+      },
+      {
+        "id": "happiness_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "'ba' utterances, pointing, toy handover, and final 'ba' are kept in both paraphrases."
+      },
+      {
+        "id": "happiness_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "'mama' sequence, parent echo, double repeat, and nod are all preserved."
+      },
+      {
+        "id": "happiness_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "'mama' and 'baba' sequence, repeats, and toy interaction are all retained; wording rephrased."
+      },
+      {
+        "id": "happiness_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, causal relations, and intensity level with only synonymic and structural changes."
+      },
+      {
+        "id": "happiness_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details match; paraphrases use equivalent wording and structure without adding or omitting information."
+      },
+      {
+        "id": "happiness_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events and outcomes; paraphrases are natural rewordings with no factual changes."
+      },
+      {
+        "id": "happiness_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements preserved; paraphrases use synonyms and slight structural variation without altering meaning."
+      },
+      {
+        "id": "happiness_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Full preservation of details; paraphrases are genuine rewordings with no additions or omissions."
+      },
+      {
+        "id": "happiness_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts and causal relations match; paraphrases use different wording and structure without changing content."
+      },
+      {
+        "id": "happiness_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events and outcomes; paraphrases are faithful rewordings with no factual differences."
+      },
+      {
+        "id": "happiness_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details preserved; paraphrases use equivalent expressions and maintain the same intensity."
+      },
+      {
+        "id": "happiness_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "No factual changes; paraphrases are natural rewordings with consistent meaning."
+      },
+      {
+        "id": "happiness_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match; paraphrases use synonyms and structural changes without altering content."
+      },
+      {
+        "id": "happiness_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same sequence of events and outcome; paraphrases are faithful rewordings with no additions or omissions."
+      },
+      {
+        "id": "happiness_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details preserved; paraphrases use equivalent wording and structure without changing meaning."
+      },
+      {
+        "id": "happiness_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same events and outcomes; paraphrases are genuine rewordings with no factual changes."
+      },
+      {
+        "id": "happiness_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match; paraphrases use synonyms and structural variation without altering content."
+      },
+      {
+        "id": "happiness_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Full preservation of details; paraphrases are faithful rewordings with no additions or omissions."
+      },
+      {
+        "id": "happiness_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, events, and outcome; only wording and sentence structure changed."
+      },
+      {
+        "id": "happiness_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the same details and sequence; only minor wording changes."
+      },
+      {
+        "id": "happiness_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep all key facts and outcome; wording is varied sufficiently."
+      },
+      {
+        "id": "happiness_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the note, margin notes, and borrowing; only wording changed."
+      },
+      {
+        "id": "happiness_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain inscription, display, and borrowing; wording is rephrased."
+      },
+      {
+        "id": "happiness_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep incomplete repair and taking shoes home; only wording changed."
+      },
+      {
+        "id": "happiness_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve new sole, re-stitched seams, and handover; wording varied."
+      },
+      {
+        "id": "happiness_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain all details including conditioner; only wording changed."
+      },
+      {
+        "id": "happiness_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve full restoration and free laces; wording is rephrased."
+      },
+      {
+        "id": "happiness_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep all upgrades and complimentary note; only wording changed."
+      },
+      {
+        "id": "sadness_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the neutral library transaction, due date stamping, and book availability without adding or removing facts."
+      },
+      {
+        "id": "sadness_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the overdue status, fine, and departure, with only synonymous wording changes."
+      },
+      {
+        "id": "sadness_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the book being withdrawn from collection and the person leaving without it, with no factual changes."
+      },
+      {
+        "id": "sadness_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the lost book declaration, system removal, and closed borrowing record, with only wording differences."
+      },
+      {
+        "id": "sadness_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the unique archival copy, no other copies, and permanent disposal bin, without altering details."
+      },
+      {
+        "id": "sadness_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the neutral gym renewal, receipt, and normal operations, with only synonymous phrasing."
+      },
+      {
+        "id": "sadness_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the locker reassignment, new section, and different key card number, with no factual changes."
+      },
+      {
+        "id": "sadness_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the removed class time, class no longer offered, and instructor departure, with only wording changes."
+      },
+      {
+        "id": "sadness_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the two-week closure, several-month duration, paused memberships, and nonfunctional access card."
+      },
+      {
+        "id": "sadness_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain permanent closure, building sale, membership end, and no refunds, with only synonymous phrasing."
+      },
+      {
+        "id": "sadness_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts and neutral tone with only syntactic and lexical changes."
+      },
+      {
+        "id": "sadness_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the nine-stamp detail and outcome, with rephrasing only."
+      },
+      {
+        "id": "sadness_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the full tenth slot and back-stamp event, with equivalent rewording."
+      },
+      {
+        "id": "sadness_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both maintain the separate slip and card placement, with only structural changes."
+      },
+      {
+        "id": "sadness_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the full card, no new stamp, and system-only recording, with rephrasing."
+      },
+      {
+        "id": "sadness_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the lease, plant, and unchanged apartment, with only wording changes."
+      },
+      {
+        "id": "sadness_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the two-week overlap and double rent, with equivalent rephrasing."
+      },
+      {
+        "id": "sadness_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the structural issue, uninhabitable status, and lease validity, with rewording."
+      },
+      {
+        "id": "sadness_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the invalid lease, 30-day vacate, and deposit return, with only phrasing changes."
+      },
+      {
+        "id": "sadness_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the demolition, two-week notice, and no compensation, with rewording."
+      },
+      {
+        "id": "sadness_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the successful transfer and drawer storage, with only syntactic changes."
+      },
+      {
+        "id": "sadness_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the missing entries, no backup, and recycling, with rephrasing."
+      },
+      {
+        "id": "sadness_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep many missing entries and permanent loss, with equivalent rewording."
+      },
+      {
+        "id": "sadness_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both preserve the sparse list and unrecovered entries, with only wording changes."
+      },
+      {
+        "id": "sadness_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both keep the empty list and permanent loss, with rephrasing only."
+      },
+      {
+        "id": "sadness_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements (setting, actions, outcome) preserved; wording changes are synonymous."
+      },
+      {
+        "id": "sadness_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same details including smaller apples; paraphrases use equivalent expressions."
+      },
+      {
+        "id": "sadness_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Bruised and soft apples preserved; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "sadness_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Spoiled apples and unusable condition kept; wording varies appropriately."
+      },
+      {
+        "id": "sadness_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Missing apples and empty bag preserved; paraphrases are equivalent."
+      },
+      {
+        "id": "sadness_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Garden plot registration and successful harvest unchanged; paraphrases reworded."
+      },
+      {
+        "id": "sadness_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Compacted soil and water pooling kept; paraphrases use synonyms."
+      },
+      {
+        "id": "sadness_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Path through center and limited strips preserved; paraphrases faithful."
+      },
+      {
+        "id": "sadness_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Shed over most of plot and narrow border kept; paraphrases reworded."
+      },
+      {
+        "id": "sadness_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Concrete covering and key return preserved; paraphrases equivalent."
+      },
+      {
+        "id": "sadness_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "On-time departure and boarding unchanged; paraphrases reworded."
+      },
+      {
+        "id": "sadness_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Short delay and later arrival kept; paraphrases use synonyms."
+      },
+      {
+        "id": "sadness_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Cancellation, return home, refund preserved; paraphrases faithful."
+      },
+      {
+        "id": "sadness_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Permanent cancellation and sign removal kept; paraphrases reworded."
+      },
+      {
+        "id": "sadness_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Destination no longer served and plans impossible preserved; paraphrases equivalent."
+      },
+      {
+        "id": "sadness_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, events, and neutral tone with only synonymous wording changes."
+      },
+      {
+        "id": "sadness_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the handwritten note, its content, and the action of keeping it, with only lexical substitutions."
+      },
+      {
+        "id": "sadness_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the inscription, bookmark, and all details without adding or omitting facts."
+      },
+      {
+        "id": "sadness_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the two handwritings, dates, growing apart, and unfinished note, with only wording changes."
+      },
+      {
+        "id": "sadness_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the pressed flower, farewell message, departure, and sale table, with no factual changes."
+      },
+      {
+        "id": "sadness_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the plant, watering routine, and neutral outcome with only synonymous rewording."
+      },
+      {
+        "id": "sadness_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the spill, drops on leaves, healthy plant, and wiping action without adding details."
+      },
+      {
+        "id": "sadness_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the crack, leak, dry soil, and drooping leaves with only wording changes."
+      },
+      {
+        "id": "sadness_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain root rot, water pooling, yellow leaves, and soft stem without altering facts."
+      },
+      {
+        "id": "sadness_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the dead plant, brown leaves, broken stem, dry soil, and staring action with no changes."
+      },
+      {
+        "id": "sadness_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the maintenance closure, unchanged hours, and normal operation with only rewording."
+      },
+      {
+        "id": "sadness_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain permanent closure, full shelves, customers, and confirmed date without additions."
+      },
+      {
+        "id": "sadness_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep retirement, no successor, equipment sale, and building rental with only wording changes."
+      },
+      {
+        "id": "sadness_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve health decline, care facility, discarded recipes, and demolition without altering facts."
+      },
+      {
+        "id": "sadness_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain owner's death, family not continuing, stripping interior, and storage conversion with no changes."
+      },
+      {
+        "id": "sadness_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details (for-sale sign, well-kept house, quiet street, stop and continue, agency, same family, mistake removed) with only wording changes."
+      },
+      {
+        "id": "sadness_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the elderly couple, moving to smaller place, quick sale, and all setting/event details; only synonyms and sentence restructuring."
+      },
+      {
+        "id": "sadness_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain parents as owners, retirement community in another state, sale to strangers, and no return; wording changes only."
+      },
+      {
+        "id": "sadness_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve bank foreclosure, unpaid taxes, auction to highest bidder, and no reclaim rights; only lexical variation."
+      },
+      {
+        "id": "sadness_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep demolition company, next-month demolition, parking lot, and complete destruction; no factual changes."
+      },
+      {
+        "id": "sadness_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve invitation details, free date, same city, acceptance, attendance, greeting, meal, and smooth event; only wording changes."
+      },
+      {
+        "id": "sadness_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep venue change to another city, inability to attend due to distance, and unusable invitation; no added or removed facts."
+      },
+      {
+        "id": "sadness_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain ceremony, immediate departure of couple, and no chance to speak; only synonym and structure changes."
+      },
+      {
+        "id": "sadness_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve permanent move abroad and never seeing them again; no factual differences."
+      },
+      {
+        "id": "sadness_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep permanent move announcement and friend's death in accident after reception; all details intact."
+      },
+      {
+        "id": "sadness_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve quiet Sunday, alone, TV on, final episode, tidy room, remote, usual length, routine ending, montage, credits, and regular schedule."
+      },
+      {
+        "id": "sadness_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep move to new town for job, one suitcase, empty hallway, and skyline credits; only wording changes."
+      },
+      {
+        "id": "sadness_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain friend moving abroad permanently, boarding plane, plane into clouds, and empty departure gate; no factual changes."
+      },
+      {
+        "id": "sadness_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve partner ending relationship, leaving with belongings, closed front door, and quiet living room; only synonyms."
+      },
+      {
+        "id": "sadness_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep parent's death after brief illness, closed casket, standing alone at gravesite, and cemetery gate; all details intact."
+      },
+      {
+        "id": "sadness_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details preserved in both languages; wording changes are synonymous."
+      },
+      {
+        "id": "sadness_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same content; paraphrases use equivalent expressions."
+      },
+      {
+        "id": "sadness_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "No factual changes; only lexical and syntactic variation."
+      },
+      {
+        "id": "sadness_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match; paraphrases are natural and equivalent."
+      },
+      {
+        "id": "sadness_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Additional detail about personal email is present in both original and paraphrase."
+      },
+      {
+        "id": "sadness_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same facts; paraphrases rephrase without altering meaning."
+      },
+      {
+        "id": "sadness_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details preserved; wording changes are synonymous."
+      },
+      {
+        "id": "sadness_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "No changes in facts; paraphrases are equivalent."
+      },
+      {
+        "id": "sadness_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same content; paraphrases use different but equivalent expressions."
+      },
+      {
+        "id": "sadness_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "sadness_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same details; paraphrases are natural and equivalent."
+      },
+      {
+        "id": "sadness_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "No factual changes; paraphrases rephrase without altering meaning."
+      },
+      {
+        "id": "sadness_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details preserved; wording changes are synonymous."
+      },
+      {
+        "id": "sadness_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same content; paraphrases use equivalent expressions."
+      },
+      {
+        "id": "sadness_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All elements match; paraphrases are faithful and reworded."
+      },
+      {
+        "id": "sadness_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All paraphrases preserve facts, causal relations, and appraisal; wording changes are genuine."
+      },
+      {
+        "id": "sadness_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain same details and intensity; only sentence structure and synonyms changed."
+      },
+      {
+        "id": "sadness_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key facts and appraisal preserved; paraphrases are reworded sufficiently."
+      },
+      {
+        "id": "sadness_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same people, setting, events, and intensity; wording changes are natural."
+      },
+      {
+        "id": "sadness_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve all consequential facts and appraisal; rephrasing is adequate."
+      },
+      {
+        "id": "sadness_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details and appraisal match; paraphrases are genuine rewordings."
+      },
+      {
+        "id": "sadness_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same facts and causal relations; wording changes are appropriate."
+      },
+      {
+        "id": "sadness_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve all key details and appraisal; rephrasing is sufficient."
+      },
+      {
+        "id": "sadness_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same people, events, and intensity; paraphrases are natural rewordings."
+      },
+      {
+        "id": "sadness_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All facts and appraisal preserved; wording changes are genuine."
+      },
+      {
+        "id": "sadness_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain same details and appraisal; rephrasing is adequate."
+      },
+      {
+        "id": "sadness_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same facts and causal relations; paraphrases are sufficiently reworded."
+      },
+      {
+        "id": "sadness_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key details and intensity preserved; wording changes are natural."
+      },
+      {
+        "id": "sadness_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases preserve all consequential facts and appraisal; rephrasing is genuine."
+      },
+      {
+        "id": "sadness_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same people, setting, events, and intensity; paraphrases are adequate rewordings."
+      },
+      {
+        "id": "surprise_T01_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve fine amount, payment, and sequence; wording varied."
+      },
+      {
+        "id": "surprise_T01_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep misread date and no fine; only wording changed."
+      },
+      {
+        "id": "surprise_T01_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain already-returned fact and update; wording is rephrased."
+      },
+      {
+        "id": "surprise_T01_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve catalog mismatch and different edition; wording varied."
+      },
+      {
+        "id": "surprise_T01_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep no record and foreign stamp; only wording changed."
+      },
+      {
+        "id": "surprise_T02_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve routine, route, timing, and outcome with only synonymic changes."
+      },
+      {
+        "id": "surprise_T02_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep the detour, rejoin, and unchanged arrival time; wording varies slightly."
+      },
+      {
+        "id": "surprise_T02_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Same side-street detour, shops, return, and added minutes; only minor lexical changes."
+      },
+      {
+        "id": "surprise_T02_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All route details, bridge, residential area, and return are preserved; wording is near-identical but acceptable."
+      },
+      {
+        "id": "surprise_T02_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Highway, airport, terminal, and no-return outcome are intact; only synonyms differ."
+      },
+      {
+        "id": "surprise_T03_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Black coffee, usual lid, size, design, and silence are all preserved; wording paraphrased."
+      },
+      {
+        "id": "surprise_T03_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Different lid color and napkin addition are kept; sentence structure varies."
+      },
+      {
+        "id": "surprise_T03_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "New design, unfamiliar pattern, and supplier statement are unchanged; wording rephrased."
+      },
+      {
+        "id": "surprise_T03_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Larger cup and upgrade comment are preserved; only synonyms and minor structure changes."
+      },
+      {
+        "id": "surprise_T03_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Heat-reactive material and barista's explanation remain; wording is paraphrased."
+      },
+      {
+        "id": "surprise_T04_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Mailbox contents and actions are identical; only synonyms and phrasing differ."
+      },
+      {
+        "id": "surprise_T04_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Single postcard, park picture, and no return address are all preserved; wording varies."
+      },
+      {
+        "id": "surprise_T04_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Unmarked box, string, and lack of labels are intact; only minor lexical changes."
+      },
+      {
+        "id": "surprise_T04_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Sealed envelope, handwritten name, and future date are unchanged; wording rephrased."
+      },
+      {
+        "id": "surprise_T04_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Glass jar, rolled note, and unknown language are preserved; only synonyms differ."
+      },
+      {
+        "id": "surprise_T05_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both describe same shopper, setting, action, outcome, no added facts; Chinese original and paraphrase also match exactly in content and wording variation."
+      },
+      {
+        "id": "surprise_T05_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All four versions preserve same people, setting, event, outcome (different cereal, put back, choose another), no extra facts or emotion labels; paraphrases reword naturally."
+      },
+      {
+        "id": "surprise_T05_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English and Chinese originals and paraphrases all match in details: same box size/color, new label/logo, different brand, no usual brand found; no additions or omissions."
+      },
+      {
+        "id": "surprise_T05_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All versions consistently include blank label with barcode, note with address/date; no extra facts or emotion terms; paraphrases reword sufficiently."
+      },
+      {
+        "id": "surprise_T05_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both mention photo of kitchen and key; Chinese original and paraphrase also match exactly; no added details or emotion labels."
+      },
+      {
+        "id": "surprise_T06_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both describe routine meeting with same agenda items, no unexpected events; Chinese original and paraphrase also match in content and flow."
+      },
+      {
+        "id": "surprise_T06_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both include meeting as usual until final item, new date announced, employee notes it; Chinese original and paraphrase also match exactly in details."
+      },
+      {
+        "id": "surprise_T06_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both include new agenda item about reporting structure, discussion continues; Chinese original and paraphrase also match in all key facts."
+      },
+      {
+        "id": "surprise_T06_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both have meeting cancelled mid-sentence, follow-up email with instructions; Chinese original and paraphrase also match exactly in sequence and details."
+      },
+      {
+        "id": "surprise_T06_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both describe meeting as usual until leader opens envelope, announces relocation, meeting ends; Chinese original and paraphrase also match in all details."
+      },
+      {
+        "id": "surprise_T07_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both describe traveler waiting, train arrives on time, no changes; Chinese original and paraphrase also match in content and outcome."
+      },
+      {
+        "id": "surprise_T07_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both have train being slow with many stops, longer journey; Chinese original and paraphrase also match in all details."
+      },
+      {
+        "id": "surprise_T07_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both have train going opposite direction, traveler boards anyway; Chinese original and paraphrase also match in all key facts."
+      },
+      {
+        "id": "surprise_T07_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both have train passing without stopping, traveler stays; Chinese original and paraphrase also match in all details."
+      },
+      {
+        "id": "surprise_T07_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English original and paraphrase both have train cancelled, no replacement, traveler stays; Chinese original and paraphrase also match in all details."
+      },
+      {
+        "id": "surprise_T08_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "English paraphrase preserves all details and events with synonyms and restructured sentences; Chinese paraphrase also faithful and reworded."
+      },
+      {
+        "id": "surprise_T08_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases match originals in content and vary wording: 'middle' for 'center', 'dining area' for 'dining room', etc."
+      },
+      {
+        "id": "surprise_T08_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain same elements (private room, stage, microphone) with minor synonymous changes; Chinese mirrors original closely but still reworded."
+      },
+      {
+        "id": "surprise_T08_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All key details (rooftop, candles, quartet) preserved in both paraphrases; wording altered sufficiently in both languages."
+      },
+      {
+        "id": "surprise_T08_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases keep kitchen setting, chefs, head chef, silver cloche; English rephrases, Chinese uses alternative sentence structures."
+      },
+      {
+        "id": "surprise_T09_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain empty spot and normalcy; wording changed with synonyms and restructured phrases in both languages."
+      },
+      {
+        "id": "surprise_T09_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All significant details (occupied spot, need to find another) preserved; English and Chinese paraphrases reworded adequately."
+      },
+      {
+        "id": "surprise_T09_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases retain reserved sign and barrier; English uses 'count on', Chinese restructures sentence, both faithful."
+      },
+      {
+        "id": "surprise_T09_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "License plate detail and empty spot preserved; paraphrases vary sentence structure and word choice in both languages."
+      },
+      {
+        "id": "surprise_T09_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Concrete wall substitution covered exactly; both paraphrases express same anomaly with different wording in each language."
+      },
+      {
+        "id": "surprise_T10_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Routine call details (date of birth, verification complete) preserved; paraphrases use synonyms and restructure sentences."
+      },
+      {
+        "id": "surprise_T10_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Privacy policy update and no further action kept; English and Chinese paraphrases reword with equivalent phrases."
+      },
+      {
+        "id": "surprise_T10_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Branch closure and specific service window details preserved; both paraphrases vary wording appropriately."
+      },
+      {
+        "id": "surprise_T10_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Merger and new account number unique details intact; paraphrases restructure sentences and use analogous vocabulary."
+      },
+      {
+        "id": "surprise_T10_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Foreign acquisition, rebranding, museum conversion, online only all preserved; both paraphrases reword while retaining content."
+      },
+      {
+        "id": "surprise_T11_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, causal relations, and neutral appraisal; wording is naturally varied without adding or omitting details."
+      },
+      {
+        "id": "surprise_T11_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the same minor deviation (thin clouds), temperature outcome, and no-impact commute; reworded sufficiently."
+      },
+      {
+        "id": "surprise_T11_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the overcast sky, light drizzle, damp ground, and slight commute delay; no facts added or removed."
+      },
+      {
+        "id": "surprise_T11_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the sudden downpour, one-hour duration, temperature drop, flooding, and bus diversion; reworded naturally."
+      },
+      {
+        "id": "surprise_T11_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the hailstorm, golf-ball-sized stones, rapid temperature plunge, and impassable roads; no details altered."
+      },
+      {
+        "id": "surprise_T12_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same yoga class, studio, schedule, and unchanged content; wording is varied without changing facts."
+      },
+      {
+        "id": "surprise_T12_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the different studio on same floor, windows, and unchanged class content; no extra details."
+      },
+      {
+        "id": "surprise_T12_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the replacement by meditation, seated breathing, and absence of yoga poses; reworded adequately."
+      },
+      {
+        "id": "surprise_T12_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the swimming lesson in pool, swimwear, water entry, and stroke demonstration; no facts changed."
+      },
+      {
+        "id": "surprise_T12_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the cooking workshop in cafeteria, aprons, ingredients, and recipe demonstration; reworded naturally."
+      },
+      {
+        "id": "surprise_T13_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the exact item, color, size, packaging match, and complete order; no details added or removed."
+      },
+      {
+        "id": "surprise_T13_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the different brand logo on packaging, identical item, and undamaged box; reworded sufficiently."
+      },
+      {
+        "id": "surprise_T13_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the different product line, different name, extra manual, and unmentioned version; no facts altered."
+      },
+      {
+        "id": "surprise_T13_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the unrelated item, correct label, and sealed packaging; reworded naturally without changes."
+      },
+      {
+        "id": "surprise_T13_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases maintain the sealed container, note about replacement, printed undated note, and no tampering; reworded adequately."
+      },
+      {
+        "id": "surprise_T14_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, people, setting, event, outcome, and intensity level with only synonymic and structural changes."
+      },
+      {
+        "id": "surprise_T14_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Paraphrases maintain the same blood pressure finding, advice, and follow-up timing; wording changes are ordinary and non-substantive."
+      },
+      {
+        "id": "surprise_T14_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details about the new marker, benign explanation, and two-week repeat test are preserved; only synonyms and sentence structure vary."
+      },
+      {
+        "id": "surprise_T14_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The imaging finding, non-threatening status, and referral for next week are unchanged; paraphrases use equivalent wording."
+      },
+      {
+        "id": "surprise_T14_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The rare variant, lack of family/database record, no health impact, and specialist consultation are all preserved with minor rewording."
+      },
+      {
+        "id": "surprise_T15_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the same pickup scenario, child exiting with classmates, and departure; only wording and structure differ."
+      },
+      {
+        "id": "surprise_T15_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The child alone with paper bag and teacher's note about schedule change are preserved; changes are purely lexical and syntactic."
+      },
+      {
+        "id": "surprise_T15_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The different uniform, neighboring school, no explanation, and emblem details are all retained; only wording varies."
+      },
+      {
+        "id": "surprise_T15_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The dog on leash, jumping into car, and sitting beside child are unchanged; paraphrases use equivalent expressions."
+      },
+      {
+        "id": "surprise_T15_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The pony riding, trotting, stopping, and child dismounting are all preserved; only minor wording differences exist."
+      },
+      {
+        "id": "surprise_T16_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The film opening matching trailer, café scene, and dialogue are all retained; paraphrases are genuine rewordings."
+      },
+      {
+        "id": "surprise_T16_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The different café name, tea instead of coffee, and same rest of scene are preserved; changes are non-substantive."
+      },
+      {
+        "id": "surprise_T16_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The absent protagonist, different character, empty chair, and street cut are all unchanged; only wording varies."
+      },
+      {
+        "id": "surprise_T16_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The unseen scene, train station, suitcase, and poster detail are all preserved; paraphrases are equivalent."
+      },
+      {
+        "id": "surprise_T16_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "The blank screen, cancellation title, blackout, and lights coming up are all retained; only minor wording changes."
+      },
+      {
+        "id": "surprise_T17_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all details (hotel, floor, room type, furniture, Wi-Fi) with only wording changes."
+      },
+      {
+        "id": "surprise_T17_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the two queen beds, identical layout, fresh linens, and room number match."
+      },
+      {
+        "id": "surprise_T17_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the suite features (living area, kitchenette, balcony, archway, dining table) and room number."
+      },
+      {
+        "id": "surprise_T17_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the penthouse details (two-story, spiral staircase, piano, windows, sauna, rooftop elevator)."
+      },
+      {
+        "id": "surprise_T17_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the villa features (pool, garden, helipad, cinema, wine cellar, staff quarters, key card functions)."
+      },
+      {
+        "id": "surprise_T18_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the receptionist call, meeting delay, and waiting for next call."
+      },
+      {
+        "id": "surprise_T18_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the interviewer's message about no further interviews and closed process."
+      },
+      {
+        "id": "surprise_T18_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the cancellation of all interviews and indefinite hold."
+      },
+      {
+        "id": "surprise_T18_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the permanent discontinuation of all hiring."
+      },
+      {
+        "id": "surprise_T18_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the company's dissolution as a legal entity and permanent shutdown."
+      },
+      {
+        "id": "surprise_T19_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the unchanged street, parked cars, and no alterations."
+      },
+      {
+        "id": "surprise_T19_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the single orange cone and easy detour, with no other changes."
+      },
+      {
+        "id": "surprise_T19_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases retain the sawhorse blockage and passable opposite lane."
+      },
+      {
+        "id": "surprise_T19_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve the full-width concrete barrier with no gap."
+      },
+      {
+        "id": "surprise_T19_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases keep the pond replacing the road with ducks, and unchanged surroundings."
+      },
+      {
+        "id": "surprise_T20_L0",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Both paraphrases preserve all facts, setting, and outcome with only minor wording changes."
+      },
+      {
+        "id": "surprise_T20_L1",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "All details (extra issue, same date, note) are retained; wording is slightly varied."
+      },
+      {
+        "id": "surprise_T20_L2",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Language change and note are preserved; only phrasing differs."
+      },
+      {
+        "id": "surprise_T20_L3",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Topic area change and editorial focus note are intact; wording is paraphrased."
+      },
+      {
+        "id": "surprise_T20_L4",
+        "en_faithful": true,
+        "en_reworded": true,
+        "zh_faithful": true,
+        "zh_reworded": true,
+        "pass": true,
+        "reason": "Medium change and delivery format note are preserved; minor wording variations."
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": "olmo3_emotion_crosslingual_steering_v1",
+  "model": "allenai/Olmo-3-7B-Instruct",
+  "layer": 24,
+  "block_index": 23,
+  "position": "assistant_only_final_boundary_and_every_decode_token",
+  "prompt_languages": [
+    "en",
+    "zh"
+  ],
+  "vector_languages": [
+    "en",
+    "zh"
+  ],
+  "emotions": [
+    "happiness",
+    "surprise",
+    "fear",
+    "disgust",
+    "anger",
+    "sadness"
+  ],
+  "alpha": [
+    -0.5,
+    0,
+    0.5
+  ],
+  "neutral_tasks": 12,
+  "total_responses": 600,
+  "formula": "h_new = h + alpha * fixed_norm * unit_emotion_vector",
+  "fixed_norm": 35.4885577140482,
+  "delta_norm": 17.7442788570241,
+  "scaling_note": "The same fixed norm is used for both vector languages and both prompt languages.",
+  "decoding": "greedy",
+  "max_new_tokens": 320,
+  "tasks": [
+    {
+      "task_id": "desk",
+      "prompt_en": "You have finished your work for the afternoon. Several ordinary papers and pens remain on your desk, and you have no urgent plans. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你已经完成了下午的工作。桌上还放着几张普通的纸和几支笔，也没有紧急安排。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_en": "You return home with a bag containing the usual groceries you planned to buy. The kitchen counter is clear and the rest of the evening is unscheduled. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你带着一袋原本计划购买的日常食品回到家。厨房台面是空的，今晚余下时间也没有安排。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "library",
+      "prompt_en": "You sit at an available table in a quiet public library with a notebook and a book you selected earlier. Nothing requires immediate attention. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你坐在安静的公共图书馆里一张空桌旁，带着笔记本和之前挑选的一本书。没有事情需要立刻处理。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "bus",
+      "prompt_en": "You board your usual bus and find an open seat. The route is operating normally, and you have enough time to reach your destination. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你登上平时乘坐的公交车并找到一个空座。线路运行正常，你也有充足时间到达目的地。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_en": "A routine load of laundry has finished. The clothes are in the basket, and you have time to fold them before doing anything else. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "一批日常衣物已经洗好，衣服放在篮子里。在做其他事情前，你有时间把它们叠好。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "bench",
+      "prompt_en": "You stop at an empty bench in a familiar public garden. The path is open, the weather is ordinary for the season, and you are not in a hurry. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你在一个熟悉的公共花园里停在一张空长椅旁。道路通畅，天气符合这个季节的常态，你也不赶时间。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "break",
+      "prompt_en": "It is the middle of an ordinary workday, and you have a short scheduled break. The shared break room is available, with water and a chair. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "这是一个普通工作日的中段，你按安排有一小段休息时间。公共休息室可以使用，里面有水和一把椅子。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_en": "You are preparing a familiar meal at home. The ingredients and utensils you normally use are on the counter, and there is enough time. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你正在家里准备一道熟悉的饭菜。平常使用的食材和厨具都放在台面上，时间也很充足。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "walk",
+      "prompt_en": "You take your usual route through the neighborhood in the early evening. Shops and houses look as they normally do, and you have no fixed appointment afterward. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "傍晚时分，你沿着平时的路线穿过社区。商店和住宅看起来都和平常一样，之后也没有固定约会。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_en": "You arrive at a routine appointment and take a seat in the waiting area. Staff are working normally, and there are magazines and a clock nearby. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你按时来到一次例行预约，并在等候区坐下。工作人员照常工作，旁边有杂志和时钟。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "tools",
+      "prompt_en": "You open a small box containing ordinary household tools that you have used before. Everything appears to be in its usual place, and no repair is urgent. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "你打开一个装着普通家用工具的小盒子，这些工具以前都用过。所有东西似乎都在原来的位置，也没有需要紧急维修的物品。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_en": "At home in the evening, you look over your calendar for the coming days. It contains the routine commitments you already knew about, with open time between them. Imagine yourself as the adult in this situation. Write in English, in the first person, what goes through your mind and what you say or do next. Keep the answer to about 70–110 words.",
+      "prompt_zh": "晚上在家时，你查看接下来几天的日程。上面是你早已知道的日常安排，安排之间还有空闲时间。请想象自己是处于这种情境中的成年人，用中文以第一人称写下你接下来想到什么、说什么或做什么。回答约100至160个汉字。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rows": 350,
+  "topics": 50,
+  "conditions": {
+    "happiness": 50,
+    "surprise": 50,
+    "fear": 50,
+    "disgust": 50,
+    "anger": 50,
+    "sadness": 50,
+    "neutral": 50
+  },
+  "mechanical_issues": [],
+  "semantic_topics_passed": 50,
+  "semantic_issues": [],
+  "scope": "Mechanical full audit plus DeepSeek model-assisted semantic review; not human annotation."
+}
