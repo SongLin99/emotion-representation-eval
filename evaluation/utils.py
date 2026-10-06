@@ -21,6 +21,8 @@ def read_csv(path):
 
 def ranks(values):
     """One-based average ranks, including ties."""
+    if any(not math.isfinite(x) for x in values):
+        raise ValueError('Ranks require finite values')
     ordered = sorted(range(len(values)), key=values.__getitem__)
     result = [0.0] * len(values)
     start = 0
@@ -38,6 +40,8 @@ def ranks(values):
 def pearson(a, b):
     if len(a) != len(b) or len(a) < 2:
         raise ValueError('Correlation requires equal arrays with at least two items')
+    if any(not math.isfinite(x) for x in (*a, *b)):
+        raise ValueError('Correlation requires finite values')
     ma, mb = mean(a), mean(b)
     da, db = [x-ma for x in a], [x-mb for x in b]
     denominator = math.sqrt(sum(x*x for x in da) * sum(x*x for x in db))
@@ -67,3 +71,10 @@ def ccc(a, b):
 
 def show(value):
     print(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False))
+
+
+def fractional_top1(values, target, tolerance=1e-12):
+    """Equal credit among numerically tied maxima, independent of vector order."""
+    maximum = max(values)
+    winners = [i for i,x in enumerate(values) if abs(x-maximum) <= tolerance]
+    return (1/len(winners) if target in winners else 0.0), len(winners)

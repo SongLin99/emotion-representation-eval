@@ -9,8 +9,11 @@ AI systems were used as research tools in the following parts of the project:
 The released repository includes generated materials, outputs, scores, and evaluation
 protocols. Historical scoring IDs exposed the intervention conditions; these judgments
 must not be described as strictly blinded. Automated audits are not human validation.
-The optional anonymous scoring runner is a new protocol, not the source of the archived scores.
+The original archive uses historical non-blind scores. The corrected Olmo and Qwen
+directories contain completed anonymous shuffled re-scoring/new scoring runs using
+the quality-v2 rubric and the configured research API client. The optional public
+API runner is not an exact reproduction of that client configuration.
 
 The researcher remains responsible for the hypotheses, experimental design, analysis choices,
-interpretation, and final written claims. Before external release, a documented human audit of
-a prespecified sample should be added.
+interpretation, and final written claims. A documented independent human audit of
+a prespecified sample remains future work; no such validation is claimed here.

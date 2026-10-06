@@ -1,0 +1,18 @@
+{
+  "plans": {
+    "happiness_T04": "Birthday contact from the same close friend: ordinary logistics; birthday acknowledgement; a thoughtful personal message; an invitation designed around a shared meaningful interest; renewed closeness after a mutually acknowledged estrangement. Establish the relationship in the common setup.",
+    "happiness_T13": "A desired community workshop: ordinary information; acceptance as an observer; an active participant place; invitation to show a personally meaningful project; recognition as the featured contributor. Do not encode longer leisure durations.",
+    "sadness_T03": "A familiar coffee shop valued for its community: ordinary operations; loss of a favorite menu item; departure of a familiar staff member; relocation that breaks the established gathering place; permanent closure and dispersal of that community. No loyalty stamp progression.",
+    "surprise_T09": "A garage display bay normally holding an ordinary commuter car: usual car; unusual custom paint; a rare restored vintage vehicle; a full-size nonfunctional car sculpture in place of a vehicle; an elaborate miniature city installation instead of any vehicle. Parking remains available and nothing is damaged. Do not turn a parking bay into an impossible wall overnight.",
+    "surprise_T12": "A community lecture expected to use ordinary slides: ordinary slides; presentation opens with a live demonstration; audience discovers the demonstration is remotely operated from a distant location; the seemingly ordinary room is revealed to be a functional production set; the advertised lecture is revealed to be a carefully staged demonstration in which the entire apparent venue was part of the demonstration. Keep logistics plausible, neutral in valence, and no deceptive harm.",
+    "surprise_T13": "A parcel expected to contain a routine book from a publisher archive: exact ordinary edition; alternative cover; annotated archival proof copy; original editorial pages instead of a printed edition; the author draft with documented provenance instead of any printed edition. No financial valuation or ownership reward.",
+    "surprise_T14": "A museum educational display expected to contain an ordinary printed chart: standard chart; chart includes a familiar local photograph; an original historical chart rather than a reproduction; an authenticated personal working copy of the chart maker; a documented early prototype whose design differs fundamentally from the familiar finished chart. No medical threat or invented genetic facts.",
+    "anger_T15": "A course assignment with a published grading rubric: expected rubric-based feedback; a minor unwarranted penalty; an arbitrary new requirement; a knowingly unequal rule applied only to this student; a public false accusation despite documented evidence. The neutral outcome must NOT begin with an unfair low grade.",
+    "fear_T11": "An aquarium visitor viewing a large glass habitat while ordinary safety measures are available: a normal intact barrier; a maintenance concern reported nearby; a visible damaged protective frame; a spreading crack and a staff instruction to retreat; a leak while the visitor moves to a safe exit. Do not have a school knowingly continue a trip through a structurally unsafe hall."
+  },
+  "changed_ladders": 9,
+  "changed_items": 45,
+  "policy": "Pre-measurement semantic repair, not correlation-driven selection. No failed cases discarded.",
+  "generation_model": "deepseek/deepseek-v4-flash-0731",
+  "scope": "AI-authored materials and model-assisted audit, not human-validated intensity ground truth."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": true,
+  "readouts": 5000,
+  "missing_token50": 5,
+  "responses": 2076,
+  "layer": 36,
+  "cases": [
+    {
+      "dataset": "functionality",
+      "n": 300,
+      "token_decoding_verified": true,
+      "anonymous_mapping_verified": true,
+      "signed_pairs_verified": true
+    },
+    {
+      "dataset": "crosslingual",
+      "n": 600,
+      "token_decoding_verified": true,
+      "anonymous_mapping_verified": true,
+      "signed_pairs_verified": true
+    },
+    {
+      "dataset": "small_dose",
+      "n": 1176,
+      "token_decoding_verified": true,
+      "anonymous_mapping_verified": true,
+      "signed_pairs_verified": true
+    }
+  ]
+}

@@ -1,0 +1,1634 @@
+{
+  "input_count": 1128,
+  "retained_count": 858,
+  "additional_paired_exclusions": [
+    {
+      "id": "018330fa_7",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "05b8a69f_2",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "05b8a69f_8",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "0f0937ab_4",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "0f0937ab_6",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "0f0937ab_7",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "0f0937ab_16",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "0f0937ab_19",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "11b9df66_2",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "11b9df66_9",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "11ddec92_13",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "11ddec92_17",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "11ddec92_19",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1295a29c_1",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1295a29c_6",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1295a29c_10",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1295a29c_16",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "17f8b654_7",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "17f8b654_10",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "17f8b654_13",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1c175b86_1",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1c175b86_3",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1c175b86_4",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1c175b86_8",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1c175b86_15",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1d345920_1",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1d345920_8",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1d345920_12",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "1d345920_19",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2578ea9d_3",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2578ea9d_11",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2578ea9d_15",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2578ea9d_17",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2895e4b6_0",
+      "n_tokens_en": 60,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2895e4b6_2",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2895e4b6_9",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2d95a7b2_4",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2d95a7b2_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2d95a7b2_12",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "2d95a7b2_17",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "315dc175_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "315dc175_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "315dc175_15",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_1",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_3",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_14",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_16",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "33c8a1c0_18",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "38716a2b_0",
+      "n_tokens_en": 61,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "38716a2b_2",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "38716a2b_8",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "38716a2b_16",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "38716a2b_19",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3b699bf9_6",
+      "n_tokens_en": 60,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3b699bf9_7",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3b699bf9_8",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3b699bf9_19",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3ff05dc8_12",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3ff05dc8_18",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "3ff05dc8_19",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_1",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_5",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_8",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_9",
+      "n_tokens_en": 57,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_16",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "402e1f43_17",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "40a0182e_1",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "40a0182e_3",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "40a0182e_4",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "40a0182e_8",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "415bfbf0_4",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "415bfbf0_9",
+      "n_tokens_en": 60,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "415bfbf0_11",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "415bfbf0_17",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "415bfbf0_19",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "449ff49b_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "47886d16_4",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "47886d16_17",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "4c2fd46d_15",
+      "n_tokens_en": 61,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5215599f_4",
+      "n_tokens_en": 60,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5215599f_10",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5215599f_15",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5215599f_16",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "55218ace_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "55218ace_13",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "55218ace_14",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5df0de0a_10",
+      "n_tokens_en": 61,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "5df0de0a_16",
+      "n_tokens_en": 65,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_1",
+      "n_tokens_en": 57,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_4",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_9",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_10",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "61493fc2_15",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "64144feb_13",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "64144feb_17",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6658978e_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6658978e_8",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "68850a24_6",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "68850a24_7",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "68850a24_9",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6cb8ff69_4",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6cb8ff69_7",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6f10a1c9_2",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6f10a1c9_7",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6f10a1c9_9",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "6f10a1c9_19",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "720f7669_2",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "720f7669_3",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "7661423e_7",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "7661423e_9",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "7661423e_11",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "784bb398_5",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "784bb398_9",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "784bb398_18",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "786b04fb_3",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "7d684141_12",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "7dc9ac6b_6",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "82305836_2",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "82305836_10",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "82305836_16",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "82305836_19",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "85b2c288_3",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "85b2c288_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 39,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "85b2c288_8",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "85b2c288_11",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "85b2c288_15",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8a7c6a85_7",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8a7c6a85_8",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8a7c6a85_9",
+      "n_tokens_en": 62,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8a7c6a85_11",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8b956164_0",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8b956164_1",
+      "n_tokens_en": 61,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8b956164_10",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8b956164_19",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8f26fa1c_2",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8f26fa1c_7",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8f26fa1c_9",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_2",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_3",
+      "n_tokens_en": 57,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_6",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_7",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_15",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_16",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "8fba9228_18",
+      "n_tokens_en": 57,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "921ae601_7",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "93548538_8",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 40,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "93548538_10",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "93548538_15",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9a448094_7",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9a448094_19",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9b0a3249_5",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9b0a3249_6",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9b0a3249_10",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9b0a3249_18",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9b0a3249_19",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9e7897f8_3",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9e7897f8_4",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "9ea00dc5_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "a4c9994b_3",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "a4c9994b_4",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "a4c9994b_18",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ab65a7d6_1",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ab65a7d6_10",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "af0738a0_13",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "af0738a0_19",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b182f70a_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b288a504_4",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b288a504_19",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b303dab4_15",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b3be736c_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b3be736c_7",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "b3be736c_10",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c173b506_1",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 40,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c173b506_3",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 40,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c173b506_6",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c173b506_7",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c173b506_13",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c7f8deee_3",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c7f8deee_13",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c7f8deee_14",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c7f8deee_15",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "c7f8deee_16",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "cad67686_5",
+      "n_tokens_en": 62,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "cad67686_11",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "cad67686_14",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "cad67686_15",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "cad67686_16",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 39,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "caf4cdb8_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "caf4cdb8_18",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce0dbce2_2",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce0dbce2_6",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce0dbce2_9",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce0dbce2_12",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce0dbce2_19",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce322c5f_1",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce322c5f_7",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ce322c5f_12",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d37134c0_3",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d37134c0_7",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d37134c0_18",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 39,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d47bc438_1",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d47bc438_9",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d47bc438_19",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d756a24f_11",
+      "n_tokens_en": 63,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d756a24f_14",
+      "n_tokens_en": 58,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "d756a24f_16",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "db2e0c5e_1",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "db2e0c5e_2",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "db7e9370_6",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "db7e9370_15",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "db7e9370_19",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "dca8289c_1",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 39,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_1",
+      "n_tokens_en": 62,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_2",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_3",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_5",
+      "n_tokens_en": 60,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_6",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_12",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ddcfadbd_18",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "de4bf117_1",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "de4bf117_2",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "de4bf117_11",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "de4bf117_12",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "de4bf117_15",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e11a4f15_12",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e11a4f15_13",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e11a4f15_16",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e2e577db_5",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e2e577db_11",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e2e577db_18",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e8bfcc82_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e8bfcc82_7",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e8bfcc82_8",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e8bfcc82_9",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e8bfcc82_17",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 39,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_5",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_7",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_11",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_12",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_16",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "e9d56fbf_18",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ec0770c9_18",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 41,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eca203e3_2",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eca203e3_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 38,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eca203e3_8",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eca203e3_10",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eca203e3_11",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 48,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_2",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 40,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_5",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_6",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_9",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 42,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ee48d986_13",
+      "n_tokens_en": 55,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eea7effe_4",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "eea7effe_13",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f1c8802f_8",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f1c8802f_11",
+      "n_tokens_en": 51,
+      "n_tokens_zh": 43,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f243a0ec_3",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f77fa17d_4",
+      "n_tokens_en": 50,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f77fa17d_14",
+      "n_tokens_en": 53,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f92a80d4_5",
+      "n_tokens_en": 57,
+      "n_tokens_zh": 47,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f92a80d4_6",
+      "n_tokens_en": 63,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "f92a80d4_9",
+      "n_tokens_en": 59,
+      "n_tokens_zh": 49,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ff503a4e_1",
+      "n_tokens_en": 56,
+      "n_tokens_zh": 46,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ff503a4e_3",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ff503a4e_5",
+      "n_tokens_en": 54,
+      "n_tokens_zh": 45,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    },
+    {
+      "id": "ff503a4e_6",
+      "n_tokens_en": 52,
+      "n_tokens_zh": 44,
+      "reason": "Fewer than 50 native Qwen tokens in at least one language; omit from BOTH Qwen PCA sets"
+    }
+  ],
+  "inherited_excluded_ids": [
+    "17f8b654_8",
+    "415bfbf0_15",
+    "c173b506_10",
+    "c173b506_2",
+    "d37134c0_4"
+  ],
+  "policy": "Preserve frozen 1128 IDs as candidates; paired Qwen-specific exclusions; do not restore or alter texts"
+}

@@ -19,3 +19,6 @@ outputs/archive_*/
 /reports/
 /INTERNAL_USE.md
 /outputs/
+
+# Local inference checkpoints duplicate the published response JSONL files.
+/results/qwen25_14b_20261004/generation_batches/

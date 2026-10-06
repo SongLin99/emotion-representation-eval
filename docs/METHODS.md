@@ -24,6 +24,8 @@ rho is computed between level indices 0–4 and the five target-vector cosine
 readouts within each ladder, then averaged equally across 120 events. Adjacent
 increase accuracy and the fraction of strictly increasing ladders are also reported.
 Levels specify intended qualitative order, not validated equal intensity intervals.
+For the auxiliary comparison of six slope correlations, tied maxima now receive
+equal fractional Top-1 credit (tolerance 1e-12); this does not change mean target rho.
 
 ## Invariance
 
@@ -33,6 +35,8 @@ absolute calibration. Readouts are paired item by item within each emotion
 (100 items per emotion), correlations are computed separately, and the six
 emotion results are averaged. English–Chinese comparisons use the respective
 language-specific vectors; they do not establish a single language-independent vector.
+The corrected re-test additionally holds the vector language fixed for paired
+English/Chinese comparisons and reports within-level paraphrase correlations.
 
 ## Functionality
 
@@ -48,6 +52,19 @@ at +0.5 minus the score at -0.5, averaged across matched prompts/emotions.
 The ordinary experiment includes 300 responses (12 prompts, one baseline and
 24 interventions each); the cross-language experiment includes 600 responses
 (both prompt languages, two vector languages, one baseline per prompt language).
+The corrected re-test anonymously re-scores those 900 responses and adds 1,176
+responses at ±0.1 and ±0.25 (24 baselines plus 1,152 interventions). Objective
+replacement-character, truncation and requested-script checks supplement judge quality.
+All pairs and quality-valid pairs are both reported; coverage is always shown.
+
+## Qwen extension
+
+Qwen2.5-14B-Instruct uses the same corrected material definitions and metric code,
+with an independently fixed L36 primary state and model-specific norm
+N=355.8481024546985. Its vectors contain 49 states. Native Qwen chat/generation
+defaults differ from Olmo; five short Chinese token50 inputs are explicitly missing,
+and PCA uses 858 paired neutral texts. Coverage and complete-case selection are
+documented in [Qwen methods](QWEN_20261004.md).
 
 ## Interpretation boundary
 

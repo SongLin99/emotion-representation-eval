@@ -1,0 +1,158 @@
+{
+  "version": "qwen25_14b_emotion_benchmark_20261004_v1",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "primary_layer": 36,
+  "num_hidden_layers": 48,
+  "layer_selection": "Precommitted relative depth: Olmo 24/32 = Qwen 36/48 = 0.75; not selected by scores",
+  "state_convention": "L0 embedding, L1-L47 block outputs, L48 final-normalized LM-head input",
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "pooling": "Mean token50 inclusive onward among valid tokens; FP32; raw stories, no chat template",
+  "readout_batch_size": 16,
+  "generation_batch_size": 32,
+  "norm": 355.8481024546985,
+  "norm_definition": "Mean individual-token L2 norm over ALL valid tokens of Qwen English PCA neutral corpus at L36; same N for both prompt/vector languages",
+  "norm_source": "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/en/activations/pca_legacy/summary.json",
+  "pca_pairs": 858,
+  "vector_shape": [
+    49,
+    6,
+    5120
+  ],
+  "alpha": [
+    -0.5,
+    -0.25,
+    -0.1,
+    0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "generation_counts": {
+    "functionality": 300,
+    "crosslingual": 600,
+    "small_dose": 1176
+  },
+  "readout_rows": 5000,
+  "chat_template": "Native apply_chat_template(user, add_generation_prompt=True); includes the model's default Qwen system message",
+  "example_rendered_chat": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nExample prompt.<|im_end|>\n<|im_start|>assistant\n",
+  "intervention": "Only final assistant boundary in prefill and each cached decoding position; no user/system-token edits",
+  "formula": "h_new = h + alpha * N * unit_direction",
+  "greedy": true,
+  "generation_config": {
+    "bos_token_id": 151643,
+    "pad_token_id": 151643,
+    "do_sample": true,
+    "eos_token_id": [
+      151645,
+      151643
+    ],
+    "repetition_penalty": 1.05,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "transformers_version": "4.37.0"
+  },
+  "max_new_tokens": {
+    "functionality": 180,
+    "crosslingual": 320,
+    "small_dose": 320
+  },
+  "missing_policy": "Preserve all texts and rows. Token50 readouts below 50 tokens are explicitly missing. Sensitivity uses complete five-level ladders per language; invariance uses IDs with all four paired conditions. Also report sensitivity on the 117 common bilingual ladders.",
+  "random_controls": {
+    "n": 6,
+    "seed": 20260930,
+    "rule": "English Gaussian unit directions orthogonal to span of all six English emotion vectors",
+    "file_sha256": "5790fb89964e5291bc044a1d577cb793bf3c877f6f615d4b3b220a82ee267854"
+  },
+  "judge": {
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "protocol": "anonymous_shuffled_quality_v2",
+    "seed": 20261004,
+    "temperature": 0.35,
+    "top_p": 0.9,
+    "batch_size": 15,
+    "workers": 8,
+    "source": "Existing configured API helper and corrected re-test rubric; no condition metadata"
+  },
+  "length_checks": {
+    "specificity/en": {
+      "n": 350,
+      "min": 97,
+      "max": 160,
+      "short_ids": []
+    },
+    "specificity/zh": {
+      "n": 350,
+      "min": 87,
+      "max": 149,
+      "short_ids": []
+    },
+    "sensitivity/en": {
+      "n": 600,
+      "min": 56,
+      "max": 128,
+      "short_ids": []
+    },
+    "sensitivity/zh": {
+      "n": 600,
+      "min": 48,
+      "max": 126,
+      "short_ids": [
+        "fear_T18_L0",
+        "disgust_T12_L0",
+        "anger_T04_L2"
+      ]
+    },
+    "invariance/en": {
+      "n": 600,
+      "min": 59,
+      "max": 147,
+      "short_ids": []
+    },
+    "invariance/zh": {
+      "n": 600,
+      "min": 46,
+      "max": 142,
+      "short_ids": [
+        "anger_T04_L0",
+        "anger_T04_L2"
+      ]
+    }
+  },
+  "source_sha256": {
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/revisions/20261004/specificity_stories.jsonl": "29f0b4e01f912ff403b40e8365e8dba3911e4b50dd2d65c0da1a281fa44fd392",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/revisions/20261004/intensity_ladders.jsonl": "c2bc84329b3086c44ba91c0b18bbdc372684f131ee685e9913151a5cbbcaa861",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/revisions/20261004/paraphrase_pairs.jsonl": "8e6842be4b2e0a3c4ff907fc700e656cee674aad2403df2b39af754ea298437f",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/en/activations/pca_legacy/summary.json": "a4349885000315c0fe7fc8861b46fc8d09fe2500ba3f21b62126441e81f397b4",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/qwen25_14b_emotion_benchmark_20261004/run.py": "87a76572170717783177fddb5562750d0437cc3235a1193d9f49ee3e838539b5",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/functionality/functionality_protocol.json": "b0e59e23a6863c3d51b2a1c426e49d7b69f837101d17a015d63626f9749d8335",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/functionality/crosslingual_protocol.json": "17806d8217372fe02c587e22ca1b86b250b9343308d2cdeb9b47de61ffbef9f4",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/revisions/20261004/final_materials_complete.json": "80c0c4db61d7e8b00db42fa58bab1454ab226bd32a63e4e6f1073161cdca0fe2",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/data/revisions/20261004/semantic_audit.json": "a2c959b3acc087d94cdb6ec186e872e31f0f158d1dac0e4d5111e630ee44890d",
+    "/home/jiasonglin/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/config.json": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+    "/home/jiasonglin/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "/home/jiasonglin/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "/home/jiasonglin/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/generation_config.json": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/olmo3_emotion_specificity_20260930/generate.py": "be37f60dcaa839c1cc3f0664d2f1327ba4636846651de9e2ea8df796d1148b4c",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/utils.py": "55790cba5140d2d3334dad48b578d857da98f69088b88990e74bf2f354124f07",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/model_utils.py": "0df8778edb28b5bee36744082c776c9a98eb21366063297fb293212708b859cc",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/schema.py": "7adb317f0cdbde4ed8b5948e5f95652abeb871c3a3f19664a4ce414307ca5fd6",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/specificity.py": "efe9fa72532b2c153e731600464e321c6edee28d77c648031b5fdee44331a60c",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/sensitivity.py": "ffae0f8c2c4572f0cd5b869b461e3fc20f2896f5166d7d6e08849f9b455bd372",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/invariance.py": "11cae1348e380569142ee9b085476fd86ee02d81d38018ba994a732925339a13",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/robustness.py": "476b1c203b1abf9cacb37e72fb40c8db157ec742158d520819777cea00d4e58e",
+    "/home/jiasonglin/develop/olmo3-emotion-representation-eval/evaluation/judge_responses.py": "1880c9bfc53b90bc50f0ebb3a8b0bd9ba2c979608da4d18a06a62f9529eb8d73",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/en/emotion_vectors.safetensors": "77158574dbf05d6bd5c27920d38830102ead092a0dd7c6ecf8a78a08bdbd0726",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/en/manifest.json": "daedca45c80313a6c99df7b03dacaa47417c1c1e4dd2b78b3f1a78c186fa1021",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/zh/emotion_vectors.safetensors": "a5a0fefb790911f05573fa9ab7ee28e3a00ebab731af690ff15a4753b14483c0",
+    "/home/jiasonglin/develop/emotion-probes-main/studies/emotions6_qwen25_14b_bilingual_vectors_20261004/outputs/qwen25_14b_it/zh/manifest.json": "0ce239ea447e678edaecceb9329a0f40026c06071bae6a31dde97ff9657a06e9"
+  },
+  "boundaries": [
+    "Qwen PCA uses 858 paired neutral texts; frozen Olmo/Llama use 1128",
+    "Native Qwen chat defaults and generation configuration differ from Olmo",
+    "AI-assisted materials and single-model judge are not independent human validation",
+    "Only L36 benchmark is computed; all-layer Qwen vectors already exist separately"
+  ]
+}

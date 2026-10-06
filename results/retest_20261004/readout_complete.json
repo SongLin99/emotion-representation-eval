@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "specificity": "29f0b4e01f912ff403b40e8365e8dba3911e4b50dd2d65c0da1a281fa44fd392",
+    "sensitivity": "c2bc84329b3086c44ba91c0b18bbdc372684f131ee685e9913151a5cbbcaa861",
+    "invariance": "8e6842be4b2e0a3c4ff907fc700e656cee674aad2403df2b39af754ea298437f"
+  },
+  "n_rows": 5000,
+  "layer": 24,
+  "poolings": [
+    "token50",
+    "continuation"
+  ],
+  "note": "Frozen emotion vectors unchanged; both vector languages evaluated on every state."
+}

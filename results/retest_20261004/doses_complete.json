@@ -1,0 +1,20 @@
+{
+  "n_responses": 1176,
+  "doses": [
+    0.1,
+    0.25
+  ],
+  "n_prompts": 12,
+  "prompt_languages": [
+    "en",
+    "zh"
+  ],
+  "vector_languages": [
+    "en",
+    "zh"
+  ],
+  "layer": 24,
+  "fixed_norm": 35.4885577140482,
+  "max_new_tokens": 320,
+  "greedy": true
+}

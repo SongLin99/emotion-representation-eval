@@ -1,13 +1,17 @@
 """Target/neutral separation and held-out-topic neutral-calibrated ranking."""
 from statistics import mean, stdev
 from .utils import ROOT, EMOTIONS, auc, read_csv, show
+from .schema import readout_rows
 
 
 def analyze(rows=None):
     rows = read_csv(ROOT/'results/specificity/item_scores_l24.csv') if rows is None else rows
+    rows = readout_rows(rows, 'specificity')
     result = {}
     for language in ('en', 'zh'):
         subset = [r for r in rows if r['language'] == language]
+        if not subset:
+            continue
         neutral = [r for r in subset if r['condition'] == 'neutral']
         target_auc, cross_auc = {}, {}
         for emotion in EMOTIONS:

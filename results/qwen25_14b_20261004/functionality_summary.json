@@ -1,0 +1,4509 @@
+{
+  "n_responses": 300,
+  "quality_protocol": {
+    "replacement_character": "invalid",
+    "token_limit": "invalid",
+    "judge_minimum": 3,
+    "minimum_requested_script_fraction": 0.5,
+    "scope": "Predefined before inspecting new scores; show all pairs as well as valid pairs."
+  },
+  "conditions": [
+    {
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "dose": 0.5,
+      "all_pairs": {
+        "n_pairs": 72,
+        "mean_delta": -0.013888888888888888,
+        "directional_hit": 0.06944444444444445,
+        "plus_vs_baseline": 0.0,
+        "baseline_vs_minus": -0.013888888888888888,
+        "ci95": [
+          -0.09722222222222222,
+          0.06944444444444445
+        ]
+      },
+      "valid_pairs": {
+        "n_pairs": 3,
+        "mean_delta": 0.0,
+        "directional_hit": 0.0,
+        "plus_vs_baseline": 0.0,
+        "baseline_vs_minus": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "valid_pair_coverage": 0.041666666666666664
+    },
+    {
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "dose": 0.5,
+      "all_pairs": {
+        "n_pairs": 72,
+        "mean_delta": 0.375,
+        "directional_hit": 0.2777777777777778,
+        "plus_vs_baseline": 0.2916666666666667,
+        "baseline_vs_minus": 0.08333333333333333,
+        "ci95": [
+          0.20833333333333334,
+          0.5972222222222222
+        ]
+      },
+      "valid_pairs": {
+        "n_pairs": 0,
+        "mean_delta": null,
+        "directional_hit": null,
+        "plus_vs_baseline": null,
+        "baseline_vs_minus": null,
+        "ci95": null
+      },
+      "valid_pair_coverage": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_anger_-0.50",
+      "positive_id": "en_bench_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_disgust_-0.50",
+      "positive_id": "en_bench_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_fear_-0.50",
+      "positive_id": "en_bench_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_happiness_-0.50",
+      "positive_id": "en_bench_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": -1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_sadness_-0.50",
+      "positive_id": "en_bench_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_random_surprise_-0.50",
+      "positive_id": "en_bench_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_anger_-0.50",
+      "positive_id": "en_bench_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_disgust_-0.50",
+      "positive_id": "en_bench_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_fear_-0.50",
+      "positive_id": "en_bench_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": -1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_happiness_-0.50",
+      "positive_id": "en_bench_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_sadness_-0.50",
+      "positive_id": "en_bench_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "bench",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_bench_en_target_surprise_-0.50",
+      "positive_id": "en_bench_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_anger_-0.50",
+      "positive_id": "en_break_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_disgust_-0.50",
+      "positive_id": "en_break_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_fear_-0.50",
+      "positive_id": "en_break_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_happiness_-0.50",
+      "positive_id": "en_break_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_sadness_-0.50",
+      "positive_id": "en_break_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_random_surprise_-0.50",
+      "positive_id": "en_break_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_anger_-0.50",
+      "positive_id": "en_break_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_disgust_-0.50",
+      "positive_id": "en_break_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_fear_-0.50",
+      "positive_id": "en_break_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_happiness_-0.50",
+      "positive_id": "en_break_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_sadness_-0.50",
+      "positive_id": "en_break_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "break",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_break_en_target_surprise_-0.50",
+      "positive_id": "en_break_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_anger_-0.50",
+      "positive_id": "en_bus_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_disgust_-0.50",
+      "positive_id": "en_bus_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_fear_-0.50",
+      "positive_id": "en_bus_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_happiness_-0.50",
+      "positive_id": "en_bus_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_sadness_-0.50",
+      "positive_id": "en_bus_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_random_surprise_-0.50",
+      "positive_id": "en_bus_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_anger_-0.50",
+      "positive_id": "en_bus_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_disgust_-0.50",
+      "positive_id": "en_bus_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_fear_-0.50",
+      "positive_id": "en_bus_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_happiness_-0.50",
+      "positive_id": "en_bus_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_sadness_-0.50",
+      "positive_id": "en_bus_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "bus",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_bus_en_target_surprise_-0.50",
+      "positive_id": "en_bus_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_anger_-0.50",
+      "positive_id": "en_calendar_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_disgust_-0.50",
+      "positive_id": "en_calendar_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_fear_-0.50",
+      "positive_id": "en_calendar_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_happiness_-0.50",
+      "positive_id": "en_calendar_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_sadness_-0.50",
+      "positive_id": "en_calendar_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_random_surprise_-0.50",
+      "positive_id": "en_calendar_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_anger_-0.50",
+      "positive_id": "en_calendar_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_disgust_-0.50",
+      "positive_id": "en_calendar_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_fear_-0.50",
+      "positive_id": "en_calendar_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_happiness_-0.50",
+      "positive_id": "en_calendar_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_sadness_-0.50",
+      "positive_id": "en_calendar_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "calendar",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_calendar_en_target_surprise_-0.50",
+      "positive_id": "en_calendar_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_anger_-0.50",
+      "positive_id": "en_desk_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_disgust_-0.50",
+      "positive_id": "en_desk_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_fear_-0.50",
+      "positive_id": "en_desk_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_happiness_-0.50",
+      "positive_id": "en_desk_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_sadness_-0.50",
+      "positive_id": "en_desk_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_random_surprise_-0.50",
+      "positive_id": "en_desk_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_anger_-0.50",
+      "positive_id": "en_desk_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_disgust_-0.50",
+      "positive_id": "en_desk_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_fear_-0.50",
+      "positive_id": "en_desk_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_happiness_-0.50",
+      "positive_id": "en_desk_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_sadness_-0.50",
+      "positive_id": "en_desk_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "desk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_desk_en_target_surprise_-0.50",
+      "positive_id": "en_desk_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_anger_-0.50",
+      "positive_id": "en_groceries_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_disgust_-0.50",
+      "positive_id": "en_groceries_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_fear_-0.50",
+      "positive_id": "en_groceries_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_happiness_-0.50",
+      "positive_id": "en_groceries_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_sadness_-0.50",
+      "positive_id": "en_groceries_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_random_surprise_-0.50",
+      "positive_id": "en_groceries_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_anger_-0.50",
+      "positive_id": "en_groceries_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_disgust_-0.50",
+      "positive_id": "en_groceries_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_fear_-0.50",
+      "positive_id": "en_groceries_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_happiness_-0.50",
+      "positive_id": "en_groceries_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_sadness_-0.50",
+      "positive_id": "en_groceries_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "groceries",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_groceries_en_target_surprise_-0.50",
+      "positive_id": "en_groceries_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_anger_-0.50",
+      "positive_id": "en_kitchen_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_disgust_-0.50",
+      "positive_id": "en_kitchen_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_fear_-0.50",
+      "positive_id": "en_kitchen_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_happiness_-0.50",
+      "positive_id": "en_kitchen_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_sadness_-0.50",
+      "positive_id": "en_kitchen_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_random_surprise_-0.50",
+      "positive_id": "en_kitchen_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_anger_-0.50",
+      "positive_id": "en_kitchen_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_disgust_-0.50",
+      "positive_id": "en_kitchen_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_fear_-0.50",
+      "positive_id": "en_kitchen_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -2,
+      "baseline_vs_minus": 2,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_happiness_-0.50",
+      "positive_id": "en_kitchen_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_sadness_-0.50",
+      "positive_id": "en_kitchen_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "kitchen",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_kitchen_en_target_surprise_-0.50",
+      "positive_id": "en_kitchen_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_anger_-0.50",
+      "positive_id": "en_laundry_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_disgust_-0.50",
+      "positive_id": "en_laundry_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_fear_-0.50",
+      "positive_id": "en_laundry_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": -1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_happiness_-0.50",
+      "positive_id": "en_laundry_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_sadness_-0.50",
+      "positive_id": "en_laundry_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_random_surprise_-0.50",
+      "positive_id": "en_laundry_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_anger_-0.50",
+      "positive_id": "en_laundry_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_disgust_-0.50",
+      "positive_id": "en_laundry_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_fear_-0.50",
+      "positive_id": "en_laundry_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -1,
+      "baseline_vs_minus": 1,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_happiness_-0.50",
+      "positive_id": "en_laundry_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_sadness_-0.50",
+      "positive_id": "en_laundry_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "laundry",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_laundry_en_target_surprise_-0.50",
+      "positive_id": "en_laundry_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_anger_-0.50",
+      "positive_id": "en_library_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_disgust_-0.50",
+      "positive_id": "en_library_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": true,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_fear_-0.50",
+      "positive_id": "en_library_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": -2,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_happiness_-0.50",
+      "positive_id": "en_library_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": true,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_sadness_-0.50",
+      "positive_id": "en_library_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_random_surprise_-0.50",
+      "positive_id": "en_library_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_anger_-0.50",
+      "positive_id": "en_library_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_disgust_-0.50",
+      "positive_id": "en_library_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_fear_-0.50",
+      "positive_id": "en_library_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_happiness_-0.50",
+      "positive_id": "en_library_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_sadness_-0.50",
+      "positive_id": "en_library_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "library",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_library_en_target_surprise_-0.50",
+      "positive_id": "en_library_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_anger_-0.50",
+      "positive_id": "en_tools_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_disgust_-0.50",
+      "positive_id": "en_tools_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": true,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_fear_-0.50",
+      "positive_id": "en_tools_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_happiness_-0.50",
+      "positive_id": "en_tools_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_sadness_-0.50",
+      "positive_id": "en_tools_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_random_surprise_-0.50",
+      "positive_id": "en_tools_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_anger_-0.50",
+      "positive_id": "en_tools_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_disgust_-0.50",
+      "positive_id": "en_tools_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_fear_-0.50",
+      "positive_id": "en_tools_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_happiness_-0.50",
+      "positive_id": "en_tools_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_sadness_-0.50",
+      "positive_id": "en_tools_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "tools",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_tools_en_target_surprise_-0.50",
+      "positive_id": "en_tools_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_anger_-0.50",
+      "positive_id": "en_waiting_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_disgust_-0.50",
+      "positive_id": "en_waiting_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_fear_-0.50",
+      "positive_id": "en_waiting_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": -2,
+      "baseline_vs_minus": 2,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_happiness_-0.50",
+      "positive_id": "en_waiting_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_sadness_-0.50",
+      "positive_id": "en_waiting_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_random_surprise_-0.50",
+      "positive_id": "en_waiting_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 4,
+      "plus_vs_baseline": 4,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_anger_-0.50",
+      "positive_id": "en_waiting_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_disgust_-0.50",
+      "positive_id": "en_waiting_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 2,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_fear_-0.50",
+      "positive_id": "en_waiting_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 2,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 2,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_happiness_-0.50",
+      "positive_id": "en_waiting_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_sadness_-0.50",
+      "positive_id": "en_waiting_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "waiting",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": true,
+      "negative_id": "en_waiting_en_target_surprise_-0.50",
+      "positive_id": "en_waiting_en_target_surprise_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_anger_-0.50",
+      "positive_id": "en_walk_en_random_anger_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_disgust_-0.50",
+      "positive_id": "en_walk_en_random_disgust_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_fear_-0.50",
+      "positive_id": "en_walk_en_random_fear_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": -1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": -2,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_happiness_-0.50",
+      "positive_id": "en_walk_en_random_happiness_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_sadness_-0.50",
+      "positive_id": "en_walk_en_random_sadness_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "random",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_random_surprise_-0.50",
+      "positive_id": "en_walk_en_random_surprise_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "anger",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_anger_-0.50",
+      "positive_id": "en_walk_en_target_anger_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "disgust",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_disgust_-0.50",
+      "positive_id": "en_walk_en_target_disgust_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "fear",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_fear_-0.50",
+      "positive_id": "en_walk_en_target_fear_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "happiness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_happiness_-0.50",
+      "positive_id": "en_walk_en_target_happiness_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "sadness",
+      "dose": 0.5,
+      "target_delta": 1,
+      "plus_vs_baseline": 1,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_sadness_-0.50",
+      "positive_id": "en_walk_en_target_sadness_+0.50"
+    },
+    {
+      "task_id": "walk",
+      "prompt_language": "en",
+      "vector_language": "en",
+      "kind": "target",
+      "emotion": "surprise",
+      "dose": 0.5,
+      "target_delta": 0,
+      "plus_vs_baseline": 0,
+      "baseline_vs_minus": 0,
+      "valid": false,
+      "baseline_valid": false,
+      "negative_id": "en_walk_en_target_surprise_-0.50",
+      "positive_id": "en_walk_en_target_surprise_+0.50"
+    }
+  ],
+  "target_minus_random": {
+    "mean_difference": 0.3888888888888889,
+    "ci95": [
+      0.20833333333333334,
+      0.5972222222222222
+    ],
+    "n_pairs": 72
+  },
+  "quality": {
+    "n_invalid": 235,
+    "replacement_characters": 4,
+    "items": {
+      "en_desk_baseline": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_desk_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "replacement_character",
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_random_happiness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_desk_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_desk_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_desk_en_random_disgust_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_random_anger_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_desk_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "task_adherence"
+        ]
+      },
+      "en_desk_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_desk_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_groceries_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_groceries_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_groceries_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_groceries_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_groceries_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_groceries_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_groceries_en_random_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_groceries_en_random_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_baseline": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_library_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_library_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "replacement_character",
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_library_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_happiness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_fear_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_disgust_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_library_en_random_anger_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_library_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bus_baseline": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bus_en_target_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bus_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_bus_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bus_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_bus_en_random_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bus_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_bus_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_laundry_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_laundry_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_laundry_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence"
+        ]
+      },
+      "en_laundry_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence"
+        ]
+      },
+      "en_laundry_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_laundry_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_laundry_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_laundry_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bench_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bench_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_bench_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bench_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_bench_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "replacement_character",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_bench_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_bench_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_bench_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_break_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_break_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence"
+        ]
+      },
+      "en_break_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_break_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_break_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_break_en_random_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_kitchen_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "replacement_character",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_kitchen_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_kitchen_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_kitchen_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence"
+        ]
+      },
+      "en_kitchen_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_kitchen_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_kitchen_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_kitchen_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_kitchen_en_random_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_baseline": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_walk_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_walk_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_walk_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_walk_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_walk_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_walk_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence"
+        ]
+      },
+      "en_walk_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_anger_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_walk_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence"
+        ]
+      },
+      "en_walk_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_walk_en_random_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_waiting_baseline": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_waiting_en_target_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_waiting_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_waiting_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_waiting_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_waiting_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_target_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_waiting_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_happiness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_waiting_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_waiting_en_random_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_waiting_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_waiting_en_random_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_waiting_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_waiting_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_baseline": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_fear_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      },
+      "en_tools_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_disgust_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_anger_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit"
+        ]
+      },
+      "en_tools_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_happiness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_random_surprise_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_fear_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_random_fear_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_disgust_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_random_anger_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_tools_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_tools_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence",
+          "requested_script_fraction"
+        ]
+      },
+      "en_tools_en_random_sadness_+0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_baseline": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_happiness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_target_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_target_fear_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_target_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence"
+        ]
+      },
+      "en_calendar_en_target_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_target_anger_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_target_sadness_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_target_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_happiness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_happiness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_surprise_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_random_surprise_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_fear_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_random_fear_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_disgust_-0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_disgust_+0.50": {
+        "valid": false,
+        "reasons": [
+          "token_limit",
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_anger_-0.50": {
+        "valid": true,
+        "reasons": []
+      },
+      "en_calendar_en_random_anger_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_sadness_-0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence",
+          "language_adherence"
+        ]
+      },
+      "en_calendar_en_random_sadness_+0.50": {
+        "valid": false,
+        "reasons": [
+          "coherence",
+          "task_adherence"
+        ]
+      }
+    }
+  },
+  "per_emotion": {
+    "happiness": {
+      "n_pairs": 12,
+      "mean_delta": 0.08333333333333333,
+      "directional_hit": 0.25,
+      "plus_vs_baseline": -0.3333333333333333,
+      "baseline_vs_minus": 0.4166666666666667,
+      "ci95": [
+        -0.4187499999999999,
+        0.6666666666666666
+      ]
+    },
+    "surprise": {
+      "n_pairs": 12,
+      "mean_delta": 0.0,
+      "directional_hit": 0.0,
+      "plus_vs_baseline": 0.0,
+      "baseline_vs_minus": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "fear": {
+      "n_pairs": 12,
+      "mean_delta": 0.5,
+      "directional_hit": 0.4166666666666667,
+      "plus_vs_baseline": 0.5,
+      "baseline_vs_minus": 0.0,
+      "ci95": [
+        0.16666666666666666,
+        0.9166666666666666
+      ]
+    },
+    "disgust": {
+      "n_pairs": 12,
+      "mean_delta": 0.16666666666666666,
+      "directional_hit": 0.08333333333333333,
+      "plus_vs_baseline": 0.16666666666666666,
+      "baseline_vs_minus": 0.0,
+      "ci95": [
+        0.0,
+        0.5
+      ]
+    },
+    "anger": {
+      "n_pairs": 12,
+      "mean_delta": 1.25,
+      "directional_hit": 0.6666666666666666,
+      "plus_vs_baseline": 1.25,
+      "baseline_vs_minus": 0.0,
+      "ci95": [
+        0.6645833333333334,
+        1.9187499999999886
+      ]
+    },
+    "sadness": {
+      "n_pairs": 12,
+      "mean_delta": 0.25,
+      "directional_hit": 0.25,
+      "plus_vs_baseline": 0.16666666666666666,
+      "baseline_vs_minus": 0.08333333333333333,
+      "ci95": [
+        0.0,
+        0.5
+      ]
+    }
+  }
+}

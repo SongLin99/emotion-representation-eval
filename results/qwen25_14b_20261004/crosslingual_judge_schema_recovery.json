@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "n_recovered": 1,
+  "items": [
+    {
+      "anonymous_id": "item_00501",
+      "source_index": 58,
+      "original_invalid_fields": {
+        "sadness": false
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    }
+  ],
+  "recovery_code_sha256": "b2aa5bf34fbd9724975768d7d197f9a5e1881af95de8d1ed2f85c68c4a862d67",
+  "method": "First valid first-pass score retained; only invalid item schemas sent individually to the same judge and same core rubric"
+}

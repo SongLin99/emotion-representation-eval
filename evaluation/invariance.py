@@ -1,10 +1,12 @@
 """Paired readout ordering and concordance, averaged across emotions."""
 from statistics import mean
 from .utils import ROOT, EMOTIONS, ccc, pearson, read_csv, show, spearman
+from .schema import invariance_rows
 
 
 def analyze(rows=None):
     rows = read_csv(ROOT/'results/invariance/item_scores_l24.csv') if rows is None else rows
+    rows = invariance_rows(rows)
     result = {}
     for name, a, b in (
         ('english_paraphrase', 'original_en_target', 'paraphrase_en_target'),
@@ -14,11 +16,18 @@ def analyze(rows=None):
         per = {}
         for emotion in EMOTIONS:
             group = [r for r in rows if r['emotion'] == emotion]
+            if not group:
+                continue
             av, bv = [float(r[a]) for r in group], [float(r[b]) for r in group]
             per[emotion] = dict(n=len(group), spearman=spearman(av, bv),
                 pearson=pearson(av, bv), ccc=ccc(av, bv),
                 bias=mean(y-x for x, y in zip(av, bv)), mae=mean(abs(y-x) for x, y in zip(av, bv)))
+            levels = sorted({int(r['level']) for r in group})
+            per[emotion]['within_level_spearman'] = mean(spearman(
+                [float(r[a]) for r in group if int(r['level'])==level],
+                [float(r[b]) for r in group if int(r['level'])==level]) for level in levels)
         result[name] = dict(macro_target_spearman=mean(r['spearman'] for r in per.values()),
+            macro_within_level_spearman=mean(r['within_level_spearman'] for r in per.values()),
             macro_target_ccc=mean(r['ccc'] for r in per.values()), per_emotion=per)
     return result
 

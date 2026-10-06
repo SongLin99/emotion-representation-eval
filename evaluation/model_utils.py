@@ -30,9 +30,22 @@ def pool_hidden_states(hidden, mask, offset=49):
     return (hidden.float()*keep.unsqueeze(-1)).sum(1)/count.unsqueeze(-1)
 
 
+def pool_continuation(hidden, mask, offsets, starts):
+    """Pool tokens overlapping the continuation, aligned by character boundaries."""
+    import torch
+    spans=torch.as_tensor(offsets,device=hidden.device)
+    begin=torch.as_tensor(starts,device=hidden.device)[:,None]
+    keep=mask.bool() & (spans[:,:,1]>begin) & (spans[:,:,1]>spans[:,:,0])
+    counts=keep.sum(1)
+    if not bool((counts>0).all()):raise ValueError('No continuation tokens')
+    return (hidden.float()*keep[:,:,None]).sum(1)/counts[:,None]
+
+
 @contextmanager
 def assistant_intervention(model, delta, layer=24):
     """Edit only the last prefill position and each subsequent cached decode state."""
+    if not 1<=layer<=len(model.model.layers):
+        raise ValueError('Intervention layer must index an actual transformer block')
     def hook(_module, _args, output):
         hidden = output[0] if isinstance(output, tuple) else output
         edited = hidden.clone()

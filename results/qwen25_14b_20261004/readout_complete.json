@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "359a2176cb6417af68a3f4432e1db44531b9b6b8438951b8443640feb6527bce",
+  "n_rows": 5000,
+  "poolings": {
+    "token50": 3100,
+    "continuation": 1900
+  },
+  "layer": 36,
+  "sha256": "5be2710b06bbe947728d311d411a328d3d335d6bf6ee2b50e55af26dad075489"
+}

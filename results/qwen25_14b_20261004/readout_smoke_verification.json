@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "layer": 36,
+  "hidden_states": 49,
+  "hook_equals_hidden_state": true,
+  "pooling_equal": true
+}

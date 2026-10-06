@@ -8,6 +8,7 @@ Run:
 ```bash
 python scripts/verify_release.py
 python scripts/summarize_results.py
+python scripts/verify_updated_benchmarks.py
 python -m unittest discover -s tests -v
 ```
 
@@ -30,10 +31,18 @@ python -m evaluation.run_functionality --cross-language --output outputs/cross_l
 
 Use a CUDA GPU with sufficient memory for the model and hidden states. Readouts
 default to BF16 inference; `--dtype float32` is available for readout extraction.
-New readout CSVs have a long-form schema and are not drop-in replacements for the
-archived wide-format metric inputs. Invariance runs record both original and
-paraphrased text. The portable runners have CPU unit tests, but were not fully
-rerun on the model during release preparation. Small hardware/version numerical
+New readout CSVs have a long-form schema. The scorer now converts schemas, pairs
+invariance items by ID, and rejects missing pairs, nonfinite scores and mixed protocols:
+
+```bash
+python -m evaluation.score_readouts --task specificity --input outputs/specificity_en.csv --output outputs/specificity_metrics.json
+python -m evaluation.score_readouts --task sensitivity --input outputs/sensitivity_zh.csv --output outputs/sensitivity_metrics.json
+python -m evaluation.score_readouts --task invariance --input outputs/invariance_en.csv outputs/invariance_zh.csv --output outputs/invariance_metrics.json
+```
+
+Invariance requires both languages, each with original and paraphrased rows.
+The versioned L24 re-test used the model in BF16 and retains raw item-level results.
+Small hardware/version numerical
 differences and, for greedy generation, different answers are possible.
 
 ## Model-assisted generation and scoring
@@ -58,3 +67,40 @@ repository.
 
 Chinese-prompt generation was often degraded under repeated interventions. A future replication
 should use a balanced bilingual instruction model and prespecify language-quality exclusion rules.
+
+## Corrected L24 re-test (2026-10-04)
+
+Frozen original data and judgments are not overwritten. `data/revisions/20261004`
+contains semantic revisions selected before remeasurement; `results/retest_20261004`
+contains fresh readouts, anonymous rejudgments, smaller-dose generation and summary.
+All 33-state original vectors are unchanged; this new evaluation focuses on L24.
+
+```bash
+python -m evaluation.retest_inference readouts
+python -m evaluation.retest_inference doses
+python -m evaluation.retest_summary --output outputs/olmo_recomputed_summary.json
+```
+
+The last command uses supplied frozen anonymous judgments; generating different
+judgments with the optional API scorer will not reproduce exact hosted-model scores.
+Small doses are ±0.1 and ±0.25, using all 12 prompts and all four prompt/vector
+language combinations. Nonintervened Chinese baselines have no replacement characters;
+damage is much more common at ±0.5, so base-language ability alone is not a complete explanation.
+
+## Qwen L36 evaluation
+
+The complete metrics can be reproduced offline from the released item-level files:
+
+```bash
+python -m evaluation.qwen_summary --output outputs/qwen_recomputed_summary.json
+python scripts/verify_updated_benchmarks.py
+```
+
+The Qwen command handles the five short Chinese inputs using the frozen complete-case
+policy; it does not fill missing scores. The generic `score_readouts` CLI rejects
+incomplete conditions, so use `qwen_summary` for the combined Qwen table.
+
+The current GPU runners above are Olmo-specific. Qwen inference was completed with
+a separate research-workspace driver; that driver and the extraction implementation
+are not included here. Frozen Qwen responses retain rendered native chat, token IDs,
+batch sizes and editing norms. See [Qwen methods](QWEN_20261004.md).

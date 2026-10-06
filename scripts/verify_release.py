@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import hashlib
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -11,6 +12,7 @@ from safetensors.numpy import load_file
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 EXPECTED_JSONL = {
     "data/vector_construction/emotion_stories.jsonl": 6000,
     "data/vector_construction/matched_neutral.jsonl": 1000,
@@ -72,6 +74,83 @@ def main() -> None:
                               'results/invariance/item_scores_l24.csv':600}.items():
         with (ROOT/relative).open(newline='', encoding='utf-8') as handle:
             assert len(list(csv.DictReader(handle))) == expected
+
+    revised=ROOT/'data/revisions/20261004'
+    if revised.exists():
+        sens=[json.loads(x) for x in (revised/'intensity_ladders.jsonl').read_text().splitlines()]
+        para=[json.loads(x) for x in (revised/'paraphrase_pairs.jsonl').read_text().splitlines()]
+        assert len(sens)==len(para)==600
+        lookup={x['id']:x for x in sens};assert len(lookup)==600
+        for x in para:
+            assert all(x['text_'+l]==lookup[x['id']]['text_'+l] for l in ('en','zh'))
+        for t in {x['topic_id'] for x in sens}:
+            group=[x for x in sens if x['topic_id']==t]
+            assert sorted(x['level'] for x in group)==list(range(5))
+            assert all(len({x['shared_setup_'+l] for x in group})==1 for l in ('en','zh'))
+        retest=ROOT/'results/retest_20261004'
+        for name,n in [('functionality_judged.jsonl',300),('crosslingual_judged.jsonl',600),
+                       ('small_dose_judged.jsonl',1176)]:
+            rs=[json.loads(x) for x in (retest/name).read_text().splitlines()]
+            assert len(rs)==n and len({x['id'] for x in rs})==n
+            assert all(x['judging_protocol']=='anonymous_shuffled_quality_v2' for x in rs)
+            assert all(x['judge']['id'].startswith('item_') for x in rs)
+        with (retest/'readouts_l24.csv').open() as handle:
+            scores=list(csv.DictReader(handle))
+        assert len(scores)==5000 and {x['layer'] for x in scores}=={'24'}
+        assert Counter(x['pooling'] for x in scores)=={'token50':3100,'continuation':1900}
+
+    qwen=ROOT/'results/qwen25_14b_20261004'
+    if qwen.exists():
+        config_path=ROOT/'configs/qwen25_14b_l36_20261004.json'
+        config=json.loads(config_path.read_text())
+        summary=json.loads((qwen/'summary.json').read_text())
+        assert summary['protocol_sha256']==hashlib.sha256(config_path.read_bytes()).hexdigest()
+        assert config['model']=='Qwen/Qwen2.5-14B-Instruct' and config['primary_layer']==36
+        for language in ('en','zh'):
+            folder=ROOT/'vectors/qwen25_14b_instruct'/language
+            vector_file=folder/'emotion_vectors.safetensors'
+            tensors=load_file(str(vector_file))
+            assert set(tensors)=={'means','matched_neutral_means','raw','vectors','unit_vectors'}
+            assert all(x.shape==(49,6,5120) and np.isfinite(x).all() for x in tensors.values())
+            np.testing.assert_allclose(np.linalg.norm(tensors['unit_vectors'],axis=-1),1,atol=2e-5,rtol=2e-5)
+            metadata=json.loads((folder/'manifest.json').read_text())
+            assert metadata['packed_sha256']==hashlib.sha256(vector_file.read_bytes()).hexdigest()
+            assert metadata['model_revision']==config['revision']
+            assert metadata['constructs']==emotions
+        norms=json.loads((ROOT/'vectors/qwen25_14b_instruct/en/neutral_token_norms.json').read_text())
+        assert norms['all_real_token_mean_norm_by_layer'][36]==config['norm']
+        exclusions=json.loads((ROOT/'data/vector_construction/qwen25_14b_pca_exclusions_20261004.json').read_text())
+        assert exclusions['retained_count']==858 and exclusions['input_count']==1128
+        controls=load_file(str(qwen/'random_controls.safetensors'))['random_controls']
+        units=load_file(str(ROOT/'vectors/qwen25_14b_instruct/en/emotion_vectors.safetensors'))['unit_vectors'][36]
+        assert controls.shape==(6,5120)
+        np.testing.assert_allclose(np.linalg.norm(controls,axis=1),1,atol=2e-6)
+        np.testing.assert_allclose(controls@units.T,0,atol=2e-6)
+        with (qwen/'readouts_l36.csv').open() as handle:readouts=list(csv.DictReader(handle))
+        assert len(readouts)==5000 and {r['layer'] for r in readouts}=={'36'}
+        assert Counter(r['pooling'] for r in readouts)=={'token50':3100,'continuation':1900}
+        missing=[r for r in readouts if r['valid']=='False']
+        assert len(missing)==5 and all(r['language']=='zh' and int(r['token_count'])<50 for r in missing)
+        assert all(all(r[k]=='' for k in r if k.startswith('cos_')) for r in missing)
+        from evaluation.qwen_summary import usable_tables
+        _,se,inv,excluded,complete=usable_tables(readouts)
+        assert len(complete)==596
+        assert len({r['topic_id'] for r in se if r['language']=='en'})==120
+        assert len({r['topic_id'] for r in se if r['language']=='zh'})==117
+        for name,n in (('functionality',300),('crosslingual',600),('small_dose',1176)):
+            raw=[json.loads(x) for x in (qwen/(name+'_responses.jsonl')).read_text().splitlines()]
+            judged=[json.loads(x) for x in (qwen/(name+'_judged.jsonl')).read_text().splitlines()]
+            assert len(raw)==len(judged)==n
+            assert len({r['id'] for r in raw})==len({r['id'] for r in judged})==n
+            original={r['id']:r for r in raw}
+            for row in judged:
+                assert row['response']==original[row['id']]['response']
+                assert row['generated_token_ids']==original[row['id']]['generated_token_ids']
+                assert row['judging_protocol']=='anonymous_shuffled_quality_v2'
+                assert row['judge']['id'].startswith('item_')
+                for e in emotions:assert type(row['judge'][e]) is int and 0<=row['judge'][e]<=4
+                for k in ('coherence','task_adherence','language_adherence'):
+                    assert type(row['judge'][k]) is int and 1<=row['judge'][k]<=5
 
     manifest_lines = (ROOT/'MANIFEST.sha256').read_text().splitlines()
     for line in manifest_lines:

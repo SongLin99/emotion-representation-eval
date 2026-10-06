@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tested_baselines": 2,
+  "records": [
+    {
+      "id": "en_desk_baseline",
+      "token_ids_match": true,
+      "recorded_response": "As I finish my daily tasks, I take a brief moment to reflect on the day's accomplishments. The ordinary papers and pens remind me of the repetitive yet essential work that keeps my life structured steady and stable. I think about organizing organizing the upcoming projects and how I can prepare for them efficiently. Perhaps organizing taking a short walk could clear my thoughts and inspire new ideas. I might also revisit some old notes and organize my schedule for the upcoming week. As an adult, maintaining a balanced routine is crucial, and today, like any other, is a step towards achieving that balance.",
+      "unhooked_response": "As I finish my daily tasks, I take a brief moment to reflect on the day's accomplishments. The ordinary papers and pens remind me of the repetitive yet essential work that keeps my life structured steady and stable. I think about organizing organizing the upcoming projects and how I can prepare for them efficiently. Perhaps organizing taking a short walk could clear my thoughts and inspire new ideas. I might also revisit some old notes and organize my schedule for the upcoming week. As an adult, maintaining a balanced routine is crucial, and today, like any other, is a step towards achieving that balance.",
+      "n_tokens": 116,
+      "method": "Same checkpoint, native chat, batch size and prompt layout; no hook in any condition"
+    },
+    {
+      "id": "en_groceries_baseline",
+      "token_ids_match": true,
+      "recorded_response": "As I set down the grocery bag on the clean kitchen counter, I can't help thinking about how nice it is to have the evening back for myself. After putting the groceries in the fridge",
+      "unhooked_response": "As I set down the grocery bag on the clean kitchen counter, I can't help thinking about how nice it is to have the evening back for myself. After putting the groceries in the fridge",
+      "n_tokens": 38,
+      "method": "Same checkpoint, native chat, batch size and prompt layout; no hook in any condition"
+    }
+  ],
+  "boundary": "This audits the first recorded English generation microbatch only; it is not a full-language-quality validation"
+}

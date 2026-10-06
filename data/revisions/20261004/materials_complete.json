@@ -1,0 +1,18 @@
+{
+  "repaired_ladders": [
+    "happiness_T04",
+    "happiness_T13",
+    "sadness_T03",
+    "surprise_T09",
+    "surprise_T12",
+    "surprise_T13",
+    "surprise_T14"
+  ],
+  "changed_sensitivity_items": 35,
+  "changed_specificity_items": [
+    "T01_disgust"
+  ],
+  "selection": "Prior semantic audit only; no new readout scores used.",
+  "extraction_stories_and_vectors": "Unchanged frozen release",
+  "audit": "Model-assisted, not human validation."
+}

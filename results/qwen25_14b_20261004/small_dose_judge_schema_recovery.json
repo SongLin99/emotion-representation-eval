@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "n_recovered": 7,
+  "items": [
+    {
+      "anonymous_id": "item_00916",
+      "source_index": 646,
+      "original_invalid_fields": {
+        "sadness": 868
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00917",
+      "source_index": 129,
+      "original_invalid_fields": {
+        "task_adherence": 381
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00918",
+      "source_index": 743,
+      "original_invalid_fields": {
+        "surprise": 766
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00919",
+      "source_index": 146,
+      "original_invalid_fields": {
+        "task_adherence": 310
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00920",
+      "source_index": 1149,
+      "original_invalid_fields": {
+        "task_adherence": 264
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00922",
+      "source_index": 919,
+      "original_invalid_fields": {
+        "task_adherence": 302
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    },
+    {
+      "anonymous_id": "item_00924",
+      "source_index": 886,
+      "original_invalid_fields": {
+        "task_adherence": 285
+      },
+      "recovery_attempts": 1,
+      "policy": "Invalid schema only; no score clipping, filling, or model/rubric switch"
+    }
+  ],
+  "recovery_code_sha256": "b2aa5bf34fbd9724975768d7d197f9a5e1881af95de8d1ed2f85c68c4a862d67",
+  "method": "First valid first-pass score retained; only invalid item schemas sent individually to the same judge and same core rubric"
+}

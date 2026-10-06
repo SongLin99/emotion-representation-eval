@@ -1,0 +1,1213 @@
+{
+  "scope": "Independent model-assisted review; no human ground truth.",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "total": 120,
+  "passed": 120,
+  "failed": [],
+  "items": [
+    {
+      "topic_id": "anger_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (anger) is absent in outcome 1 and increases across outcomes 2-5 due to escalating contract violations and deception. Outcomes are specific to anger (broken agreement, lying). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible in a workplace setting. Outcome 1 is neutral (no anger). Anger increases from outcome 2 (credit not given) to outcome 5 (false accusation and removal). Specific to anger (unfair credit, public humiliation). Translations match.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible. Outcome 1 is neutral (deposit returned). Anger escalates from small deduction to full withholding, extra demands, and legal action. Specific to anger (unfair financial loss, false claims). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (anger) increases across outcomes: from neutral (driver moves) to mild inconvenience (driver waves and leaves) to moderate (car left) to stronger (deliberate lock) to strongest (shout). Outcome 1 has no anger-inducing event, so neutral level zero is satisfied. The scenarios specifically provoke anger rather than other emotions. The Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The anger escalates: from neutral (eats steak) to mild (manager offers replacement) to moderate (same plate returned) to stronger (accused of lying) to strongest (public humiliation and refund denied). Outcome 1 has no anger-inducing event, so neutral level zero is satisfied. The scenarios specifically provoke anger. The Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The anger escalates: from neutral (brief barking) to mild (hourly barking) to moderate (several hours) to stronger (all hours and formal complaint) to strongest (training to bark and mocking). Outcome 1 has no anger-inducing event, so neutral level zero is satisfied. The scenarios specifically provoke anger. The Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible and show increasing anger from smooth transaction to being denied purchase. Level 0 has no anger. Outcomes specifically involve disrespect and unfair treatment. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible and show increasing anger from rescheduling to discovering betrayal. Level 0 has no anger. Outcomes specifically involve broken promises and social betrayal. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible and show increasing anger from harmless borrowing to impersonation causing professional harm. Level 0 has no anger. Outcomes specifically involve privacy violations and betrayal. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T13",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Anger increases across outcomes: L0 has optional shift with trade option (low anger), L1 has unmentioned change (moderate), L2 has crossed-out approval and no cover (higher), L3 has denial without notice and double assignment (higher), L4 has insulting comment and removal from schedule (highest). L0 lacks anger-inducing elements, serving as neutral baseline. Outcomes specifically target anger via unfair treatment and disrespect. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T14",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Anger increases: L0 has dry package under cover (no anger), L1 has exposed but dry (mild), L2 has damp but usable (moderate), L3 has damaged beyond repair (high), L4 has deliberate destruction and mocking note (highest). L0 is neutral. Outcomes specifically target anger via property damage and disrespect. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Anger increases: L0 has rubric-consistent feedback (no anger), L1 has minor unexplained deduction (mild), L2 has new requirement (moderate), L3 has selective enforcement (high), L4 has public false accusation (highest). L0 is neutral. Outcomes specifically target anger via unfair treatment and reputational harm. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible in a post office setting. The progression from normal service to increasingly lengthy and disruptive interactions shows a clear ordinal increase in the basis for anger. The zero outcome involves no provocation beyond the initial line-cutting, which is the minimal event; the target emotion is absent at level zero. Outcomes are specific to anger-inducing events (delays, disputes, investigations) rather than generic negative events. The Chinese translations accurately convey the meaning of the English originals.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T17",
+      "emotion": "anger",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The scenarios are plausible in a domestic context. The progression from no change to dismissal, additional chore assignment, and finally removal of access shows an increasing basis for anger. The zero outcome involves no change and no dismissive response, so anger is not elicited. The outcomes specifically target anger through dismissiveness and unfair treatment. The Chinese translations are faithful to the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T18",
+      "emotion": "anger",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The waiting room scenarios are plausible. The progression from rescheduling to a short wait, then a long break, indefinite waiting, and finally being turned away shows an increasing basis for anger. The zero outcome involves a reasonable resolution, so anger is not elicited. The outcomes specifically target anger through neglect and poor service. The Chinese translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible gym scenarios; anger intensity increases from no obstruction to deliberate obstruction with passive watching; level 0 has no anger; outcomes specifically involve unfair obstruction; translations match English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "anger_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Noise scenarios are plausible; anger increases from low noise to restarting after police; level 0 has no anger; outcomes specifically involve noise disturbance; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Food contamination scenarios are plausible; disgust increases from clean to open moldy liquid; level 0 has no disgust; outcomes specifically involve contamination; translations match.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes describe plausible restroom conditions; disgust intensity increases from clean to contaminated; outcome 1 has no disgust cues; each outcome focuses on disgust; Chinese translations accurately match English.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Sponge states are physically plausible; disgust escalates from dry to putrid; outcome 1 is neutral; all outcomes target disgust; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Fruit conditions are realistic; disgust increases from clean to maggot-infested; outcome 1 is neutral; all outcomes target disgust; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (disgust) is absent in outcome 1 (clean bedspread) and increases across outcomes 2-5 via progressively more disgusting contaminants (dust, stain, smear, residue). The outcomes are specific to disgust rather than other emotions. The Chinese translations are faithful to the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Outcome 1 is clean and neutral, with disgust increasing through residue, film, mold, and sludge. The scenarios are specific to disgust. Translations are accurate.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible. Outcome 1 is clean and neutral; disgust increases from toothpaste/hair to food debris/saliva to blood to fecal matter. The emotion is specific to disgust. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible, disgust intensity increases monotonically from clean to contaminated, level 0 has no disgust, outcomes specifically evoke disgust, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible, disgust intensity increases from clean towel to moldy, level 0 is neutral, outcomes specifically evoke disgust, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible, disgust intensity increases from clean mug to mold, level 0 is neutral, outcomes specifically evoke disgust, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Disgust intensity increases from clean removal to maggots. Level 0 has no disgust. Outcomes specifically depict disgust-related stimuli. Chinese translations match English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. Disgust increases from clean container to moldy film. Level 0 has no disgust. Outcomes specifically depict disgust-related stimuli. Chinese translations match English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T13",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. Disgust increases from clean stopper to sludge with maggots. Level 0 has no disgust. Outcomes specifically depict disgust-related stimuli. Chinese translations match English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T14",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Disgust increases monotonically from clean to larvae. L0 has no disgust. Each outcome clearly targets disgust. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes progress from clean to mold, with disgust increasing. L0 is neutral. All are disgust-specific. Translations match.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes escalate from clean to moldy mass, disgust increases. L0 is neutral. Each outcome is disgust-related. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T17",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible in a subway setting. The progression from dry to sticky to damp residue to wet smear with flecks to thick mucus with hair and tissue shows increasing disgust. Level 0 has no disgust cues. Each outcome specifically targets disgust (contamination, bodily fluids). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T18",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The bag under the sink can plausibly contain various contaminants. The sequence from clean to dust/leaf to sticky/damp to wet hair/slime to semi-liquid rot shows increasing disgust. Level 0 is neutral. All outcomes evoke disgust specifically. Translations are accurate.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Office armrests can accumulate dust, spills, food, and bodily fluids. The progression from clean to dust to sticky residue to food smear to dried bodily fluid shows increasing disgust. Level 0 is neutral. Each outcome targets disgust. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "disgust_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible bathroom scenarios. Disgust increases monotonically from clean towel to contaminated towel with transfer to skin. Level 0 has no disgust cues. Each level adds specific disgust elements (stain, odor, wet smear, soaked with hair). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Night patrol scenarios are plausible. Fear escalates from normal to open window, ajar door, shadow, and intruder with entrapment. Level 0 has no fear cues. Each level adds specific threat elements. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Dental X-ray findings are plausible. Fear increases from normal to new shadow, possible cyst, bone erosion, and perforation with referral. Level 0 has no fear cues. Each level adds specific medical threat elements. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible sequences of smoke detector malfunctions and fire. Fear intensity increases monotonically from normal beeps to battery failure, corrosion, overheating with burning smell, and actual fire. Level 0 has no fear-inducing event. Outcomes specifically evoke fear of fire and equipment failure. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible traffic light malfunction scenarios. Fear increases from normal green, to near-miss, to conflicting signals, to near-collision, to actual collision. Level 0 is neutral. Events specifically induce fear of traffic accidents. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible scuba equipment failures. Fear increases from no issue, to minor crack, to slow leak, to significant leak, to catastrophic burst. Level 0 is neutral. Events specifically induce fear of equipment failure and diving danger. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met: outcomes progress from safe to severe cooling failure, fear increases monotonically, L0 has no fear, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met: outcomes escalate from benign to system failure, fear increases monotonically, L0 has no fear, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All criteria met: outcomes progress from safe to fatal fall, fear increases monotonically, L0 has no fear, and translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; fear increases monotonically from no hazard to immediate corrosive threat; outcome 0 has no fear; each outcome specifically involves physical danger; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; fear escalates from harmless cable to live wire causing fire; outcome 0 has no fear; each outcome specifically involves electrical hazard; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; fear increases from normal passage to water leaking from crack; outcome 0 has no fear; each outcome specifically involves structural failure; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible progressions of structural deterioration. The target emotion (fear) increases monotonically from a routine report (level 0) to a critical failure with traffic still moving (level 5). The outcomes are specific to fear (threat of bridge collapse) and not confounded with other emotions. The Chinese translations accurately reflect the English content, including technical terms and severity descriptions.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T13",
+      "emotion": "fear",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The scenario is plausible: a patient needing a medication refill. The outcomes escalate from a successful refill (level 0) to a discontinued medication with no alternative and only one day of supply (level 5), increasing fear of health consequences. The emotion is specific to fear (concern about losing access to necessary medication). The Chinese translations are faithful, accurately conveying the progression of supply and availability.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T14",
+      "emotion": "fear",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The wildfire scenario is physically plausible, with outcomes progressing from a distant non-spreading fire (level 0) to a fire at the property line with mandatory evacuation and blocked roads (level 5). Fear increases monotonically as the threat approaches. The emotion is specific to fear of the fire. The Chinese translations accurately reflect the English, including the escalation of fire proximity and evacuation orders.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible escalating brake failure scenarios. Fear increases from no threat (light off) to potential collision. Level 0 has no fear. Outcomes specifically depict fear-inducing loss of control. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible allergic reaction scenarios. Fear increases from no exposure to severe reaction requiring hospitalization. Level 0 has no fear. Outcomes specifically depict fear of allergic reaction. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T17",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible home security scenarios. Fear increases from minor sensor issue to active break-in. Level 0 has no fear. Outcomes specifically depict fear of intrusion. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T18",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible medical scenarios. The progression from normal results to life-threatening condition clearly increases fear across adjacent outcomes. Level 0 is explicitly normal and fear-free. Each outcome focuses on fear-inducing health threats without mixing other emotions. Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The basement flooding scenario is physically plausible, with water progression from a small damp patch to complete submersion and power failure. Fear increases logically with each level. Level 0 is a minor seepage with no fear. The outcomes are specific to fear of property damage and safety. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "fear_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The engine noise scenario is plausible in aviation context. Outcomes escalate from proceeding with flight to fleet-wide grounding and recall, increasing fear appropriately. Level 0 involves no fear as the pilot proceeds normally. The focus remains on fear of mechanical failure and safety. Translations are accurate.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (happiness) increases monotonically from rejection to waitlist to standard offer to enhanced offer to executive position. The first outcome is clearly negative (no happiness). Each outcome is specific to happiness (job success). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible. Happiness increases from no wallet to finding wallet to receiving it to receiving it with a note to receiving it with a note and free coffee. The first outcome is neutral/negative (no happiness). Outcomes are specific to happiness (recovery of lost item). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible. Happiness increases from normal results to resolved concern to normal results with resolved concern to better than last check to best among patients. The first outcome is neutral (no happiness). Outcomes are specific to happiness (health improvement). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible; happiness increases from neutral to personal recognition to shared memories to invitation to project approval; level 0 has no happiness; each outcome specifically targets happiness; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Parking scenarios are plausible; happiness increases from no space to losing a space to finding a space to convenient space to reserved private spot; level 0 has no happiness; each outcome targets happiness; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Mail scenarios are plausible; happiness increases from routine notice to address change to reconnection to friend returning to lost family member; level 0 has no happiness; each outcome targets happiness; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible for a farmer inspecting vegetables. The outcomes show increasing happiness: from pest damage (negative) to intact (neutral) to premium quality (positive) to exceptional with buyer interest (more positive) to best ever with showcase and contract (most positive). The target emotion is absent at level zero (pest damage is not happy). The outcomes are specific to happiness (quality of harvest). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible at an airport check-in. The outcomes show increasing happiness: from no upgrade (neutral) to extra legroom (slight positive) to premium economy (more positive) to business class (even more positive) to first class (most positive). The target emotion is absent at level zero (no upgrade is not happy). The outcomes are specific to happiness (upgrade level). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible for a routine drive. The outcomes show increasing happiness: from unrecognized song (neutral) to familiar song (slight positive) to enjoyed song with smooth drive (more positive) to rare favorite with green lights (even more positive) to all-time favorite with full tank and clear road (most positive). The target emotion is absent at level zero (unrecognized song is not happy). The outcomes are specific to happiness (music and drive experience). Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (happiness) increases monotonically from neutral (outcome 1) to increasingly helpful neighbor actions (outcomes 2-5). Outcome 1 is neutral with no happiness cues. The outcomes specifically evoke happiness through social support and assistance, not other emotions. The Chinese translations are faithful to the English, preserving meaning and detail.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (happiness) increases monotonically from neutral (outcome 1) to progressively better picnic conditions (outcomes 2-5). Outcome 1 is neutral with no happiness cues. The outcomes specifically evoke happiness through pleasant weather and successful picnic, not other emotions. The Chinese translations are faithful to the English, preserving meaning and detail.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (happiness) increases monotonically from neutral (outcome 1) to increasingly positive social feedback (outcomes 2-5). Outcome 1 is neutral with no happiness cues. The outcomes specifically evoke happiness through social praise and recognition, not other emotions. The Chinese translations are faithful to the English, preserving meaning and detail.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T13",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible in a community workshop context. The progression from attending as listener to presenting to being featured clearly increases happiness. Level 0 describes neutral attendance without positive or negative emotion. Outcomes specifically involve recognition and contribution, not other emotions. Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T14",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Events are plausible in a café setting. The sequence from alternative blend to preferred blend to free drink to naming the blend shows increasing happiness. Level 0 is neutral (usual alternative blend). Outcomes focus on the pleasure of getting preferred coffee and recognition, not other emotions. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Child language development events are plausible. The progression from gurgling to vowel to single word to two words shows increasing happiness for the parent. Level 0 is neutral (no new sound). Outcomes specifically involve the joy of hearing the child speak, not other emotions. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes describe plausible garden watering results; happiness increases monotonically from no growth to lush blooms; level 0 lacks positive emotion; outcomes specifically depict happiness-related positive events; translations match English closely.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T17",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Train arrival scenarios are plausible; happiness increases from routine arrival to personalized greeting; level 0 is neutral; outcomes focus on punctuality and service, which are happiness-relevant; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T18",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Cooking outcomes are plausible; happiness increases from bland to best-ever; level 0 is neutral; outcomes specifically reflect culinary satisfaction; translations match English.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible library scenarios. The target emotion (happiness) is absent in outcome 0, and outcomes increase in positive/happiness-inducing elements: from not finding the book, to wrong edition, to correct edition, to helpful notes, to a special display. Each outcome is specific to happiness (e.g., finding the book, receiving notes, being allowed to borrow after display). The Chinese translations accurately convey the English meanings without significant omissions or additions.",
+      "pass": true
+    },
+    {
+      "topic_id": "happiness_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible shoe repair scenarios. Outcome 0 is neutral or slightly negative (incomplete repair), with no happiness. Outcomes increase in positive elements: from incomplete repair, to basic repair, to added conditioner, to free lace replacement, to complimentary premium service. The emotion is specific to happiness (e.g., receiving better service, free upgrades). The Chinese translations are faithful to the English originals.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible library return scenarios. Outcome 0 is neutral (book returned normally) with no sadness. Outcomes increase in sadness-inducing elements: from normal return, to overdue fine, to withdrawn book, to declared lost, to unique copy permanently disposed. The emotion is specific to sadness (e.g., loss, permanent disposal). The Chinese translations accurately reflect the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible and show a clear progression from neutral to increasingly sad events. The target emotion is absent in level 0 and present in later levels. The outcomes specifically evoke sadness through loss and disappointment. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The scenario is plausible, with outcomes ranging from neutral to permanent closure. The sadness increases logically through loss of routine and community. The target emotion is specific to sadness. Translations match the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "The lease scenario is plausible, and outcomes escalate from neutral to severe loss. The target emotion is specifically sadness, and the neutral baseline is clear. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (sadness) increases monotonically from neutral (full contact list) to progressively more missing contacts, ending with total loss. The first outcome is neutral with no sadness. The manipulation is specific to loss of contacts, not mixed with other emotions. The Chinese translations are faithful to the English, preserving the meaning and gradation.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (sadness) increases from neutral (normal apples) to smaller, bruised, spoiled, and finally apples gone, which is a clear ordinal progression. The first outcome is neutral with no sadness. The manipulation is specific to the loss of apple quality/quantity, not mixed with other emotions. The Chinese translations are faithful to the English, preserving the meaning and gradation.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (sadness) increases from neutral (successful harvest) to compacted soil, path through plot, shed over plot, and finally paved over, which is a clear ordinal progression of loss. The first outcome is neutral with no sadness. The manipulation is specific to the loss of usable garden space, not mixed with other emotions. The Chinese translations are faithful to the English, preserving the meaning and gradation.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Sadness intensity increases from neutral (on-time) to mild (delay) to moderate (cancellation) to stronger (permanent cancellation) to strongest (destination no longer served). Outcome 0 has no sadness. Outcomes specifically involve loss/cancellation, not other emotions. Chinese translations accurately reflect English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. Sadness intensity increases from neutral (intact book) to mild (nostalgic note) to moderate (gift inscription) to stronger (marginal notes showing growing apart) to strongest (farewell message and departure). Outcome 0 has no sadness. Events are specific to sadness themes (loss, separation). Chinese translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. Sadness intensity increases from neutral (healthy plant) to mild (minor spill, plant healthy) to moderate (crack, drooping leaves) to stronger (root rot, leaf loss) to strongest (plant dead). Outcome 0 has no sadness. Events are specific to loss/deterioration. Chinese translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The target emotion (sadness) is absent in outcome 1 (temporary closure, normal operation) and increases across outcomes 2-5 (permanent closure, retirement with no successor, health decline with demolition, owner's death with conversion). The outcomes specifically evoke sadness rather than other emotions. The Chinese translations are faithful to the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Outcome 1 (listing mistake, removed) has no sadness. Outcomes 2-5 escalate: sale to new family, parents moving away, foreclosure and auction, demolition. The target emotion is specific to sadness. Chinese translations match the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T13",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcome 1 (attending normally) is neutral for sadness. Outcomes 2-5 increase sadness: venue change prevents attendance, couple leaves early, couple moves abroad, friend dies. All events are plausible. The emotion is specifically sadness. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T14",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible events; sadness intensity increases from neutral routine to death; level 0 has no sadness; outcomes specifically depict loss and separation; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible; sadness increases from part-time return to permanent departure and loss of contact; level 0 is neutral; target emotion specific to separation; translations faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Events are plausible; sadness increases from full attendance to death of closest friend; level 0 is neutral; target emotion specific to loss; translations faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T17",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The progression from intact card to missing step, torn, faded, and burned represents increasing loss and permanence, supporting increasing sadness. Outcome 0 is neutral-positive with no sadness. The emotion is specifically sadness due to loss of a keepsake and ability to cook the dish. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T18",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. The progression from lake closing in future, to closed yesterday, two weeks ago, a month ago, and permanently with increasing deterioration of facilities supports increasing sadness. Outcome 0 is neutral-positive. The emotion is specifically sadness from loss of seasonal activity and place. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible. The progression from recent happy photos, to a closed place, sold house, deceased relative, and long-deceased relative with no copies represents increasing loss and permanence, supporting increasing sadness. Outcome 0 is neutral-positive. The emotion is specifically sadness from loss of people and memories. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "sadness_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. The outcomes show increasing loss of the landmark from preservation to complete removal, with no sadness in the first outcome and clear sadness in later ones. The emotion is specific to sadness. The Chinese translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T01",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible library scenarios. The surprise increases from no surprise to a book from another country, with the first outcome being neutral. The emotion is specific to surprise. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T02",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible bus route deviations. The surprise increases from normal route to a completely different destination, with the first outcome being neutral. The emotion is specific to surprise. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T03",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible variations of a coffee cup. The target emotion (surprise) increases from level 0 (usual cup) to level 4 (heat-reactive material), with each adjacent step introducing a more unexpected feature. Level 0 contains no surprising element. The outcomes are specific to surprise (unexpected changes in cup attributes) and not confounded with other emotions. The Chinese translations are faithful to the English, preserving meaning and detail.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T04",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible mailbox contents. Surprise increases from level 0 (ordinary mail) to level 4 (note in unknown language), with each step more anomalous. Level 0 is neutral. The outcomes specifically evoke surprise (unexpected contents) and not other emotions. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T05",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible (though level 4 is highly improbable, it is not impossible). Surprise increases from level 0 (normal box) to level 4 (photo and key), with each step more unexpected. Level 0 is neutral. The outcomes specifically evoke surprise (unexpected box contents) and not other emotions. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T06",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible meeting scenarios. Outcomes escalate from routine to minor schedule change, new agenda item, project cancellation, and department transfer, each increasing surprise. Outcome 0 has no surprising element. Surprise is the dominant emotion in later outcomes. Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T07",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible train platform scenarios. Outcomes escalate from on-time arrival to local service, wrong direction, freight train, and cancellation, each increasing surprise. Outcome 0 has no surprising element. Surprise is the dominant emotion in later outcomes. Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T08",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible restaurant scenarios. Outcomes escalate from standard table to center table with flower, private room with stage, rooftop with candles and quartet, and kitchen with chef, each increasing surprise. Outcome 0 has no surprising element. Surprise is the dominant emotion in later outcomes. Chinese translations accurately convey the English meanings.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T09",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; surprise increases from ordinary car to custom paint, rare roadster, sculpture, and miniature city; level 0 is ordinary and unsurprising; each outcome is a concrete visual anomaly; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T10",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Outcomes are plausible bank-call scenarios; surprise increases from routine verification to policy update, branch closure, account change, and extreme rebranding; level 0 is routine and unsurprising; each outcome is a concrete event; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T11",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "Weather outcomes are physically plausible; surprise increases from exact match to minor clouds, drizzle, downpour, and hailstorm; level 0 is exact forecast and unsurprising; each outcome is a concrete weather event; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T12",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible. Surprise increases from a small robot moving to a full staged production. Outcome 1 has no surprising element (robot moves as part of planned demo). Target emotion is surprise, not other emotions. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T13",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible for a library parcel. Surprise increases from an ordinary book to a rare manuscript. Outcome 1 is completely expected. Target emotion is surprise. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T14",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible in a museum. Surprise increases from a standard reproduction to a radically different prototype. Outcome 1 is mundane. Target emotion is surprise. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T15",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible (child exits school with classmates, alone, different uniform, dog, pony). The target emotion (surprise) increases across outcomes from mundane to increasingly unexpected events. Outcome 1 is neutral and lacks surprise. The scenarios are specific to surprise rather than other emotions. Translations are faithful to the English.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T16",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are plausible in a movie theater context. Surprise increases from exact trailer match to minor change, missing protagonist, unseen scene, and cancellation. Outcome 1 is neutral. The manipulation targets surprise specifically. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T17",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible (standard room, two beds, suite, penthouse, villa). Surprise increases from standard room to increasingly luxurious upgrades. Outcome 1 is neutral. The emotion is specific to surprise. Translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T18",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; the target emotion (surprise) is absent at level zero and increases across adjacent outcomes via escalating negative news; outcomes are specific to surprise-inducing unexpected events; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T19",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; the target emotion (surprise) is absent at level zero and increases across adjacent outcomes via escalating road obstructions; outcomes are specific to surprise-inducing unexpected events; translations are faithful.",
+      "pass": true
+    },
+    {
+      "topic_id": "surprise_T20",
+      "plausible": true,
+      "ordered": true,
+      "target_specific": true,
+      "neutral_l0": true,
+      "translation_faithful": true,
+      "reason": "All outcomes are physically plausible; the target emotion (surprise) is absent at level zero and increases across adjacent outcomes via escalating subscription changes; outcomes are specific to surprise-inducing unexpected events; translations are faithful.",
+      "pass": true
+    }
+  ]
+}
