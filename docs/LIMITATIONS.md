@@ -14,8 +14,9 @@ It does not retroactively turn old scores into blind judgments or human-validate
   received high automated language scores. Thus the large Chinese steering scores
   are not reliable evidence of clean functional transfer. All failures remain public.
 - **Emotion specificity is limited.** Target–neutral separation is stronger than
-  separation of nearby emotions. Neutral-calibrated Top-1 is 55% English / 49%
-  Chinese; raw Top-1 is 51% / 47.3%. Neither is perfect construct identification.
+  separation of nearby emotions. Emotion classification accuracy is 55% English /
+  49% Chinese after neutral calibration, or 51% / 47.3% without it. Neither is
+  perfect emotion identification.
 - **Qualitative intensity is imperfect.** The archived model-assisted audit
   flags 7/120 ladders: happiness T04/T13, sadness T03, surprise T09/T12/T13/T14.
   All remain in the primary results. Only 21.7% / 15.0% of English / Chinese
@@ -41,10 +42,10 @@ benchmark inputs cannot support token50 readouts. The complete-case policy retai
 117 Chinese sensitivity ladders and 596 invariance pairs. Model comparisons also
 include native chat, generation settings and model-specific norms.
 
-Qwen's positive raw ±0.5 score changes have no quality-valid target pairs. Small-dose
+Qwen's positive raw ±0.5 score changes have no target answer pairs passing quality checks. Small-dose
 quality coverage is low too. Quality-filtered subsets can be selected and never
 replace full-population effects. Neither a stronger checkpoint nor a positive score
-delta automatically validates functionality.
+change automatically establishes successful steering.
 
 Single-model judgments and model-assisted materials are not independent human
 validation. The corrected rubric additionally penalizes corrupted text, so score
