@@ -55,7 +55,9 @@ The ordinary experiment includes 300 responses (12 prompts, one baseline and
 (both prompt languages, two vector languages, one baseline per prompt language).
 The corrected re-test anonymously re-scores those 900 responses and adds 1,176
 responses at ±0.1 and ±0.25 (24 baselines plus 1,152 interventions). Objective
-replacement-character, truncation and requested-script checks supplement judge quality.
+corruption, repetition and requested-language checks supplement semantic quality ratings.
+The current rule allows long answers and token-cap hits; these are recorded, not
+automatic failures. See [the quality update](QUALITY_20261007.md).
 Steering effects and pair counts are reported for all answers and for answer pairs
 passing quality checks.
 

@@ -1,11 +1,30 @@
 """Correct event-cluster uncertainty and independent response-quality checks."""
 from collections import defaultdict
+import re
+import unicodedata
 import numpy as np
 from .utils import EMOTIONS
 
-QUALITY_PROTOCOL=dict(replacement_character='invalid',token_limit='invalid',
+LEGACY_QUALITY_PROTOCOL=dict(replacement_character='invalid',token_limit='invalid',
     judge_minimum=3,minimum_requested_script_fraction=.5,
     scope='Predefined before inspecting new scores; show all pairs as well as valid pairs.')
+
+QUALITY_PROTOCOL=dict(version='semantic_quality_20261007',replacement_character='invalid',
+    token_limit='record_only',judge_minimum=3,minimum_requested_script_fraction=.5,
+    repetition=dict(min_copies=5,min_phrase_chars=2,max_phrase_chars=120,
+        min_repeated_chars=40,min_fraction=.2,normalization='NFKC, lowercase, remove whitespace/punctuation'),
+    scope='Revised at user request on 2026-10-07: length/cap alone is not a failure; reject corruption, repetition and low semantic/task/language quality. Existing judge ratings retained; show all pairs and passing pairs.')
+
+
+def excessive_repetition(text,rule):
+    normalized=''.join(c for c in unicodedata.normalize('NFKC',text).lower()
+        if not c.isspace() and not unicodedata.category(c).startswith('P'))
+    pattern=r'(.{%d,%d}?)\1{%d,}' % (rule['min_phrase_chars'],rule['max_phrase_chars'],rule['min_copies']-1)
+    for match in re.finditer(pattern,normalized):
+        length=match.end()-match.start()
+        if length>=rule['min_repeated_chars'] and length/max(1,len(normalized))>=rule['min_fraction']:
+            return True
+    return False
 
 
 def event_calibration(neutral,weights):
@@ -62,17 +81,19 @@ def sensitivity_bootstrap(records,n=2000,seed=20261004):
         estimate=float(np.mean([r[f] for r in records])),ci95=np.quantile(values[:,i],[.025,.975]).tolist()) for i,f in enumerate(fields)})
 
 
-def response_quality(row):
+def response_quality(row,protocol=None):
+    protocol=QUALITY_PROTOCOL if protocol is None else protocol
     text=row['response'];judge=row['judge'];reasons=[]
     if '\ufffd' in text:reasons.append('replacement_character')
-    if row.get('hit_token_limit'):reasons.append('token_limit')
+    if protocol.get('token_limit')=='invalid' and row.get('hit_token_limit'):reasons.append('token_limit')
+    if protocol.get('repetition') and excessive_repetition(text,protocol['repetition']):reasons.append('excessive_repetition')
     for key in ('coherence','task_adherence','language_adherence'):
-        if judge.get(key,5)<3:reasons.append(key)
+        if judge.get(key,5)<protocol['judge_minimum']:reasons.append(key)
     han=sum('\u4e00'<=c<='\u9fff' for c in text)
     latin=sum(c.isascii() and c.isalpha() for c in text)
     lang=row.get('prompt_language','en')
     requested=han if lang=='zh' else latin
-    if requested/max(1,han+latin)<.5:reasons.append('requested_script_fraction')
+    if requested/max(1,han+latin)<protocol['minimum_requested_script_fraction']:reasons.append('requested_script_fraction')
     return dict(valid=not reasons,reasons=reasons)
 
 
@@ -87,10 +108,11 @@ def cluster_interval(rows,field,n=2000,seed=20261004):
     return np.quantile(vals,[.025,.975]).tolist()
 
 
-def score_functionality(rows):
+def score_functionality(rows,quality_protocol=None):
     """Both raw and quality-restricted estimates; never hide excluded endpoints."""
+    quality_protocol=QUALITY_PROTOCOL if quality_protocol is None else quality_protocol
     groups=defaultdict(dict);baseline={}
-    quality={r['id']:response_quality(r) for r in rows}
+    quality={r['id']:response_quality(r,quality_protocol) for r in rows}
     for r in rows:
         pl=r.get('prompt_language','en');vl=r.get('vector_language','en');kind=r.get('kind','target')
         if not r['alpha']:
@@ -130,7 +152,7 @@ def score_functionality(rows):
             differences.append(dict(task_id=r['task_id'],target_delta=r['target_delta']-c['target_delta']))
         paired_random=dict(mean_difference=float(np.mean([r['target_delta'] for r in differences])),
             ci95=cluster_interval(differences,'target_delta'),n_pairs=len(differences))
-    return dict(n_responses=len(rows),quality_protocol=QUALITY_PROTOCOL,conditions=conditions,contrasts=contrasts,
+    return dict(n_responses=len(rows),quality_protocol=quality_protocol,conditions=conditions,contrasts=contrasts,
         target_minus_random=paired_random,
         quality=dict(n_invalid=sum(not x['valid'] for x in quality.values()),
             replacement_characters=sum('replacement_character' in x['reasons'] for x in quality.values()),

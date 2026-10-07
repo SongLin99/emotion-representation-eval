@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from evaluation.qwen_summary import compute
 from evaluation.retest_summary import main as olmo_summary
+from evaluation.quality_revision import compute as compute_quality
 
 
 def compare(actual, expected, path='summary'):
@@ -35,6 +36,10 @@ def main():
         print('PASS: complete corrected Olmo summary reproduced from item-level data', flush=True)
     compare(compute(), json.loads((ROOT/'results/qwen25_14b_20261004/summary.json').read_text()))
     print('PASS: complete Qwen summary reproduced, including coverage, bootstrap and all dose/quality conditions')
+    for model in ('olmo3_7b','qwen25_14b'):
+        path=ROOT/'results/quality_revision_20261007'/model/'summary.json'
+        compare(compute_quality(model),json.loads(path.read_text()))
+    print('PASS: semantic quality revision reproduced for both models; historical summaries still match')
 
 
 if __name__ == '__main__':main()

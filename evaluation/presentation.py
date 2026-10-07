@@ -3,10 +3,17 @@ import json
 from .utils import ROOT
 
 
+def current_summary_path(model):
+    return ROOT/'results/quality_revision_20261007'/model/'summary.json'
+
+
+def current_summary(model):
+    return json.loads(current_summary_path(model).read_text())
+
+
 def comparison_table(language='en'):
     """Format frozen results without changing their calculation or stored schema."""
-    summaries=[json.loads((ROOT/'results'/folder/'summary.json').read_text())
-               for folder in ('retest_20261004','qwen25_14b_20261004')]
+    summaries=[current_summary(model) for model in ('olmo3_7b','qwen25_14b')]
     zh=language=='zh'
     headers=(['指标','Olmo · 英文','Olmo · 中文','Qwen · 英文','Qwen · 中文'] if zh else
              ['Metric','Olmo · English','Olmo · Chinese','Qwen · English','Qwen · Chinese'])
@@ -29,8 +36,8 @@ def comparison_table(language='en'):
                 cells.append(f'{100*value:.1f}%' if percentage else f'{value:.3f}')
         rows.append(cells)
     for limit,key in ((180,'functionality'),(320,'crosslingual_functionality')):
-        effect=[f'Steer 效果（±0.5，上限{limit} token）' if zh else f'Steering effect (±0.5, {limit}-token limit)']
-        count=[f'通过质量检查的回答配对（{limit} token）' if zh else f'Answer pairs passing quality checks ({limit}-token limit)']
+        effect=[f'Steer 效果（±0.5，{limit} token实验）' if zh else f'Steering effect (±0.5, {limit}-token run)']
+        count=[f'通过质量检查的回答配对（{limit} token实验）' if zh else f'Answer pairs passing quality checks ({limit}-token run)']
         for summary in summaries:
             for lang in ('en','zh'):
                 conditions=[x for x in summary[key]['conditions'] if x['kind']=='target'

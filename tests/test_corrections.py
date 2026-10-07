@@ -4,7 +4,7 @@ from evaluation.schema import invariance_rows, readout_rows
 from evaluation.utils import EMOTIONS, fractional_top1, spearman
 from evaluation.model_utils import pool_hidden_states
 from evaluation.judge_responses import anonymous_payloads
-from evaluation.robustness import response_quality,event_calibration
+from evaluation.robustness import response_quality,event_calibration,LEGACY_QUALITY_PROTOCOL
 
 
 class CorrectionsTests(unittest.TestCase):
@@ -46,6 +46,29 @@ class CorrectionsTests(unittest.TestCase):
                  judge={'coherence':5,'task_adherence':5,'language_adherence':5})
         self.assertFalse(response_quality(row)['valid'])
         row['response']='这是一段正常的中文回答';self.assertTrue(response_quality(row)['valid'])
+
+    def test_length_cap_alone_is_not_a_quality_failure(self):
+        row=dict(response='I finish work, organize the papers, and prepare for tomorrow.',
+            prompt_language='en',hit_token_limit=True,
+            judge={'coherence':4,'task_adherence':4,'language_adherence':4})
+        self.assertTrue(response_quality(row)['valid'])
+        self.assertIn('token_limit',response_quality(row,LEGACY_QUALITY_PROTOCOL)['reasons'])
+        row['judge']['coherence']=2
+        self.assertFalse(response_quality(row)['valid'])
+
+    def test_repeated_loop_rejected_even_when_judge_is_generous(self):
+        for language,text in [('en','A moment of pure bliss, '*12),('zh','与每一个温柔的满足，'*15)]:
+            row=dict(response=text,prompt_language=language,hit_token_limit=False,
+                judge={'coherence':5,'task_adherence':5,'language_adherence':5})
+            self.assertIn('excessive_repetition',response_quality(row)['reasons'])
+
+    def test_long_varied_text_and_short_emphasis_are_allowed(self):
+        text=' '.join(f'I sort document {i} into its folder.' for i in range(100))
+        row=dict(response=text,prompt_language='en',hit_token_limit=True,
+            judge={'coherence':5,'task_adherence':5,'language_adherence':5})
+        self.assertTrue(response_quality(row)['valid'])
+        row['response']='Yes, yes, yes. I will finish the work tomorrow.'
+        self.assertTrue(response_quality(row)['valid'])
 
     @unittest.skipUnless(importlib.util.find_spec('torch'), 'optional torch is not installed')
     def test_continuation_pooling_ignores_shared_prefix(self):

@@ -13,6 +13,11 @@ surprise, fear, disgust, anger, and sadness, assign integers 0..4 to the narrato
 language, appraisal, actions and tone: 0 absent, 1 faint, 2 clear, 3 strong, 4 dominant.
 Multiple emotions may be nonzero. Score coherence, task_adherence and
 language_adherence from 1..5. Penalize corrupted, mixed-language, or repetitive text.
+Do not penalize length alone, exceeding a requested word/character budget, or
+reaching a generation token cap. Longer coherent answers are acceptable.
+Assess meaningful content, semantic coherence, relevant task fulfillment and
+requested language. Severe repetition loops or incoherent text must score below
+3 for coherence, even if they contain emotional words.
 Return JSON only: {"items":[{"id":"...","happiness":0,"surprise":0,"fear":0,
 "disgust":0,"anger":0,"sadness":0,"coherence":5,"task_adherence":5,
 "language_adherence":5}]}. Preserve every supplied ID exactly once.'''
@@ -65,7 +70,7 @@ def main():
                 if type(score[field]) is not int or not 1 <= score[field] <= 5:
                     raise ValueError('Invalid quality score')
             judged[index] = dict(rows[index], judge=score, judge_model=MODEL,
-                                 judging_protocol='anonymous_shuffled_v1', judge_seed=args.seed)
+                                 judging_protocol='anonymous_shuffled_semantic_quality_v3', judge_seed=args.seed)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open('x', encoding='utf-8') as handle:
         for index in range(len(rows)):

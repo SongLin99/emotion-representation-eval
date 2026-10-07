@@ -104,3 +104,18 @@ The current GPU runners above are Olmo-specific. Qwen inference was completed wi
 a separate research-workspace driver; that driver and the extraction implementation
 are not included here. Frozen Qwen responses retain rendered native chat, token IDs,
 batch sizes and editing norms. See [Qwen methods](QWEN_20261004.md).
+
+## Current semantic quality rule (2026-10-07)
+
+Long answers and generation-cap hits alone are allowed. Corruption, obvious
+repetition loops and poor semantic/task/language quality still fail. Existing
+judgments are reused, with no new GPU inference or API calls.
+
+```bash
+python -m evaluation.quality_revision --output-dir outputs/quality_revision_check
+python scripts/verify_updated_benchmarks.py
+```
+
+The original `retest_summary` and `qwen_summary` commands above reproduce the
+2026-10-04 cap-exclusion policy. The new command reproduces current results in
+`results/quality_revision_20261007/{olmo3_7b,qwen25_14b}/summary.json`.

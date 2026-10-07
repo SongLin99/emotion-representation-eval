@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from .utils import ROOT, EMOTIONS, read_csv, read_jsonl
 from . import specificity, sensitivity, invariance
-from .robustness import specificity_bootstrap, sensitivity_bootstrap, score_functionality
+from .robustness import specificity_bootstrap, sensitivity_bootstrap, score_functionality, LEGACY_QUALITY_PROTOCOL
 from .retest_summary import mapped_vector, pair_accuracy
 
 EVAL = ROOT
@@ -62,7 +62,7 @@ def compute():
         material_revision=json.loads((DATA/"final_materials_complete.json").read_text()),
         boundaries=protocol["boundaries"]+[protocol["missing_policy"],"Quality-valid subsets do not replace all-response effects","No subjective emotion or introspection claim"])
     for dataset,key in [("functionality","functionality"),("crosslingual","crosslingual_functionality"),("small_dose","small_dose_functionality")]:
-        result[key] = score_functionality(read_jsonl(OUT/(dataset+"_judged.jsonl")))
+        result[key] = score_functionality(read_jsonl(OUT/(dataset+"_judged.jsonl")), LEGACY_QUALITY_PROTOCOL)
     result["generation_quality"] = []
     for dataset in ("crosslingual","small_dose"):
         rows = read_jsonl(OUT/(dataset+"_judged.jsonl"))

@@ -152,6 +152,20 @@ def main() -> None:
                 for k in ('coherence','task_adherence','language_adherence'):
                     assert type(row['judge'][k]) is int and 1<=row['judge'][k]<=5
 
+    revised=ROOT/'results/quality_revision_20261007'
+    if revised.exists():
+        for model,source in (('olmo3_7b','retest_20261004'),('qwen25_14b','qwen25_14b_20261004')):
+            latest=json.loads((revised/model/'summary.json').read_text())
+            original=json.loads((ROOT/'results'/source/'summary.json').read_text())
+            assert latest['primary']==original['primary'] and latest['intervals']==original['intervals']
+            for name,expected in latest['quality_revision']['source_sha256'].items():
+                assert hashlib.sha256((ROOT/'results'/source/name).read_bytes()).hexdigest()==expected
+            for key in ('functionality','crosslingual_functionality','small_dose_functionality'):
+                assert latest[key]['quality_protocol']['token_limit']=='record_only'
+                assert all('token_limit' not in q['reasons'] for q in latest[key]['quality']['items'].values())
+                for a,b in zip(latest[key]['conditions'],original[key]['conditions']):
+                    assert a['all_pairs']==b['all_pairs']
+
     manifest_lines = (ROOT/'MANIFEST.sha256').read_text().splitlines()
     for line in manifest_lines:
         expected, relative = line.split('  ', 1)

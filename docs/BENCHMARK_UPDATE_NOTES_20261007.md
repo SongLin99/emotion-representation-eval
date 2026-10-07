@@ -26,7 +26,8 @@ The update adds within-level paraphrase correlations and cross-language comparis
 
 Historical IDs exposed the intervention, such as `desk_target_happiness_-0.5`, which could influence the judge. Emotion-score changes also occurred alongside damaged responses: 185 of 288 Olmo Chinese intervention answers at ±0.5 contained replacement characters.
 
-The judge now receives shuffled anonymous IDs, prompts and answers, without intervention assignments. The 900 historical Olmo answers were re-scored, and 1,176 new answers were generated at ±0.1 and ±0.25. Replacement characters, truncation, language, coherence and task adherence are checked. Full effects, steering effects for answers passing quality checks and coverage are reported together, with failures retained.
+The judge now receives shuffled anonymous IDs, prompts and answers, without intervention assignments. The 900 historical Olmo answers were re-scored, and 1,176 new answers were generated at ±0.1 and ±0.25. Corruption, repetition, language, semantic coherence and task adherence are checked.
+Length and token-cap hits are now recorded without automatically failing an answer. Full effects, steering effects for answers passing quality checks and coverage are reported together, with failures retained.
 
 At the smaller doses, Olmo Chinese replacement-character counts fall to 32/288 and 2/288, but emotion effects weaken too. Qwen uses a separately calibrated intervention norm and has 2,076 newly generated and scored answers. Its target interventions at ±0.5 have no answer pairs passing quality checks; smaller-dose coverage reaches at most 9/72. The evaluation and quality checks have improved, but stable emotion control remains unresolved.
 
@@ -34,5 +35,11 @@ The results display was also updated on October 7: metric names now describe wha
 they measure, including “Steering effect”, and one comparison table shows both
 models and languages. The 180-token and 320-token steering runs are labeled
 separately. Calculations and frozen results are unchanged.
+
+The quality rule was revised at the user’s request on October 7: long coherent
+answers are allowed. Reaching the generation cap no longer causes rejection;
+corruption, repetition and poor semantic quality still do. The updated summaries
+are stored separately, with original answers and ratings retained. See
+[quality update](QUALITY_20261007.md).
 
 Details: [corrected Olmo re-test](RETEST_20261004.md), [Qwen evaluation](QWEN_20261004.md).

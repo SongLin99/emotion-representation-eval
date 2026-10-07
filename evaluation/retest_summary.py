@@ -4,7 +4,7 @@ import argparse,json
 import numpy as np
 from .utils import ROOT,EMOTIONS,read_csv,read_jsonl
 from . import specificity,sensitivity,invariance
-from .robustness import specificity_bootstrap,sensitivity_bootstrap,score_functionality
+from .robustness import specificity_bootstrap,sensitivity_bootstrap,score_functionality,LEGACY_QUALITY_PROTOCOL
 
 OUT=ROOT/'results/retest_20261004'
 DATA=ROOT/'data/revisions/20261004'
@@ -42,9 +42,9 @@ def main(output=None):
     robustness=dict(continuation_only=dict(specificity=specificity.analyze(aligned_sp),sensitivity=sensitivity.analyze(aligned_se)),
         fixed_vector_language={vl:dict(specificity=specificity.analyze(mapped_vector(sp,vl)),
             invariance=invariance.analyze(mapped_vector(se+pa,vl))) for vl in ('en','zh')})
-    ordinary=score_functionality(read_jsonl(OUT/'functionality_judged.jsonl'))
-    cross=score_functionality(read_jsonl(OUT/'crosslingual_judged.jsonl'))
-    dose=score_functionality(read_jsonl(OUT/'small_dose_judged.jsonl'))
+    ordinary=score_functionality(read_jsonl(OUT/'functionality_judged.jsonl'),LEGACY_QUALITY_PROTOCOL)
+    cross=score_functionality(read_jsonl(OUT/'crosslingual_judged.jsonl'),LEGACY_QUALITY_PROTOCOL)
+    dose=score_functionality(read_jsonl(OUT/'small_dose_judged.jsonl'),LEGACY_QUALITY_PROTOCOL)
     quality_table=[]
     for file in ('crosslingual_judged.jsonl','small_dose_judged.jsonl'):
         rs=read_jsonl(OUT/file)

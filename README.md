@@ -29,10 +29,10 @@ existing vectors; Qwen uses independently extracted English and Chinese vectors.
 | Intensity correlation (ρ) | 0.698 | 0.612 | 0.646 | 0.614 |
 | Ladders increasing at every step | 21.7% | 16.7% | 18.3% | 19.7% |
 | Paraphrase correlation (ρ) | 0.863 | 0.905 | 0.893 | 0.847 |
-| Steering effect (±0.5, 180-token limit) | 0.347 | — | 0.375 | — |
-| Answer pairs passing quality checks (180-token limit) | 72/72 | — | 0/72 | — |
-| Steering effect (±0.5, 320-token limit) | 0.278 | 0.333 | 0.153 | 0.764 |
-| Answer pairs passing quality checks (320-token limit) | 70/72 | 0/72 | 0/72 | 0/72 |
+| Steering effect (±0.5, 180-token run) | 0.347 | — | 0.375 | — |
+| Answer pairs passing quality checks (180-token run) | 72/72 | — | 0/72 | — |
+| Steering effect (±0.5, 320-token run) | 0.278 | 0.333 | 0.153 | 0.764 |
+| Answer pairs passing quality checks (320-token run) | 70/72 | 0/72 | 0/72 | 0/72 |
 
 ρ is Spearman correlation; readout results are averaged across the six emotions.
 Classification accuracy uses neutral stories from the other 49 events to calibrate
@@ -42,7 +42,10 @@ vector scores before predicting the emotion.
 at −0.5, on a 0–4 rating scale. Prompt and vector languages match in these rows.
 The English-only run allows 180 new tokens; the bilingual run allows 320. A dash
 means that condition was not run. Each pair contains a positive and a negative
-intervention answer; the quality row counts pairs where both answers pass.
+intervention answer; the quality row counts pairs where both answers pass. **Length and reaching the
+token cap alone are allowed**; 180/320 identifies the original generation run,
+not a quality cutoff. Corrupted text, obvious repetition loops and poor semantic,
+task or language quality still fail. Existing semantic ratings are retained.
 Positive steering scores with few or no passing pairs need to be read alongside
 the actual answers and quality checks.
 
@@ -56,8 +59,11 @@ Qwen has five Chinese inputs too short for token50 pooling: intensity analysis u
 complete pairs. Qwen neutral PCA uses 858 paired texts, versus Olmo's 1,128.
 Chat defaults, generation settings and intervention norms also differ.
 
-- **Olmo:** [methods](docs/RETEST_20261004.md) · [complete results](results/retest_20261004/summary.json)
-- **Qwen:** [methods](docs/QWEN_20261004.md) · [complete results](results/qwen25_14b_20261004/summary.json)
+- **Olmo:** [methods](docs/RETEST_20261004.md) · [complete results](results/quality_revision_20261007/olmo3_7b/summary.json)
+- **Qwen:** [methods](docs/QWEN_20261004.md) · [complete results](results/quality_revision_20261007/qwen25_14b/summary.json)
+
+[Quality-rule update and reproduction](docs/QUALITY_20261007.md). The original
+2026-10-04 summaries remain available in their existing folders.
 
 ## Historical Olmo results (2026-09-30)
 
